@@ -2,23 +2,15 @@ import React from 'react';
 import logo from './logo.svg';
 import './App.css';
 
+import propic from "./assets/propic.jpg"
+
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <div classname="main-text">
+        <h1> Simran Arora </h1>
+        <h2> Welcome, this page is under construction! </h2>
+      </div>
     </div>
   );
 }
