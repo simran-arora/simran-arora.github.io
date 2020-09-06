@@ -29,6 +29,8 @@ class About extends Component {
                 <p> 
                     <text className="AboutText">In addition to computer science, my interests include:</text><text className="AboutSubText"> Teaching, physics, running/hiking/squash, reading, finance and personal investing, and supporting the SF Giants and GS Warriors.</text>
                 </p>
+                <br></br><br></br>
+                <text class="footnote">This website was built from scratch using React.</text>
                 
             </div>
         );
