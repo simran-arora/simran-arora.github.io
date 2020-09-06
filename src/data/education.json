@@ -1,0 +1,63 @@
+{
+    "School": [
+      {
+        "Name": "Stanford University",
+        "Degree": "PhD Candidate in Computer Science",
+        "Description": "I am interested in studying how machine learning is changing the way we design software-systems and applications, including the way we think about fundemental systems abstractions and tradeoffs. I am part of the Hazy Research group, which is affiliated with the Stanford AI Lab, StatML Group, and DAWN Lab.",
+        "Asset": "stanford"
+      },
+      {
+        "Name": "University of Pennsylvania, Jerome Fisher Program in Management & Technology",
+        "Degree": "BSE CS (Engineering School), BS Economics with Finance Concentration (Wharton School)",
+        "Description": "At Penn, I was involved in: Penn Varsity Womens' Squash Team, CS Research, CS Teaching Assistant, Penn Women in Physics Club President.",
+        "Asset": "mnt"
+    }
+    ],
+      "Awards": [
+        {
+            "Award": "Rhodes Scholarship National Finalist",
+            "Date": "2018",
+            "Details": "Selected by the Rhodes Trust."
+        },
+        {
+            "Award": "Marshall Scholarship National Finalist",
+            "Date": "2018",
+            "Details": "Selected by the British Consulate."
+        },
+        {
+            "Award": "Penn Computer Science Award",
+            "Date": "2019",
+            "Details": "Awarded to one graduating CS major each year."
+        },
+        {
+            "Award": "Michele Huber and Brian D. Giles Memorial Award",
+            "Date": "2019",
+            "Details": "Awarded to one member of the senior M&T class each year."
+        },
+        {
+            "Award": "Penn CS Senior Design Competition 2nd Place",
+            "Date": "2019",
+            "Details": "Year-long senior design projects, completed by every graudating BSE CS major."
+        },
+        {
+            "Award": "Stanford Graduate Fellowship",
+            "Date": "2019",
+            "Details": "3 year fellowship."
+        },
+        {
+            "Award": "University Dean's List",
+            "Date": "2016, 2017, 2018, 2019",
+            "Details": "Awarded annually to any student who achieves a combined GPA \\geq 3.7."
+        },
+        {
+            "Award": "Penn Engineering Summa Cum Laude",
+            "Date": "2019",
+            "Details": "Highest honors for BS CS degree."
+        },
+        {
+            "Award": "Wharton Business School Summa Cum Laude",
+            "Date": "2019",
+            "Details": "Highest honors for BS Economics degree."
+        }
+      ]
+    }

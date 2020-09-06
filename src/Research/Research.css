@@ -1,0 +1,60 @@
+.ResearchContainer {
+  padding-top: 1vh;
+  font-family: 'Lato';
+  display: flex;
+  flex-flow: column wrap;
+  padding-right: 10vh;
+}
+
+.Title_research {
+  font-size: 24px;
+  padding-bottom: 1vh;
+}
+
+.PaperTitle {
+  color: maroon;
+  font-weight: bold;
+  font-family: 'Lato';
+  font-size: 18px;
+}
+
+.Authors {
+  font-size: 16px;
+  font-color: gray;
+  font-family: 'Lato';
+}
+
+.Venue {
+  font-size: 18px;
+  font-style: italic;
+  font-weight: bold;
+  color: rgb(100, 78, 78);
+  font-family: 'Lato';
+}
+
+.Details {
+	color: rgb(65, 72, 117);
+  text-decoration: none;
+  font-size: 16px;
+  font-family: 'Lato';
+}
+
+.Description {
+    font-size: calc(2vmin);
+    font-family: 'Lato';
+}
+
+.Talk {
+  color: maroon;
+  font-weight: bold;
+  font-family: 'Lato';
+  font-size: 18px;
+}
+
+.Talk_details {
+  font-size: 18px;
+  font-style: italic;
+  font-weight: bold;
+  color:rgb(100, 78, 78);
+  font-family: 'Lato';
+}

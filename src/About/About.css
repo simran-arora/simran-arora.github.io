@@ -1,0 +1,31 @@
+.AboutContainer {
+	font-family: 'Lato';
+	font-size: calc(1px + 2vmin);
+	display: flex;
+  	flex-flow: column wrap;
+	padding-right: 14vh;
+}
+
+.Title_about {
+  font-size: 16px;
+  line-height: 1.6;
+  padding-bottom: 1vh;
+}
+
+.AboutText {
+	font-size: calc(3px + 2vmin);
+	line-height: 1.4;
+	font-weight: bold;
+}
+
+.AboutSubText {
+	font-size: calc(3px + 2vmin);
+}
+
+.abtli {
+	margin: 10px 0;
+}
+
+.abt_a {
+	color: maroon;
+}

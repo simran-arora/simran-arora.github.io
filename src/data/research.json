@@ -1,0 +1,144 @@
+{
+"Research": [
+  {
+	"Name": "Contextual Embeddings",
+	"Title": "Contextual Embeddings: When Are They Worth It?",
+	"Authors": "S. Arora, A. May, J. Zhang, C. Ré",
+	"Venue": "Association for Computational Linguistics, 2020",
+	"Details": [
+	  {
+		"detail": "https://arxiv.org/abs/2005.09117",
+		"detailType": "Paper /"
+	  },
+	  {
+	  	"detail": "https://www.youtube.com/watch?v=bCPeg0Tp64s&feature=youtu.be",
+	  	"detailType": "Video /"
+	  },
+	  {
+	  	"detail": "https://github.com/HazyResearch/random_embedding",
+		"detailType": "Code"
+	  }
+	],
+	"Description": "When contextual embeddings are worth their cost, versus when it is possible to use more efficient word representations without significant degradation in performance?"
+  },
+  {
+  	"Name": "GraphRex",
+  	"Title": "Optimizing Declarative Graph Queries at Large Scale",
+  	"Authors": "Q Zhang, A Acharya, H Chen, S Arora, A Chen, V Liu, BT Loo",
+  	"Venue": "ACM SIGMOD, 2019",
+	"Details": [
+	  {
+		"detail": "https://dl.acm.org/doi/pdf/10.1145/3299869.3300064",
+		"detailType": "Paper"
+	  }
+	],
+	"Description": "This paper presents GraphRex, an efficient, robust, scalable, and easy-to-program framework for graph processing on datacenter infrastructure."
+  },
+  {
+  	"Name": "Microrobot Control",
+  	"Title": "Control of multiple microrobots with multiscale magnetic field superposition",
+  	"Authors": "E Steager, D Wong, J Wang, S Arora, V Kumar",
+  	"Venue": "IEEE MARSS, 2017",
+	"Details": [
+	  {
+		"detail": "https://ieeexplore-ieee-org.stanford.idm.oclc.org/abstract/document/8001927",
+		"detailType": "Paper *top 3 finalist for best conference paper"
+	  }
+	],
+	"Description": "Controlled independent manipulation of multiple objects at cellular length scales in an open challenge with potential applications in life sciences (e.g. directed drug delivery), microsurgery and advanced manufacturing. Magnetism has been studied as a means to perform such fine scale manipulation, but generating fields that discriminate between targets at small length scales is nontrivial. We present a system for simultaneous control of multiple magnetic microrobots with characteristic lengths on the order of 10 μνα, which is based on the superposition of magnetic fields generated at centimeter scale (global) as well as micrometer scale (local)."
+  },
+  {
+  	"Name": "DASA Photoswitch Molecule 2",
+  	"Title": "A temperature-mapping molecular sensor for polyurethane-based elastomers",
+  	"Authors": "B. P. Mason, M. Whittaker, J. Hemmer, S. Arora, A. Harper, S. Alnemrat, A. McEachen, S. Helmy, J. Read de Alaniz, and J. P. Hooper", 
+  	"Venue": "Applied Physics Letters, 2016",
+	"Details": [
+	  {
+		"detail": "https://core.ac.uk/download/pdf/81223319.pdf",
+		"detailType": "Paper"
+	  }
+	],
+	"Description": "This work focuses on the physics of the HTPB polymer, which is widely used in United States Naval explosives and rocket motor formulations. These composites are often subjected to extreme temperatures, shocks, and pressures in the field, which has led to disasterous unintended detonations. Methods to better understand the behavior of these composites are highly desirable - this work presents a method for analyzing temperature localization in these composites with submicron spatial resolution."
+  },
+  {
+  	"Name": "DASA Photoswitch Molecule 1",
+  	"Title": "Thermochromic polymers as in-situ sensors for hot spots in explosive composites.",
+  	"Authors": "J. P. Hooper, J. R. Hemmer, B. P. Mason, S. Alnemrat, M. Whittaker, S. Arora, S. Helmy, and J. Read de Alaniz.", 
+  	"Venue": "Proc. 15th Intl. Detonation Symposium, 2014",
+	"Details": [
+	  {
+		
+	  }
+	],
+	"Description": ""
+  }              
+],
+"Projects": [
+	{
+		"Title": "Peer-3-Peer: Disaster Proof Offline Messaging",
+		"Venue": "Senior Design Project, Penn Engineering, 2019",
+		"Authors": "S. Arora, J. Barton, B. Judd, R. Rao, D. Wang (Advised by Prof. Vincent Liu)",
+		"Details": [
+			{
+				"detail": "https://fisher.wharton.upenn.edu/wp-content/uploads/2019/06/Peer3Peer.pdf",
+				"detailType": "Paper /"
+			}, 
+			{
+				"detail": "",
+				"detailType": "Presentation *2nd Place in Penn CS Senior Design Competition"
+			}
+		],
+		"Description": "Peer-3-Peer is a robust offline communication ecosystem that provides civilians, aid organizations, and governments with reliable messaging when cellular and internet access are unavailable. "
+	},
+	{
+		"Title": "Confirming Relativity with a Cosmic Ray Detector",
+		"Venue": "Applied Science Research, Menlo School, 2015",
+		"Authors": "S. Arora, J. Fry (Advised by Dr. James Dann)",
+		"Details": [
+			{
+				"detail": "https://roundtable.menloschool.org/issue22/6_Arora.Fry_MS_Roundtable22_Fall_2015.pdf",
+				"detailType": "Paper"
+			}
+		],
+		"Description": ""
+	}
+  ],
+"Talks": [
+	{
+		"Talk": "Contextual Embeddings: When are they worth it?",
+		"Talk_details": "Presented at the ACL Conference (Summer 2020) and Stanford DAWN Retreat (Summer 2020)",
+		"Details": [
+			{
+				"detail": "https://www.youtube.com/watch?v=bCPeg0Tp64s&feature=youtu.be",
+				"detailType": "Video"
+			}
+		]
+	},
+	{
+		"Talk": "Localized Manipulation of Multiple Magnetic Robots",
+		"Talk_details": "Presented to GRASP Lab (Summer 2016).",
+		"Details": [
+			{
+				"key": "grasp",
+				"detailType": "Slides"
+			}
+		]
+	},
+	{
+		"Talk": "Characterization of a Novel Photoswitch for Detecting Hotspots in Explosive Composites",
+		"Talk_details": "Presented to Dr. Mildred Dresselhaus and audience at the Penn WiP Conference (Fall 2015).",
+		"Details": [
+			{
+				"key": "naval",
+				"detailType": "Slides"
+			}
+		]
+	},
+	{
+		"Talk": "Demystifying ",
+		"Talk_details": "Presented to high school students in the M&TSI program (Summer 2020).",
+		"Details": [
+		]
+	}
+  ]
+}

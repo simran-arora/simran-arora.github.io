@@ -1,9 +1,5 @@
-.App {
-  text-align: center;
-}
-
 .App-logo {
-  height: 40vmin;
+  height: 40vmin; 
   pointer-events: none;
 }
 
@@ -14,18 +10,190 @@
 }
 
 .App-header {
-  background-color: #282c34;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
+  justify-content: left;
   font-size: calc(10px + 2vmin);
   color: white;
 }
 
 .App-link {
   color: #61dafb;
+}
+
+.App {
+  display: flex;
+  text-align: left;
+  align-items: left;
+  font-family: 'Lato';
+  background-color: white;
+}
+
+.header-content {
+  float:left;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding-top: 14vh;
+  padding-bottom: 5vh;
+  padding-left: 8vh;
+  background-color: rgb(239, 237, 227);
+  background-color: white;
+  width: 35%;
+  height: 100%;
+}
+
+.name {
+  font-size: 24px;
+}
+.main-text {
+  display: flex;
+  flex-flow: row wrap;
+  padding-top: 4vh;
+  padding-bottom: 4vh;
+  align-self: center;
+
+  align-items: center;
+  justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.navBar {
+  text-align: left;
+  margin: auto;
+  padding-left: 3vh;
+  padding-right: 8vh;
+}
+
+.nav {
+  text-decoration: none;
+  color: black;
+  font-size: 18px;
+  
+}
+
+.v1 {
+  border-left: 1px solid black;
+}
+
+.leftMain {
+  flex-flow: column wrap;
+  display: flex;
+  text-align: right;
+  align-items: right;
+  padding-right: 3vh;
+}
+
+/* LOCATION */
+
+.location {
+  display: flex;
+  flex-flow: row wrap;
+  align-self: center;
+  color: var(--color-6);
+}
+
+#locationtag {
+  display: flex;
+  align-self: center;
+  font-size: calc(6px + .5vh + .5vw);
+  justify-content: center;
+  align-items: center;
+  
+}
+
+.iconBox {
+  padding-right: 1vh;
+}
+
+/* SOCIAL ICONS */
+.LinksContainer {
+  padding-top: 1vh;
+  padding-bottom: 1vh;
+  text-align: right;
+  margin: right;
+  align-items: right;
+  justify-content: right;
+}
+
+.fa-strava {
+  padding-right: 1vh;
+  font-weight: bold;
+  background: white;
+  /* color: #FC4C02; */
+  color: rgb(51, 51, 51);
+}
+
+.fa-goodreads {
+  padding-right: 1vh;
+  font-weight: bold;
+  background: white;
+  /* color: #553b08;  */
+  color: rgb(51, 51, 51);
+}
+
+.fa-linkedin {
+  font-weight: bold;
+  background: white;
+  /* color: #0e76a8; */
+  color: rgb(51, 51, 51);
+}
+
+/* HEADSHOT */
+
+.headshot-wrap {
+  display: flex;
+  height: 110%;
+  width: 60%;
+  align-items: center;
+  justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.headshot {
+  height: 90%;
+  width: 90%;
+  border-radius: 50%;
+  border:2.5px solid maroon;
+}
+
+/* Content on right div */
+
+.Content-Container {
+  float: right;
+  justify-content: center;
+  padding-right: 5vh;
+  padding-left: 5vh;
+  padding-top: 10vh;
+  width: 65%;
+  height: 100%;
+}
+
+.nav:hover {
+  color: maroon;
+}
+
+h1 {
+  margin: 0px;
+  padding: 0px;
+  color: var(--color-5);
+  font-size: calc(11px + 2vh + 1vw);
+}
+
+h2 {
+  display: flex;
+  margin: 0px;
+  padding: 0px;
+  color: var(--color-4);
+  font-size: calc(10px + .5vh + .5vw);
+}
+
+p {
+  text-align: left;
 }
 
 @keyframes App-logo-spin {
@@ -36,3 +204,5 @@
     transform: rotate(360deg);
   }
 }
+
+
