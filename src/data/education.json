@@ -3,7 +3,7 @@
       {
         "Name": "Stanford University",
         "Degree": "PhD Candidate in Computer Science",
-        "Description": "I am interested in studying how machine learning is changing the way we design software-systems and applications, including the way we think about fundemental systems abstractions and tradeoffs. I am part of the Hazy Research group, which is affiliated with the Stanford AI Lab, StatML Group, and DAWN Lab.",
+        "Description": "I am interested in studying how machine learning is changing the way we design software-systems and applications, including the way we think about fundemental systems abstractions and tradeoffs. I am part of the Hazy Research lab, which is affiliated with the Stanford AI, StatML, and DAWN groups.",
         "Asset": "stanford"
       },
       {
@@ -22,7 +22,7 @@
         {
             "Award": "Marshall Scholarship National Finalist",
             "Date": "2018",
-            "Details": "Selected by the British Consulate."
+            "Details": "Selected by the British Consulate-General San Francisco Region."
         },
         {
             "Award": "Penn Computer Science Award",
@@ -43,11 +43,6 @@
             "Award": "Stanford Graduate Fellowship",
             "Date": "2019",
             "Details": "3 year fellowship."
-        },
-        {
-            "Award": "University Dean's List",
-            "Date": "2016, 2017, 2018, 2019",
-            "Details": "Awarded annually to any student who achieves a combined GPA \\geq 3.7."
         },
         {
             "Award": "Penn Engineering Summa Cum Laude",

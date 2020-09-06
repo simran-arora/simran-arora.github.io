@@ -27,7 +27,7 @@ class About extends Component {
                 </ul>
 
                 <p> 
-                    <text className="AboutText">In addition to computer science, my interests include:</text><text className="AboutSubText"> Teaching, physics, running/hiking/squash, reading, personal investing, and supporting the SF Giants and GS Warriors.</text>
+                    <text className="AboutText">In addition to computer science, my interests include:</text><text className="AboutSubText"> Teaching, physics, running/hiking/squash, reading, finance and personal investing, and supporting the SF Giants and GS Warriors.</text>
                 </p>
                 
             </div>

@@ -1,17 +1,61 @@
 {
 "Experiences": [
   {
-	"Title": "PhD Student in Computer Science",
+	"Title": "PhD Student in Computer Science (Present)",
 	"Company": "Stanford University",
 	"Loc": "Stanford, CA",
 	"Description": "I am interested in studying how machine learning is changing the way we design software-systems and applications, including the way we think about fundemental systems abstractions and tradeoffs. I am part of Hazy Lab and advised by Prof. Chris Ré.",
 	"Asset": "stanford"
   },
   {
+	"Title": "Global Technology Investment Banking (Summer 2018)",
+	"Company": "Morgan Stanley Menlo Park, Summer Analyst",
+	"Loc": "Menlo Park, CA",
+	"Description": "As a summer analyst with Morgan Stanley's Tech Banking group in Menlo Park, CA, the closed deals I worked on include the sale of AMS to IPG ($2.3 Bn), the sale of Cylance to Blackberry ($1.4 Bn), and the August 2nd Sonos IPO on Nasdaq (which I was lucky enough to attend in person!).",
+	"Asset": "ms"
+  }, 
+  {
+	"Title": "Researcher in the NetDB Lab (Fall '17 - Winter '19)",
+	"Company": "University of Pennsylvania, NetDB Lab",
+	"Loc": "Philadelphia, PA",
+	"Description": "My research focused on developing systems to optimize the communication overhead of tasks distributed across datacenter clusters, based on the physical topology of the datacenter and the workload properties.",
+	"Asset": "penn"
+  },
+  {
+	"Title": "Software Engineering (Summer 2017)",
+	"Company": "Google, Google Developers Team",
+	"Loc": "Mountain View, CA",
+	"Description": "I worked on the open source Closure-Compiler, which is used by flagship Google teams (e.g., Gmail, Drive, Maps) to reduce the size of the shipped JavaScript code. The most significant update to the JavaScript programing language is ES6 (2015). Before my internship, the compiler would convert ES6 code to an older version of JavaScript called ES3, optimize the ES3 code, and output ES3 code. My specific focus involved changing the compiler’s logic to optimize for the many significant features released with ES6, and be able to output ES6 code. All my code contributions are available here: https://github.com/google/closure-compiler.",
+	"Asset": "google"
+  },
+  {
+	"Title": "Researcher in the GRASP Lab (Spring '16 - Fall '16)",
+	"Company": "University of Pennsylvania, GRASP Lab",
+	"Loc": "Philadelphia, PA",
+	"Description": "We developed a nanofabricated device to control distributd systems of micro-bio robots, which has eventual applications in directed drug delivery and microsurgery. The device induces magnetic fields to control the micro-robots, and I formalized the theory and built a computer simulation to model the device's physics.",
+	"Asset": "penn"
+  },
+  {
+	"Title": "Physics Research",
+	"Company": "Naval Postgraduate School, Hooper Lab",
+	"Loc": "Monterey, CA",
+	"Description": "This lab that focuses on the physics of explosives used by the United States Navy. The explosive composites are often subjected to extreme temperatures, shocks, and pressures in the field, which can lead to unintended detonations. I worked on the development of a molecular sensor that is used to study the volatile material properties.",
+	"Asset": "nps"
+  },
+  {
+	"Title": "Looma Intern",
+	"Company": "VillageTech Solutions, Looma Project",
+	"Loc": "Menlo Park, CA",
+	"Description": "Many schools in resource-limited developing nations lack the basic necessities for enhanced education: infrastructure, reliable electricity, Internet access, and quality educational content. I worked on project management and hardware engineering for Looma, a low-cost audiovisual device that includes interactive whiteboard capability, Internet connectivity, access to online and offline educational content, and local storage capability.",
+	"Asset": "vts"
+  }
+],
+"Teaching": [
+  {
 	"Title": "Lead TA in designing the MCIT 595 Computer Systems Coursera course (Spring '18)",
 	"Company": "University of Pennsylvania, Department of Computer Science",
 	"Loc": "Philadelphia, PA",
-	"Description": "I lead a team of TA's in designing MCIT 595 Computer Systems Coursera course, which is part of Penn's online masters degree program. This involved creating lecture scripts, course quizzes and exams, and lecture slides. I also created a tutorial video on VMs which is part of the online Coursera content.",
+	"Description": "I led a team of TA's in designing MCIT 595 Computer Systems Coursera course, which is part of Penn's online masters degree program. This involved creating lecture scripts, course quizzes and exams, and lecture slides. I also created a tutorial video on VMs which is part of the online Coursera content.",
 	"Asset": "penn"
   },
   {
@@ -22,46 +66,11 @@
 	"Asset": "penn"
   },
   {
-	"Title": "Global Technology Investment Banking (Summer 2018)",
-	"Company": "Morgan Stanley Menlo Park, Summer Analyst",
-	"Loc": "Menlo Park, CA",
-	"Description": "As a summer analyst with Morgan Stanley's Tech Banking group in Menlo Park, CA, the closed deals I worked on include the sale of AMS to IPG ($2.3 Bn), the sale of Cylance to Blackberry ($1.4 Bn), and the August 2nd Sonos IPO on Nasdaq (which I was lucky enough to attend in person!). I also worked on a software IPO bakeoff and on two semiconductor staffings.",
-	"Asset": "ms"
-  }, 
-  {
-	"Title": "NetDB Lab Research Assistant (Fall '17 - Winter '19)",
-	"Company": "University of Pennsylvania, NetDB Lab",
-	"Loc": "Philadelphia, PA",
-	"Description": "My research focused on developing systems to optimize the communication overhead of tasks distributed across datacenter clusters, based on the physical topology of the datacenter and the workload properties.",
-	"Asset": "penn"
-  },
-  {
 	"Title": "TA for CIS 160 Discrete Math (Fall '17, Spring '18)",
 	"Company": "University of Pennsylvania, Department of Computer Science",
 	"Loc": "Philadelphia, PA",
-	"Description": "The course content includes set theory, logic and proof techniques, probability, combinatorics, and graph theory. Amongst other TA duties (e.g., office hours, grading), I taught an hour-long recitation section of 15 students each week, to supplement the course lectures.",
+	"Description": "Amongst other TA duties (e.g., office hours, grading), I taught an hour-long recitation section of 15 students each week, to supplement the course lectures. The course content includes set theory, logic and proof techniques, probability, combinatorics, and graph theory.",
 	"Asset": "penn"
-  }, 
-  {
-	"Title": "Software Engineering (Summer 2017)",
-	"Company": "Google",
-	"Loc": "Mountain View, CA",
-	"Description": "I worked on the open source Closure-Compiler, which is used by flagship Google teams (e.g., Gmail, Drive, Maps) to reduce the size of the shipped JavaScript code. The most significant update to the JavaScript programing language is ES6 (2015). Before my internship, the compiler would convert ES6 code to an older version of JavaScript called ES3, optimize the ES3 code, and output ES3 code. My specific focus involved changing the compiler’s logic to optimize for the many significant features released with ES6, and be able to output ES6 code. All my code contributions are available here: https://github.com/google/closure-compiler.",
-	"Asset": "google"
-  },
-  {
-	"Title": "GRASP Lab Research Assistant (Spring '16 - Fall '16)",
-	"Company": "University of Pennsylvania, GRASP Lab",
-	"Loc": "Philadelphia, PA",
-	"Description": "We developed a nanofabricated device to control distributd systems of micro-bio robots, which has eventual applications in directed drug delivery and microsurgery. The device induces magnetic fields to control the micro-robots, and I created a theoretical model and computer simulation to model the device's physics.",
-	"Asset": "penn"
-  },
-  {
-	"Title": "Looma Intern",
-	"Company": "VillageTech Solutions, Looma Project",
-	"Loc": "Menlo Park, CA",
-	"Description": "Many schools in resource-limited developing nations lack the basic necessities for enhanced education: infrastructure, reliable electricity, Internet access, and quality educational content. I worked on project management and hardware engineering for Looma, a low-cost audiovisual device that includes interactive whiteboard capability, Internet connectivity, access to online and offline educational content, and local storage capability.",
-	"Asset": "vts"
-  }
+  } 
 ]
 }

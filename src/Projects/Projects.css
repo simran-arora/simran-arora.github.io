@@ -7,10 +7,17 @@
   padding-right: 5vh;
 }
 
-.Title {
+.header_projects {
+  font-size: 28px;
+  font-style: italic;
+  font-weight: bold;
+}
+
+.Title_projects {
   font-size: 20px;
   font-weight: bold;
   padding-top: 2vh;
+  align-items: left;
   font-family: 'Lato';
 }
 
@@ -31,8 +38,8 @@
 }
 
 .Experience {
-	padding-top: 2vh;
-  padding-bottom: 2vh;
+	padding-top: 1vh;
+  padding-bottom: 1vh;
   font-size: 16px;
   font-family: 'Lato';
 }
@@ -153,7 +160,7 @@
 
 /* The actual content */
 .content {
-  padding: 20px 30px;
+  padding: 20px 10px;
   background-color: rgba(255, 255, 255, 0.281);
   position: relative;
   border-radius: 6px;
