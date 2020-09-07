@@ -4,9 +4,12 @@ import './Research.css';
 
 class Research extends Component {
   renderContent(path){
+      console.log(path)
 		  switch(path) {
-      case 'grasp': return require("./../assets/grasp_presentation.pdf");
-      case 'naval': return require("./../assets/naval_presentation.pdf");
+        case 'grasp': return require("./../assets/grasp_presentation.pdf");
+        case 'naval': return require("./../assets/naval_presentation.pdf");
+        case 'acl20': return 'https://www.youtube.com/watch?v=bCPeg0Tp64s&feature=youtu.be';
+        case 'p3p': return require("./../assets/p3p_presentation.pdf");
       }
 	}
 	render() {
@@ -56,6 +59,15 @@ class Research extends Component {
                          );
                       })
                     }
+                    {
+                      project.LocalDetails.map((Details) => {
+                        var base_url = this.renderContent(Details.detail);	
+                        console.log(base_url);
+                        return (
+                          <text><a className="Details" href={base_url}> {Details.detailType}</a>{"  "}</text>
+                         );
+                      })
+                    }
                     <br/><br/><br/>
                 </div>
               );
@@ -85,6 +97,15 @@ class Research extends Component {
                         var base_url = this.renderContent(Details.key);	
                         return (
                           <text><a className="Details" href={base_url}> {Details.detailType}</a>{"  "}</text>
+                         );
+                      })
+                    }
+                    {
+                      talk.RemoteDetails.map((Details) => {
+                        return (
+                          <text><a className="Details" href=
+                            {Details.detail}>{Details.detailType}</a>{"  "}
+                          </text>
                          );
                       })
                     }

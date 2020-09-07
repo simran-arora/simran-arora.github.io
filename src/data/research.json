@@ -82,9 +82,11 @@
 			{
 				"detail": "https://fisher.wharton.upenn.edu/wp-content/uploads/2019/06/Peer3Peer.pdf",
 				"detailType": "Paper /"
-			}, 
+			}
+		],
+		"LocalDetails": [
 			{
-				"detail": "",
+				"detail": "p3p",
 				"detailType": "Presentation *2nd Place in Penn CS Senior Design Competition"
 			}
 		],
@@ -100,6 +102,8 @@
 				"detailType": "Paper"
 			}
 		],
+		"LocalDetails": [
+		],
 		"Description": ""
 	}
   ],
@@ -108,6 +112,8 @@
 		"Talk": "Contextual Embeddings: When are they worth it?",
 		"Talk_details": "Presented at the ACL Conference (Summer 2020) and Stanford DAWN Retreat (Summer 2020)",
 		"Details": [
+		],
+		"RemoteDetails": [
 			{
 				"detail": "https://www.youtube.com/watch?v=bCPeg0Tp64s&feature=youtu.be",
 				"detailType": "Video"
@@ -122,6 +128,9 @@
 				"key": "grasp",
 				"detailType": "Slides"
 			}
+		],
+		"RemoteDetails": [
+			
 		]
 	},
 	{
@@ -132,6 +141,9 @@
 				"key": "naval",
 				"detailType": "Slides"
 			}
+		],
+		"RemoteDetails": [
+			
 		]
 	}
   ]
