@@ -38,7 +38,7 @@ class Personal extends Component {
                 <hr className="hr"/>
                 <h2>... and travel!</h2><br/>
                 <img src="http://chart.apis.google.com/chart?cht=map:fixed=-70,-180,80,180&chs=450x300&chf=bg,s,336699&chco=d0d0d0,cc0000&chd=s:9999999999999999999999&chld=MX|PE|NI|LK|KR|SG|JP|IN|CN|NZ|AU|VA|GB|ES|NL|IT|GR|FR|BE|DE|US|CA" width="450" height="300" /><br/>visited 22 countries (9.77%)<br/>
-                <a href="https://douwe.com/projects/visited?region=world">Create your own map!</a><br/><br/><br/>
+                <a target= "_blank" rel="noopener noreferrer" href="https://douwe.com/projects/visited?region=world">Create your own map!</a><br/><br/><br/>
             </div>
         );
     }

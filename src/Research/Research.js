@@ -28,7 +28,7 @@ class Research extends Component {
                     {
                       project.Details.map((Details) => {
                         return (
-                          <text><a className="Details" href=
+                          <text><a className="Details" target= "_blank" rel="noopener noreferrer" href=
                             {Details.detail}>{Details.detailType}</a>{"  "}
                           </text>
                          );
@@ -53,7 +53,7 @@ class Research extends Component {
                     {
                       project.Details.map((Details) => {
                         return (
-                          <text><a className="Details" href=
+                          <text><a className="Details" target= "_blank" rel="noopener noreferrer" href=
                             {Details.detail}>{Details.detailType}</a>{"  "}
                           </text>
                          );
@@ -64,7 +64,7 @@ class Research extends Component {
                         var base_url = this.renderContent(Details.detail);	
                         console.log(base_url);
                         return (
-                          <text><a className="Details" href={base_url}> {Details.detailType}</a>{"  "}</text>
+                          <text><a className="Details" target= "_blank" rel="noopener noreferrer" href={base_url}> {Details.detailType}</a>{"  "}</text>
                          );
                       })
                     }
@@ -96,14 +96,14 @@ class Research extends Component {
                       talk.Details.map((Details) => {
                         var base_url = this.renderContent(Details.key);	
                         return (
-                          <text><a className="Details" href={base_url}> {Details.detailType}</a>{"  "}</text>
+                          <text><a className="Details" target= "_blank" rel="noopener noreferrer" href={base_url}> {Details.detailType}</a>{"  "}</text>
                          );
                       })
                     }
                     {
                       talk.RemoteDetails.map((Details) => {
                         return (
-                          <text><a className="Details" href=
+                          <text><a className="Details" target= "_blank" rel="noopener noreferrer" href=
                             {Details.detail}>{Details.detailType}</a>{"  "}
                           </text>
                          );

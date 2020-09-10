@@ -22,25 +22,25 @@
 }
 
 .Company {
-  font-size: 16px;
+  font-size: 18px;
   font-family: 'Lato';
 }
  
 .Location {
-  font-size:16px;
+  font-size:18px;
   font-family: 'Lato';
 }
 
 .Description {
   color: rgb(66, 66, 66);
-  font-size: 16px;
+  font-size: 18px;
   font-family: 'Lato';
 }
 
 .Experience {
 	padding-top: 1vh;
   padding-bottom: 1vh;
-  font-size: 16px;
+  font-size: 18px;
   font-family: 'Lato';
 }
 
