@@ -142,6 +142,16 @@
   color: rgb(51, 51, 51);
 }
 
+.fa-github {
+    padding-right: 1vh;
+    height: 10%;
+    width: 10%;
+    font-weight: bold;
+    background: white;
+    /* color: #553b08;  */
+    color: rgb(51, 51, 51);
+}
+
 /* HEADSHOT */
 
 .headshot-wrap {

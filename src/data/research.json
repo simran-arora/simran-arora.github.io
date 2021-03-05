@@ -1,9 +1,26 @@
 {
 "Research": [
   {
+	"Name": "Bootleg",
+	"Title": "Bootleg: Chasing the Tail with Self-Supervised Named Entity Disambiguation",
+	"Authors": "L. Orr*, M. Leszczynski*, N. Guha, S. Wu, S. Arora, X. Ling, C. Ré",
+	"Venue": "CIDR 2021",
+	"Details": [
+	  {
+		"detail": "http://cidrdb.org/cidr2021/papers/cidr2021_paper13.pdf",
+		"detailType": "Paper /"
+	  },
+	  {
+	  	"detail": "https://github.com/HazyResearch/bootleg",
+		"detailType": "Code"
+	  }
+	],
+	"Description": "Bootleg is a self-supervised named entity disambiguation (NED) system that links mentions in text to entities in a knowledge base. Bootleg is built to improve disambiguation of entities which appear infrequently or not at all in training data, called tail entities."
+  },
+  {
 	"Name": "Contextual Embeddings",
 	"Title": "Contextual Embeddings: When Are They Worth It?",
-	"Authors": "S. Arora, A. May, J. Zhang, C. Ré",
+	"Authors": "S. Arora*, A. May*, J. Zhang, C. Ré",
 	"Venue": "Association for Computational Linguistics, 2020",
 	"Details": [
 	  {

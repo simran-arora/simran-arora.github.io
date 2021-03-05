@@ -4,7 +4,7 @@
 	"Title": "PhD Student in Computer Science (Present)",
 	"Company": "Stanford University",
 	"Loc": "Stanford, CA",
-	"Description": "I am interested in studying how machine learning is changing the way we design software-systems and applications, including the way we think about fundemental systems abstractions and tradeoffs. I am part of Hazy Lab and advised by Prof. Chris Ré.",
+	"Description": "I am interested in studying how machine learning is changing the way we design software-systems and applications, including the way we think about fundamental systems abstractions and tradeoffs. I am part of Hazy Lab and advised by Prof. Chris Ré.",
 	"Asset": "stanford"
   },
   {
@@ -32,7 +32,7 @@
 	"Title": "Researcher in the GRASP Lab (Spring '16 - Fall '16)",
 	"Company": "University of Pennsylvania, GRASP Lab",
 	"Loc": "Philadelphia, PA",
-	"Description": "We developed a nanofabricated device to control distributd systems of micro-bio robots, which has eventual applications in directed drug delivery and microsurgery. The device induces magnetic fields to control the micro-robots, and I formalized the theory and built a computer simulation to model the device's physics.",
+	"Description": "We developed a nanofabricated device to control distributed systems of micro-bio robots, which has eventual applications in directed drug delivery and microsurgery. The device induces magnetic fields to control the micro-robots, and I formalized the theory and built a computer simulation to model the device's physics.",
 	"Asset": "penn"
   },
   {

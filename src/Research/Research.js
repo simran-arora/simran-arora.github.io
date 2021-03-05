@@ -78,7 +78,7 @@ class Research extends Component {
 
         <h2 className="Title_research">Service</h2>
         <ul>
-          <li text className="Authors">Reviewer for ICML 2020</li>
+          <li text className="Authors">Reviewer for ICML 2020, Top Reviewer Award</li>
           <li text className="Authors">Undergrad Mentor in the Stanford Women in STEM Mentorship Program 2019-2020</li>
           <li text className="Authors">Undergrad Mentor in the Penn Women in CS Mentorship Program 2018-2019</li>
         </ul>

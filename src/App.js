@@ -50,6 +50,7 @@ function App() {
                 <a href="https://www.strava.com/athletes/44286294" class="fab fa-strava" style={{"text-decoration":"none"}}>  </a> 
                 <a href="https://www.goodreads.com/user/show/12754020-simran-arora" class="fab fa-goodreads" style={{"text-decoration":"none"}}>  </a> 
                 <a href="https://www.linkedin.com/in/simran-arora/" class="fab fa-linkedin" style={{"text-decoration":"none"}}>  </a>
+                <a href="https://github.com/simran-arora" className="fab fa-github" style={{"text-decoration": "none"}}>  </a>
               </div>
             </div>
 

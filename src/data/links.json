@@ -14,5 +14,10 @@
  		"Name": "LinkedIn",
 	 	"url": "https://www.linkedin.com/in/simran-arora/",
 	 	"img": "fab fa-linkedin icon"
+	},
+	{
+ 		"Name": "GitHub",
+	 	"url": "https://github.com/simran-arora",
+	 	"img": "fab fa-github icon"
 	}
 ]}
