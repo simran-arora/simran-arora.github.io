@@ -1,19 +1,44 @@
 {
 "Research": [
+	{
+		"Name": "Metadata Shaping: Natural Language Annotations for the Tail",
+		"Title": "Metadata Shaping:  Natural Language Annotations for the Tail",
+		"Authors": "S. Arora, S. Wu, E. Liu, C. Ré",
+		"Venue": "arXiv",
+		"LocalDetails": [
+		  {
+			"detail": "metadata",
+			"detailType": "Paper / "
+		  }
+		],
+		"Details": [
+		  {
+			"detail": "https://hazyresearch.stanford.edu/blog/2021-10-14-metadata",
+			"detailType": "Blog Post"
+		  }
+		],
+		"Description": "To what extent can we match architectural modifications to incorporate domain knowledge, using only simple modifications to the data? And how can we understand why the data modifications will be effective?"
+	  },
   {
 	"Name": "Bootleg",
 	"Title": "Bootleg: Chasing the Tail with Self-Supervised Named Entity Disambiguation",
 	"Authors": "L. Orr*, M. Leszczynski*, N. Guha, S. Wu, S. Arora, X. Ling, C. Ré",
-	"Venue": "CIDR 2021",
+	"Venue": "CIDR 2021, arXiv",
 	"Details": [
 	  {
 		"detail": "http://cidrdb.org/cidr2021/papers/cidr2021_paper13.pdf",
 		"detailType": "Paper /"
 	  },
 	  {
+		"detail": "https://arxiv.org/abs/2010.10363",
+		"detailType": "arXiv /"
+	  },
+	  {
 	  	"detail": "https://github.com/HazyResearch/bootleg",
 		"detailType": "Code"
 	  }
+	],
+	"LocalDetails": [
 	],
 	"Description": "Bootleg is a self-supervised named entity disambiguation (NED) system that links mentions in text to entities in a knowledge base. Bootleg is built to improve disambiguation of entities which appear infrequently or not at all in training data, called tail entities."
   },
@@ -36,6 +61,8 @@
 		"detailType": "Code"
 	  }
 	],
+	"LocalDetails": [
+	],
 	"Description": "When contextual embeddings are worth their cost, versus when it is possible to use more efficient word representations without significant degradation in performance?"
   },
   {
@@ -48,6 +75,8 @@
 		"detail": "https://dl.acm.org/doi/pdf/10.1145/3299869.3300064",
 		"detailType": "Paper"
 	  }
+	],
+	"LocalDetails": [
 	],
 	"Description": "This paper presents GraphRex, an efficient, robust, scalable, and easy-to-program framework for graph processing on datacenter infrastructure."
   },
@@ -62,6 +91,8 @@
 		"detailType": "Paper *top 3 finalist for best conference paper"
 	  }
 	],
+	"LocalDetails": [
+	],
 	"Description": "Controlled independent manipulation of multiple objects at cellular length scales in an open challenge with potential applications in life sciences (e.g. directed drug delivery), microsurgery and advanced manufacturing. Magnetism has been studied as a means to perform such fine scale manipulation, but generating fields that discriminate between targets at small length scales is nontrivial. We present a system for simultaneous control of multiple magnetic microrobots with characteristic lengths on the order of 10 μνα, which is based on the superposition of magnetic fields generated at centimeter scale (global) as well as micrometer scale (local)."
   },
   {
@@ -75,6 +106,8 @@
 		"detailType": "Paper"
 	  }
 	],
+	"LocalDetails": [
+	],
 	"Description": "This work focuses on the physics of the HTPB polymer, which is widely used in United States Naval explosives and rocket motor formulations. These composites are often subjected to extreme temperatures, shocks, and pressures in the field, which has led to disasterous unintended detonations. Methods to better understand the behavior of these composites are highly desirable - this work presents a method for analyzing temperature localization in these composites with submicron spatial resolution."
   },
   {
@@ -86,6 +119,8 @@
 	  {
 		
 	  }
+	],
+	"LocalDetails": [
 	],
 	"Description": ""
   }              

@@ -10,6 +10,7 @@ class Research extends Component {
         case 'naval': return require("./../assets/naval_presentation.pdf");
         case 'acl20': return 'https://www.youtube.com/watch?v=bCPeg0Tp64s&feature=youtu.be';
         case 'p3p': return require("./../assets/p3p_presentation.pdf");
+        case 'metadata': return require("./../assets/Metadata_Shaping.pdf");
       }
 	}
 	render() {
@@ -18,13 +19,22 @@ class Research extends Component {
         <h2 className="Title_research">Research</h2>
         
           {
-            data.Research.map((project) => {
+            data.Research.map((project) => { 
               return (
                 <div>
                   <text className="PaperTitle">{project.Title}</text>{" "}
                     <br/>
                     <text className="Venue"> {project.Venue}<br/></text>
                     <text className="Authors"> {project.Authors}<br/></text>
+                    {
+                      project.LocalDetails.map((Details) => {
+                        var base_url = this.renderContent(Details.detail);  
+                        console.log(base_url);
+                        return (
+                          <text><a className="Details" target= "_blank" rel="noopener noreferrer" href={base_url}> {Details.detailType}</a>{"  "}</text>
+                         );
+                      })
+                    }
                     {
                       project.Details.map((Details) => {
                         return (
