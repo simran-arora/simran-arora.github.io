@@ -3,7 +3,7 @@ import './App.css';
 
 import {
   BrowserRouter as Router,
-  Switch,
+  Routes,
   Route,
   NavLink
 } from "react-router-dom";
@@ -13,7 +13,6 @@ import Research from "./Research/Research"
 import About from "./About/About"
 import Professional from "./Projects/Projects"
 import Education from "./Education/Education"
-import Personal from "./Personal/Personal"
 
 import { library } from '@fortawesome/fontawesome-svg-core'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome' 
@@ -47,10 +46,9 @@ function App() {
               </div>
 
               <div className="LinksContainer">
-                <a href="https://www.strava.com/athletes/44286294" class="fab fa-strava" style={{"text-decoration":"none"}}>  </a> 
-                <a href="https://www.goodreads.com/user/show/12754020-simran-arora" class="fab fa-goodreads" style={{"text-decoration":"none"}}>  </a> 
+                <a href="https://scholar.google.com/citations?view_op=list_works&hl=en&hl=en&user=rGRsWH8AAAAJ&sortby=pubdate" class="fab fa-google-scholar" style={{"text-decoration":"none"}}>  </a> 
+                <a href="https://github.com/simran-arora" class="fab fa-github" style={{"text-decoration":"none"}}>  </a> 
                 <a href="https://www.linkedin.com/in/simran-arora/" class="fab fa-linkedin" style={{"text-decoration":"none"}}>  </a>
-                <a href="https://github.com/simran-arora" className="fab fa-github" style={{"text-decoration": "none"}}>  </a>
               </div>
             </div>
 
@@ -61,7 +59,6 @@ function App() {
                 <NavLink to="/research" className="nav">Research</NavLink><br/>
                 <NavLink to="/professional" className="nav">Professional</NavLink><br/>
                 <NavLink to="/education" className="nav">Education</NavLink><br/>
-                <NavLink to="/personal" className="nav">Personal</NavLink><br/>
               </nav>
             </div>
             </div>
@@ -70,26 +67,13 @@ function App() {
 
       <div className="Content-Container">
         <div>
-          <Switch>
-            <Route exact path="/">
-              <About/>
-            </Route>
-            <Route path="/about">
-              <About />
-            </Route>
-            <Route path="/research">
-              <Research />
-            </Route>
-            <Route path="/professional">
-              <Professional />
-            </Route>
-            <Route path="/education">
-              <Education />
-            </Route>
-            <Route path="/personal">
-              <Personal />
-            </Route>
-          </Switch>
+          <Routes>
+          <Route exact path='/' element={<About/>}/>
+          <Route path="/about" element={<About/>}/>
+          <Route path="/research" element={<Research/>}/>
+          <Route path="/professional" element={<Professional/>}/>
+          <Route path="/education" element={<Education/>}/>
+          </Routes>
         </div>
       </div>
 

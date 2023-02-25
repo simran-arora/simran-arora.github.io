@@ -15,7 +15,6 @@
 .AboutText {
 	font-size: calc(3px + 2vmin);
 	line-height: 1.4;
-	font-weight: bold;
 }
 
 .AboutSubText {

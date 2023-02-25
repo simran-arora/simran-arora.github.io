@@ -3,6 +3,7 @@ import data from "./../data/data";
 import './Projects.css';
 import pic from "./../assets/photo.jpg"
 import ms from "./../assets/ms_logo.jpg"
+import penn from "./../assets/penn.png"
 
 class Work extends Component { 
 	renderSwitch(key){
@@ -20,29 +21,20 @@ class Work extends Component {
 	render() {
 		return (	
             <div className="Container">
-				<h2 className="header_projects">Experiences:</h2><br/><br/>
+				<h2 className="header_projects">Experience:</h2><br/><br/>
                 {
 					data.Experiences.map((experience) => { 
 						var base_url = this.renderSwitch(experience.Asset);		
 						return (
-							<div class="timeline">
-							<div class="container_time right">
+
 								<div class="content">
-									
-									<div class="logo">
-										<img class="logo-img" src={base_url} alt=" "/>
-                   					 </div>
 									<div class="text">
 										<text className="Title_projects">{experience.Title}</text><br/>
 										<text className="Company">{experience.Company}</text><br/>
 										{/* <text className="Location">{experience.Loc}</text><br/> */}
-									</div>
-									<div class="description">
 										<text className="Description"> {experience.Description} </text>
 									</div>
 								</div> 
-							</div>
-							</div>
 	
 						);
 					})
@@ -53,24 +45,14 @@ class Work extends Component {
 					data.Teaching.map((experience) => {
 						var base_url = this.renderSwitch(experience.Asset);		
 						return (
-							<div class="timeline">
-							<div class="container_time right">
 								<div class="content">
-									
-									<div class="logo">
-										<img class="logo-img" src={base_url} alt=" "/>
-                   					 </div>
 									<div class="text">
 										<text className="Title_projects">{experience.Title}</text><br/>
 										<text className="Company">{experience.Company}</text><br/>
 										{/* <text className="Location">{experience.Loc}</text><br/> */}
-									</div>
-									<div class="description">
 										<text className="Description"> {experience.Description} </text>
 									</div>
 								</div>
-							</div>
-							</div>
 						);
 					})
 				}		

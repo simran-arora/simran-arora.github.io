@@ -119,22 +119,13 @@
   justify-content: right;
 }
 
-.fa-strava {
+.fa-google-scholar {
   padding-right: 1vh;
   font-weight: bold;
   background: white;
   /* color: #FC4C02; */
   color: rgb(51, 51, 51);
 }
-
-.fa-goodreads {
-  padding-right: 1vh;
-  font-weight: bold;
-  background: white;
-  /* color: #553b08;  */
-  color: rgb(51, 51, 51);
-}
-
 .fa-linkedin {
   font-weight: bold;
   background: white;
@@ -156,8 +147,8 @@
 
 .headshot-wrap {
   display: flex;
-  height: 110%;
-  width: 60%;
+  height: 100%;
+  width: 65%;
   align-items: center;
   justify-content: center;
   margin-left: auto;
@@ -165,10 +156,9 @@
 }
 
 .headshot {
-  height: 90%;
-  width: 90%;
+  height: 100%;
+  width: 100%;
   border-radius: 50%;
-  border:2.5px solid maroon;
 }
 
 /* Content on right div */

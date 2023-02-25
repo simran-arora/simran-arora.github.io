@@ -8,6 +8,13 @@
 	"Asset": "stanford"
   },
   {
+	"Title": "Research Scientist (Summer 2021)",
+	"Company": "Facebook AI Research (FAIR)",
+	"Loc": "Menlo Park, CA",
+	"Description": "I led a project on personalizing retrieval-based systems with Jacob Kahn, Patrick Lewis, and Angela Fan. We wrote up a paper on this work called: Reasoning over Public and Private Data in Retrieval-Based Systems.",
+	"Asset": "ms"
+  },
+  {
 	"Title": "Global Technology Investment Banking (Summer 2018)",
 	"Company": "Morgan Stanley Menlo Park, Summer Analyst",
 	"Loc": "Menlo Park, CA",
@@ -25,7 +32,7 @@
 	"Title": "Software Engineering (Summer 2017)",
 	"Company": "Google, Google Developers Team",
 	"Loc": "Mountain View, CA",
-	"Description": "I worked on the open source Closure-Compiler, which is used by flagship Google teams (e.g., Gmail, Drive, Maps) to reduce the size of the shipped JavaScript code. The most significant update to the JavaScript programing language is ES6 (2015). Before my internship, the compiler would convert ES6 code to an older version of JavaScript called ES3, optimize the ES3 code, and output ES3 code. My specific focus involved changing the compiler’s logic to optimize for the many significant features released with ES6, and be able to output ES6 code. All my code contributions are available here: https://github.com/google/closure-compiler.",
+	"Description": "I worked on the open source Closure-Compiler, which is used by flagship Google teams (e.g., Gmail, Drive, Maps) to reduce the size of the shipped JavaScript code. The most significant update to the JavaScript programing language is ES6 (2015).  I worked on updating compiler from ES3 to ES6, to be able to compile ES6 features and output ES6 code. My code from this internship is available here: https://github.com/google/closure-compiler.",
 	"Asset": "google"
   },
   {

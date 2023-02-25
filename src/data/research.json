@@ -1,37 +1,147 @@
 {
 "Research": [
 	{
-		"Name": "Metadata Shaping: Natural Language Annotations for the Tail",
-		"Title": "Metadata Shaping:  Natural Language Annotations for the Tail",
-		"Authors": "S. Arora, S. Wu, E. Liu, C. Ré",
-		"Venue": "arXiv",
+		"Name": "Ask Me Anything: A simple strategy for prompting language models",
+		"Title": "Ask Me Anything: A simple strategy for prompting language models",
+		"Authors": "S. Arora and C. Ré",
+		"Venue": "International Conference on Learning Representations (Spotlight, top 25% of acceptances) 2023",
 		"LocalDetails": [
-		  {
-			"detail": "metadata",
-			"detailType": "Paper / "
-		  }
 		],
 		"Details": [
-		  {
-			"detail": "https://hazyresearch.stanford.edu/blog/2021-10-14-metadata",
-			"detailType": "Blog Post"
-		  }
+		{
+			"detail": "https://arxiv.org/abs/2210.02441",
+			"detailType": "Paper /"
+		},
+		{
+			"detail": "https://www.numbersstation.ai/post/ask-me-anything",
+			"detailType": "Blog Post /"
+		},
+		{
+			"detail": "https://github.com/HazyResearch/ama_prompting",
+			"detailType": "Code /"
+		},
+		{
+			"detail": "https://www.youtube.com/watch?v=uNe5QGOJykE",
+			"detailType": "Youtube - Aleksa Gordić /"
+		},
+		{
+			"deatil": "https://www.youtube.com/watch?v=CD3exXnx49A",
+			"detailType": "Youtube - Snorkel /"
+		},
+		{
+			"detail": "https://www.marktechpost.com/2023/02/01/researchers-at-stanford-university-introduce-the-ask-me-anything-prompting-ama-a-simple-approach-that-surprisingly-enables-open-source-llms-with-30x-fewer-parameters-to-exceed-the-few-shot-perf/",
+			"detailType": "MarkeTech Post Article"
+		}
 		],
-		"Description": "To what extent can we match architectural modifications to incorporate domain knowledge, using only simple modifications to the data? And how can we understand why the data modifications will be effective?"
-	  },
+		"Description": ""
+	},
+	{
+		"Name": "Can Foundation Models Help Us Achieve Perfect Secrecy?",
+		"Title": "Can Foundation Models Help Us Achieve Perfect Secrecy?",
+		"Authors": "S. Arora and C. Ré",
+		"Venue": "Privacy-Preserving Artificial Intelligence-AAAI'2023",
+		"LocalDetails": [
+		],
+		"Details": [
+		{
+			"detail": "https://arxiv.org/abs/2205.13722",
+			"detailType": "Paper /"
+		},
+		{
+			"detail": "https://github.com/simran-arora/focus",
+			"detailType": "Code /"
+		},
+		{
+			"detail": "https://hai.stanford.edu/news/can-foundation-models-help-us-achieve-perfect-secrecy",
+			"detailType": "Stanford HAI Article /"
+		},
+		{
+			"detail": "https://venturebeat.com/ai/foundation-models-could-help-us-achieve-perfect-secrecy/",
+			"detailType": "VentureBeat Article "
+		}
+		],
+		"Description": ""
+		
+	},
+	{
+		"Name": "Can Foundation Models Wrangle Your Data?",
+		"Title": "Can Foundation Models Wrangle Your Data?",
+		"Authors": "A. Narayan, I. Chami, L. Orr, S. Arora, C. Ré",
+		"Venue": "VLDB 2023",
+		"LocalDetails": [
+		],
+		"Details": [
+		{
+			"detail": "https://arxiv.org/abs/2205.09911",
+			"detailType": "Paper /"
+		},
+		{
+			"detail": "https://github.com/HazyResearch/fm_data_tasks",
+			"detailType": "Code"
+		}
+		],
+		"Description": ""
+	},
+	{
+		"Name": "Reasoning over Public and Private Data in Retrieval-Based Systems",
+		"Title": "Reasoning over Public and Private Data in Retrieval-Based Systems",
+		"Authors": "S. Arora, P. Lewis, A. Fan, J. Kahn, C. Ré",
+		"Venue": "KnowledgeNLP-AAAI’23 (Oral, top 17% of submissions) and In Journal Review.",
+		"LocalDetails": [
+		],
+		"Details": [
+		{
+			"detail": "https://arxiv.org/abs/2203.11027",
+			"detailType": "Paper /"
+		},
+		{
+			"detail": "https://github.com/facebookresearch/concurrentqa",
+			"detailType": "Code /"
+		},
+		{
+			"detail": "https://ai.facebook.com/blog/building-systems-to-reason-securely-over-private-data/",
+			"detailType": "Facebook AI Research Blog"
+		}
+		],
+		"Description": ""
+	},
+	{
+		"Name": "Metadata Shaping: Natural Language Annotations for the Tail",
+		"Title": "Metadata Shaping: Natural Language Annotations for the Tail",
+		"Authors": "S. Arora, S. Wu, E. Liu, C. Ré",
+		"Venue": "Findings of the Association for Computational Linguistics 2022",
+		"LocalDetails": [
+		],
+		"Details": [
+		{
+			"detail": "https://aclanthology.org/2022.findings-acl.137/",
+			"detailType": "Paper /"
+		},
+		{
+			"detail": "https://hazyresearch.stanford.edu/blog/2021-10-14-metadata",
+			"detailType": "Blog Post /"
+		},
+		{
+			"detail": "https://github.com/simran-arora/metadatashaping",
+			"detailType": "Code"
+		}
+		],
+		"Description": "To what extent can we match architectural modifications to incorporate domain knowledge, using only simple modifications to the data? And how can we understand why the data modifications will be effective?",
+		"Talks": "FAIR 2021"
+},
   {
 	"Name": "Bootleg",
 	"Title": "Bootleg: Chasing the Tail with Self-Supervised Named Entity Disambiguation",
-	"Authors": "L. Orr*, M. Leszczynski*, N. Guha, S. Wu, S. Arora, X. Ling, C. Ré",
-	"Venue": "CIDR 2021, arXiv",
+	"Authors": "L. Orr*, M. Leszczynski*, S. Arora,  S. Wu, N. Guha, X. Ling, C. Ré",
+	"Venue": "CIDR 2021",
 	"Details": [
 	  {
-		"detail": "http://cidrdb.org/cidr2021/papers/cidr2021_paper13.pdf",
+		"detail": "https://arxiv.org/abs/2010.10363",
 		"detailType": "Paper /"
 	  },
 	  {
-		"detail": "https://arxiv.org/abs/2010.10363",
-		"detailType": "arXiv /"
+		"detail": "https://hazyresearch.stanford.edu/blog/2020-11-10-bootleg",
+		"detailType": "Blog Post /"
 	  },
 	  {
 	  	"detail": "https://github.com/HazyResearch/bootleg",
@@ -127,6 +237,24 @@
 ],
 "Projects": [
 	{
+		"Title": "Exploring Self-Training and Pretraining for Unsupervised Domain Adaptation",
+		"Venue": "Stanford CS 329: Machine Learning under Distribution Shift, 2021",
+		"Authors": "S. Arora, A. Carranza, S. Murty",
+		"Details": [
+			{
+				"detail": "https://github.com/simran-arora/CS329D_SelfTraining/blob/main/CS329D_2021_Final_Project.pdf",
+				"detailType": "Paper /"
+			},
+			{
+				"detail": "https://github.com/simran-arora/CS329D_SelfTraining",
+				"detailType": "Code "
+			}
+		],
+		"LocalDetails": [
+		],
+		"Description": ""
+	},
+	{
 		"Title": "Peer-3-Peer: Disaster Proof Offline Messaging",
 		"Venue": "Senior Design Project, Penn Engineering, 2019",
 		"Authors": "S. Arora, J. Barton, B. Judd, R. Rao, D. Wang (Advised by Prof. Vincent Liu)",
@@ -134,6 +262,10 @@
 			{
 				"detail": "https://fisher.wharton.upenn.edu/wp-content/uploads/2019/06/Peer3Peer.pdf",
 				"detailType": "Paper /"
+			},
+			{
+				"detail": "https://github.com/Icantjuddle/peer-3-peer",
+				"detailType": "Code /"
 			}
 		],
 		"LocalDetails": [
@@ -160,6 +292,38 @@
 	}
   ],
 "Talks": [
+	{
+		"Talk": "Ask Me Anything: How are Foundation Models Changing the Way We Build Software Systems?",
+		"Talk_details": "Invited presentations at Snorkel Foundation Model Summit (25 min., Winter 2023) and Apple Machine Learning Research (1 hr, Winter 2023) Upcoming: ICLR Spotlight Presentation (2023)",
+		"Details": [
+		],
+		"RemoteDetails": [
+		]
+	},
+	{
+		"Talk": "Can Foundation Models Help Us Achieve Perfect Secrecy?",
+		"Talk_details": "Invited presentation at IBM Research (1 hr, Fall 2022), Upcoming: Invited presentations at MIT Media Lab (2023) and Stanford HAI Workshop on AI and Society: Economic Impacts and Opportunities (2023)",
+		"Details": [
+		],
+		"RemoteDetails": [
+		]
+	},
+	{
+		"Talk": "Reasoning over Public and Private Data in Retrieval-Based Systems",
+		"Talk_details": "Oral talk at KnowledgeNLP-AAAI’23 (Winter 2023)",
+		"Details": [
+		],
+		"RemoteDetails": [
+		]
+	},
+	{
+		"Talk": "Metadata Shaping: A Simple Approach for Knowledge-Enhanced Language Models",
+		"Talk_details": "Invited presentation at Facebook AI Research (1 hr, Summer 2022) and selected for Spotlight Talk at Stanford HAI Data-Centric AI Workshop (Fall 2021)",
+		"Details": [
+		],
+		"RemoteDetails": [
+		]
+	},
 	{
 		"Talk": "Contextual Embeddings: When are they worth it?",
 		"Talk_details": "Presented at the ACL Conference (Summer 2020) and Stanford DAWN Retreat (Summer 2020)",
