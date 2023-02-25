@@ -15,7 +15,7 @@ class Education extends Component {
 	render() {
 		return (
       <div className="SchoolContainer">
-        <h2>Education</h2> <br/>      
+        <h2 className="header_projects">Education</h2> <br/>      
           {
             data.School.map((School) => {
               var base_url = this.renderSwitch(School.Asset);	
@@ -38,7 +38,7 @@ class Education extends Component {
               );
           })
         } 
-        <h2>Select Awards</h2><br/>  
+        <h2 className="header_projects">Select Awards</h2><br/>  
         <ul>      
         {
             data.Awards.map((Award_) => {

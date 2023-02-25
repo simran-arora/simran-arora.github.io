@@ -3,7 +3,7 @@
 	{
 		"Name": "Ask Me Anything: A simple strategy for prompting language models",
 		"Title": "Ask Me Anything: A simple strategy for prompting language models",
-		"Authors": "S. Arora and C. Ré",
+		"Authors": "S. Arora*, A. Narayan*, M. Chen, L. Orr, N. Guha, K. Bhatia, I. Chami, F. Sala, C. Ré",
 		"Venue": "International Conference on Learning Representations (Spotlight, top 25% of acceptances) 2023",
 		"LocalDetails": [
 		],
@@ -25,7 +25,7 @@
 			"detailType": "Youtube - Aleksa Gordić /"
 		},
 		{
-			"deatil": "https://www.youtube.com/watch?v=CD3exXnx49A",
+			"detail": "https://www.youtube.com/watch?v=CD3exXnx49A",
 			"detailType": "Youtube - Snorkel /"
 		},
 		{
@@ -338,7 +338,7 @@
 	},
 	{
 		"Talk": "Localized Manipulation of Multiple Magnetic Robots",
-		"Talk_details": "Presented to GRASP Lab (Summer 2016).",
+		"Talk_details": "Presented to GRASP Lab (Summer 2016)",
 		"Details": [
 			{
 				"key": "grasp",
@@ -351,7 +351,7 @@
 	},
 	{
 		"Talk": "Characterization of a Novel Photoswitch for Detecting Hotspots in Explosive Composites",
-		"Talk_details": "Presented to Dr. Mildred Dresselhaus and audience at the Penn WiP Conference (Fall 2015).",
+		"Talk_details": "Presented to Dr. Mildred Dresselhaus and audience at the Penn WiP Conference (Fall 2015)",
 		"Details": [
 			{
 				"key": "naval",

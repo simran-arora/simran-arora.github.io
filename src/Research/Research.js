@@ -105,8 +105,7 @@ class Research extends Component {
 
         <h2 className="Title_research">Service</h2>
         <ul>
-          <li text className="Authors">Reviewer for ACL 2021, PPAI-AAAI 2023, Table Representation Learning workshop at NeurIPS 2022</li>
-          <li text className="Authors">Reviewer for ICML 2020, Top Reviewer Award</li>
+          <li text className="Authors">Reviewer for ICML 2020 (Top Reviewer Award), ACL 2021, PPAI-AAAI 2023, Table Representation Learning workshop at NeurIPS 2022, ICLR 2023 Workshop ME-FoMo</li>
           <li text className="Authors">Stanford Center for Research on Foundation Models Community & Publicity Leadership Team 2022-Present</li>
           <li text className="Authors">Undergrad Mentor in the Stanford Women in STEM Mentorship Program 2019-2020</li>
           <li text className="Authors">Undergrad Mentor in the Penn Women in CS Mentorship Program 2018-2019</li>
@@ -120,7 +119,7 @@ class Research extends Component {
                 <div>
                   <text className="Talk">{talk.Talk}</text>{" "}
                     <br/>
-                    <text className="Talk_details"> {talk.Talk_details}<br/></text>
+                    <text className="Talk_details"> {talk.Talk_details}.</text>
                     {
                       talk.Details.map((Details) => {
                         var base_url = this.renderContent(Details.key);	

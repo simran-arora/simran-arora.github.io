@@ -15,7 +15,6 @@ import Professional from "./Projects/Projects"
 import Education from "./Education/Education"
 
 import { library } from '@fortawesome/fontawesome-svg-core'
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome' 
 import { fab, faGoodreads } from '@fortawesome/free-brands-svg-icons'
 library.add(fab, faGoodreads)
 
@@ -46,9 +45,8 @@ function App() {
               </div>
 
               <div className="LinksContainer">
-                <a href="https://scholar.google.com/citations?view_op=list_works&hl=en&hl=en&user=rGRsWH8AAAAJ&sortby=pubdate" class="fab fa-google-scholar" style={{"text-decoration":"none"}}>  </a> 
+                <a href="https://scholar.google.com/citations?view_op=list_works&hl=en&hl=en&user=rGRsWH8AAAAJ&sortby=pubdate" class="fas fa-graduation-cap" style={{"text-decoration":"none"}}>  </a> 
                 <a href="https://github.com/simran-arora" class="fab fa-github" style={{"text-decoration":"none"}}>  </a> 
-                <a href="https://www.linkedin.com/in/simran-arora/" class="fab fa-linkedin" style={{"text-decoration":"none"}}>  </a>
               </div>
             </div>
 

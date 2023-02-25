@@ -21,7 +21,7 @@ class Work extends Component {
 	render() {
 		return (	
             <div className="Container">
-				<h2 className="header_projects">Experience:</h2><br/><br/>
+				<h2 className="header_projects">Experience</h2><br/><br/>
                 {
 					data.Experiences.map((experience) => { 
 						var base_url = this.renderSwitch(experience.Asset);		

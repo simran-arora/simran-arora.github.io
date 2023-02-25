@@ -8,11 +8,12 @@
 }
 
 .header_projects {
-  font-size: 22px;
+  font-size: 24px;
   font-weight: bold;
   font-family: 'Lato';
-  
+  display: flex;
 }
+
 
 .Title_projects {
   font-size: 22px;
@@ -38,7 +39,8 @@
 .Experience {
   font-size: 18px;
   font-family: 'Lato';
-  font-weight: 'bold'
+  font-weight: 'bold';
+  display: flex;
 }
 
 .logo {
