@@ -8,7 +8,10 @@ personal website
 1. npm install create-react-app  
 2. npx create-react-app <your_github_id>.github.io 
 3. cd <your_github_id>.github.io 
-4. npm start // just to check it out, make sure yarn and npm aren't being used at the same time!  
+4. npm start // just to check it out, make sure yarn and npm aren't being used at the same time! 
+- npm i --save @fortawesome/free-solid-svg-icons
+- npm i --save @fortawesome/fontawesome-svg-core
+- npm i --save @fortawesome/react-fontawesome
 5. edit package.json (e.g. "vim package.json")  
    - add "homepage": "https://<your_github_id>.github.io
    - add "predeploy": 
