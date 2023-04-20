@@ -1,34 +1,25 @@
 {
   "files": {
-    "main.css": "/static/css/main.c8115d27.chunk.css",
-    "main.js": "/static/js/main.afc0295a.chunk.js",
-    "main.js.map": "/static/js/main.afc0295a.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.0fb70ea9.js",
-    "runtime-main.js.map": "/static/js/runtime-main.0fb70ea9.js.map",
-    "static/js/2.eb7aba80.chunk.js": "/static/js/2.eb7aba80.chunk.js",
-    "static/js/2.eb7aba80.chunk.js.map": "/static/js/2.eb7aba80.chunk.js.map",
+    "main.css": "/static/css/main.b375d9b3.css",
+    "main.js": "/static/js/main.e8ae2de2.js",
+    "static/media/grasp_presentation.pdf": "/static/media/grasp_presentation.57e305ac9bfb31c29ce0.pdf",
+    "static/media/p3p_presentation.pdf": "/static/media/p3p_presentation.12f6d0453113493ac9a7.pdf",
+    "static/media/naval_presentation.pdf": "/static/media/naval_presentation.f29dd0064566458520b1.pdf",
+    "static/media/Metadata_Shaping.pdf": "/static/media/Metadata_Shaping.2e031932ce139f9a13e4.pdf",
+    "static/media/nps.png": "/static/media/nps.04408d5f7ed63a629385.png",
+    "static/media/mnt.png": "/static/media/mnt.1e90190888ae47d8930e.png",
+    "static/media/photo.jpg": "/static/media/photo.59efb54a2e882f74d5f1.jpg",
+    "static/media/vts.png": "/static/media/vts.33d1f67194c2bae16fdf.png",
+    "static/media/stanford_school.png": "/static/media/stanford_school.c6397a387476fc09853e.png",
+    "static/media/penn.png": "/static/media/penn.e5b2b99fe33958e95325.png",
+    "static/media/stanford.png": "/static/media/stanford.d779b24721cb64643f75.png",
+    "static/media/google.png": "/static/media/google.bb1be251d549391d9380.png",
     "index.html": "/index.html",
-    "precache-manifest.ff61bb336d22cf40ce913b4267418fd6.js": "/precache-manifest.ff61bb336d22cf40ce913b4267418fd6.js",
-    "service-worker.js": "/service-worker.js",
-    "static/css/main.c8115d27.chunk.css.map": "/static/css/main.c8115d27.chunk.css.map",
-    "static/js/2.eb7aba80.chunk.js.LICENSE.txt": "/static/js/2.eb7aba80.chunk.js.LICENSE.txt",
-    "static/media/Metadata_Shaping.pdf": "/static/media/Metadata_Shaping.48fea1ba.pdf",
-    "static/media/google.png": "/static/media/google.57a6cb3d.png",
-    "static/media/grasp_presentation.pdf": "/static/media/grasp_presentation.021a54de.pdf",
-    "static/media/mnt.png": "/static/media/mnt.ad0f46b2.png",
-    "static/media/naval_presentation.pdf": "/static/media/naval_presentation.5f3be712.pdf",
-    "static/media/nps.png": "/static/media/nps.a6aa9196.png",
-    "static/media/p3p_presentation.pdf": "/static/media/p3p_presentation.89133b54.pdf",
-    "static/media/penn.png": "/static/media/penn.5eea9293.png",
-    "static/media/photo.jpg": "/static/media/photo.e2633e6a.jpg",
-    "static/media/stanford.png": "/static/media/stanford.6383f977.png",
-    "static/media/stanford_school.png": "/static/media/stanford_school.f07c69a2.png",
-    "static/media/vts.png": "/static/media/vts.c0fba1da.png"
+    "main.b375d9b3.css.map": "/static/css/main.b375d9b3.css.map",
+    "main.e8ae2de2.js.map": "/static/js/main.e8ae2de2.js.map"
   },
   "entrypoints": [
-    "static/js/runtime-main.0fb70ea9.js",
-    "static/js/2.eb7aba80.chunk.js",
-    "static/css/main.c8115d27.chunk.css",
-    "static/js/main.afc0295a.chunk.js"
+    "static/css/main.b375d9b3.css",
+    "static/js/main.e8ae2de2.js"
   ]
 }
