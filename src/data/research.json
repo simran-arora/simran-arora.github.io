@@ -1,10 +1,29 @@
 {
 "Research": [
 	{
+		"Name": "Language Models Enable Simple Systems for Generating Structured Views of Heterogeneous Data Lakes",
+		"Title": "Language Models Enable Simple Systems for Generating Structured Views of Heterogeneous Data Lakes",
+		"Authors": "S. Arora, B. Yang, S. Eyuboglu, A. Narayan, A. Hojel, I. Trummer, C. Ré",
+		"Venue": "In Review.",
+		"LocalDetails": [
+		],
+		"Details": [
+		{
+			"detail": "https://arxiv.org/abs/2304.09433",
+			"detailType": "Paper /"
+		},
+		{
+			"detail": "https://github.com/HazyResearch/evaporate",
+			"detailType": "Code"
+		}
+		],
+		"Description": ""
+	},
+	{
 		"Name": "Ask Me Anything: A simple strategy for prompting language models",
 		"Title": "Ask Me Anything: A simple strategy for prompting language models",
 		"Authors": "S. Arora*, A. Narayan*, M. Chen, L. Orr, N. Guha, K. Bhatia, I. Chami, F. Sala, C. Ré",
-		"Venue": "International Conference on Learning Representations (Spotlight, top 25% of acceptances) 2023",
+		"Venue": "International Conference on Learning Representations Spotlight, top 25% of acceptances (ICLR 2023)",
 		"LocalDetails": [
 		],
 		"Details": [
@@ -39,7 +58,7 @@
 		"Name": "Can Foundation Models Help Us Achieve Perfect Secrecy?",
 		"Title": "Can Foundation Models Help Us Achieve Perfect Secrecy?",
 		"Authors": "S. Arora and C. Ré",
-		"Venue": "Privacy-Preserving Artificial Intelligence-AAAI'2023",
+		"Venue": "Privacy-Preserving Artificial Intelligence (PPAI-AAAI 2023)",
 		"LocalDetails": [
 		],
 		"Details": [
@@ -86,7 +105,7 @@
 		"Name": "Reasoning over Public and Private Data in Retrieval-Based Systems",
 		"Title": "Reasoning over Public and Private Data in Retrieval-Based Systems",
 		"Authors": "S. Arora, P. Lewis, A. Fan, J. Kahn, C. Ré",
-		"Venue": "KnowledgeNLP-AAAI’23 (Oral, top 17% of submissions) and In Journal Review.",
+		"Venue": "KnowledgeNLP-AAAI’23 (Oral, top 17% of submissions) and Transactions of Computational Linguistics (TACL 2023)",
 		"LocalDetails": [
 		],
 		"Details": [
@@ -109,7 +128,7 @@
 		"Name": "Metadata Shaping: Natural Language Annotations for the Tail",
 		"Title": "Metadata Shaping: Natural Language Annotations for the Tail",
 		"Authors": "S. Arora, S. Wu, E. Liu, C. Ré",
-		"Venue": "Findings of the Association for Computational Linguistics 2022",
+		"Venue": "Findings of the Association for Computational Linguistics (ACL Findings 2022)",
 		"LocalDetails": [
 		],
 		"Details": [
@@ -156,7 +175,7 @@
 	"Name": "Contextual Embeddings",
 	"Title": "Contextual Embeddings: When Are They Worth It?",
 	"Authors": "S. Arora*, A. May*, J. Zhang, C. Ré",
-	"Venue": "Association for Computational Linguistics, 2020",
+	"Venue": "Association for Computational Linguistics (ACL 2020)",
 	"Details": [
 	  {
 		"detail": "https://arxiv.org/abs/2005.09117",
@@ -294,7 +313,7 @@
 "Talks": [
 	{
 		"Talk": "Ask Me Anything: How are Foundation Models Changing the Way We Build Software Systems?",
-		"Talk_details": "Invited presentations at Snorkel Foundation Model Summit (25 min., Winter 2023) and Apple Machine Learning Research (1 hr, Winter 2023) Upcoming: ICLR Spotlight Presentation (2023)",
+		"Talk_details": "Invited presentations at Snorkel Foundation Model Summit (25 min., Winter 2023), Apple Machine Learning Research (1 hr, Winter 2023), ICLR Spotlight Presentation (2023)",
 		"Details": [
 		],
 		"RemoteDetails": [
@@ -302,7 +321,7 @@
 	},
 	{
 		"Talk": "Can Foundation Models Help Us Achieve Perfect Secrecy?",
-		"Talk_details": "Invited presentation at IBM Research (1 hr, Fall 2022), Upcoming: Invited presentations at MIT Media Lab (2023) and Stanford HAI Workshop on AI and Society: Economic Impacts and Opportunities (2023)",
+		"Talk_details": "Invited presentation at IBM Research (1 hr, Fall 2022), MIT CSS Seminar (Spring 2023) and Stanford HAI Workshop on AI and Society: Economic Impacts and Opportunities (Spring 2023)",
 		"Details": [
 		],
 		"RemoteDetails": [
@@ -318,7 +337,7 @@
 	},
 	{
 		"Talk": "Metadata Shaping: A Simple Approach for Knowledge-Enhanced Language Models",
-		"Talk_details": "Invited presentation at Facebook AI Research (1 hr, Summer 2022) and selected for Spotlight Talk at Stanford HAI Data-Centric AI Workshop (Fall 2021)",
+		"Talk_details": "Invited presentation at Facebook AI Research (1 hr, Summer 2021) and selected for Spotlight Talk at Stanford HAI Data-Centric AI Workshop (Fall 2021)",
 		"Details": [
 		],
 		"RemoteDetails": [

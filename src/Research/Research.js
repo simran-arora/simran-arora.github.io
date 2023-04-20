@@ -63,6 +63,7 @@ class Research extends Component {
           <li text className="Authors"><a href="https://crfm.stanford.edu/2023/02/18/year-in-review.html">Year in Review 2022: Technical Advances, Applications, and Social Responsibility</a> with Michael Wornow, Nandita Bhaskar, and Percy Liang, 2023.</li>
           <li text className="Authors"><a href="https://hai.stanford.edu/white-paper-building-national-ai-research-resource">Building a National AI Research Resource: A Blueprint for the National Research Cloud</a> with Principle Authors: Daniel E. Ho, Jennifer King, Russell C. Wald, Christopher Wan. We wrote an HAI White Paper in October, 2022. Section §5 Data Privacy Compliance by S. Arora, N. Guha, J. King, S. Suri, C. Wan, S. Wiltshire.</li>
           <li text className="Authors"><a href="https://arxiv.org/abs/2108.07258">On the Opportunities and Risks of Foundation Models</a> with Principle Authors: Rishi Bommasani and Percy Liang. Data Section  by L. Orr, S. Arora, K. Goel, A. Narayan, M. Zhang, C. Ré., 2021</li>
+          <li text className="Authors"><a href="https://hazyresearch.stanford.edu/blog/2023-04-18-personalization">Ask Me Anything: Leveraging Foundation Models for Private & Personalized Systems</a> with Chris Ré, 2023.</li>
           <li text className="Authors"><a href="https://hazyresearch.stanford.edu/blog/2022-10-11-datacentric-fms">Foundation Models are Entering their Data-Centric Era</a> with Chris Ré, 2022.</li>
           <li text className="Authors"><a href="https://hazyresearch.stanford.edu/what-data-centric-ai-is-not">What Data Centric AI is Not</a> with Chris Ré, 2021.</li>
         </ul>
@@ -105,8 +106,9 @@ class Research extends Component {
 
         <h2 className="Title_research">Service</h2>
         <ul>
-          <li text className="Authors">Reviewer for ICML 2020 (Top Reviewer Award), ACL 2021, PPAI-AAAI 2023, Table Representation Learning workshop at NeurIPS 2022, ICLR 2023 Workshop ME-FoMo</li>
+          <li text className="Authors">Reviewer for ICML 2020 (Top Reviewer Award), ACL 2021, PPAI-AAAI 2023, Table Representation Learning workshop at NeurIPS 2022, ME-FoMo Workshop at ICLR 2023</li>
           <li text className="Authors">Stanford Center for Research on Foundation Models Community & Publicity Leadership Team 2022-Present</li>
+          <li text className="Authors">Running the Stanford NLP Group Lunch Summer 2022</li>
           <li text className="Authors">Undergrad Mentor in the Stanford Women in STEM Mentorship Program 2019-2020</li>
           <li text className="Authors">Undergrad Mentor in the Penn Women in CS Mentorship Program 2018-2019</li>
         </ul>
