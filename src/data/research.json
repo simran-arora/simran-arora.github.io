@@ -1,7 +1,7 @@
 {
 "Research": [
 	{
-		"Name": "Monarch Mixer: A Simple Sub-Quadratic GEMM-Based Architecture",
+		"Name": "Monarch Mixer: A Simple Sub-Quadratic GEMM-Based Architecture ",
 		"Title": "Language Models Enable Simple Systems for Generating Structured Views of Heterogeneous Data Lakes",
 		"Authors": "D. Y. Fu, S. Arora*, J. Grogan*, I. Johnson*, S. Eyuboglu**, A. W. Thomas**, B. F. Spector, M. Poli, A. Rudra, C. Ré",
 		"Venue": "NeurIPS 2023 (Oral)",
@@ -20,7 +20,7 @@
 		"Description": ""
 	},
 	{
-		"Name": "DecodingTrust: A Comprehensive Assessment of Trustworthiness in GPT Models",
+		"Name": "DecodingTrust: A Comprehensive Assessment of Trustworthiness in GPT Models ",
 		"Title": "Language Models Enable Simple Systems for Generating Structured Views of Heterogeneous Data Lakes",
 		"Authors": "B. Wang, W. Chen, H. Pei, C. Xie, M. Kang, C. Zhang, C. Xu, Z. Xiong, R. Dutta, R. Schaeffer, S. T. Truong, S. Arora, M. Mazeika, D. Hendrycks, Z. Lin, Y. Cheng, S. Koyejo, D. Song, B. Li",
 		"Venue": "NeurIPS Datasets 2023 (Oral)",
