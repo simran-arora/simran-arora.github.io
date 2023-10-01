@@ -52,14 +52,15 @@ class Research extends Component {
         } 
         <br/>
 
-        <h2 className="Title_research">Workshop Proposals</h2>
+        <h2 className="Title_research">Workshops</h2>
         <ul>
-          <li text className="Authors">Proposal for a Workshop on Decentralized and Collaborative Learning accepted at MLSys'23</li>
+          <li text className="Authors">Workshop on Decentralized and Collaborative Learning @ MLSys'23</li>
         </ul>
         <br/><br/>
 
         <h2 className="Title_research">Additional: Whitepapers, Reports, and Blog Posts</h2>
         <ul>
+          <li text className="Authors"><a href="https://hazyresearch.stanford.edu/blog/2023-06-08-hyena-safari">The Safari of Deep Signal Processing: Hyena and Beyond</a> by Michael Poli, Stefano Massaroli, Simran Arora, Dan Fu, Stefano Ermon, Chris Ré, 2023</li>
           <li text className="Authors"><a href="https://crfm.stanford.edu/2023/02/18/year-in-review.html">Year in Review 2022: Technical Advances, Applications, and Social Responsibility</a> with Michael Wornow, Nandita Bhaskar, and Percy Liang, 2023.</li>
           <li text className="Authors"><a href="https://hai.stanford.edu/white-paper-building-national-ai-research-resource">Building a National AI Research Resource: A Blueprint for the National Research Cloud</a> with Principle Authors: Daniel E. Ho, Jennifer King, Russell C. Wald, Christopher Wan. We wrote an HAI White Paper in October, 2022. Section §5 Data Privacy Compliance by S. Arora, N. Guha, J. King, S. Suri, C. Wan, S. Wiltshire.</li>
           <li text className="Authors"><a href="https://arxiv.org/abs/2108.07258">On the Opportunities and Risks of Foundation Models</a> with Principle Authors: Rishi Bommasani and Percy Liang. Data Section  by L. Orr, S. Arora, K. Goel, A. Narayan, M. Zhang, C. Ré., 2021</li>
