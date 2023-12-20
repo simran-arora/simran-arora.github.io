@@ -5,6 +5,10 @@
   display: flex;
   flex-flow: column wrap;
   padding-right: 5vh;
+
+  @media screen and (max-width: 720px) {
+    padding-right: 0;
+  }
 }
 
 .header_projects {
@@ -13,14 +17,12 @@
   font-family: 'Lato';
   display: flex;
 }
-
-
 .Title_projects {
-  font-size: 22px;
-  font-weight: bold;
-  align-items: left;
-  font-family: 'Lato';
   color: maroon;
+  font-weight: bold;
+  font-family: 'Lato';
+  font-size: 18px;
+  font-style: italic;
 }
 
 .Company {

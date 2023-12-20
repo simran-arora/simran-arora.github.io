@@ -1,0 +1,53 @@
+{   
+    "Instructing": [
+    {
+      "Title": "Co-Creator and Co-Instructor for CS 229s Systems for Machine Learning (Fall '23)",
+      "Company": "Stanford University, Department of Computer Science",
+      "Loc": "Stanford, CA",
+      "Description": "I co-created and instructed a new 3-unit course at Stanford along with Prof. Azalia Mirhoseini, which could be taken to fulfill ML or Systems breadth requirements. This involved designing the curriculum, building the lectures and assignments, and delivering lectures. Topics included hardware aware algorithm design, efficient architectures, distributed training, and more. We were excited to see all the interest in these topics -- 101 students joined us for the first iteration of this course!",
+      "Asset": "stanford",
+      "Details": [
+		{
+			"detail": "https://cs229s.stanford.edu/fall2023/",
+			"detailType": "Course Website"
+		}
+	    ]
+    },
+    {
+        "Title": "Instructor for CS 528 Machine Learning Systems Seminar (Fall '23)",
+        "Company": "Stanford University, Department of Computer Science",
+        "Loc": "Stanford, CA",
+        "Description": "In this 1-unit seminar course, I invited experts on various aspects of ML Systems including ML compilers, distributed training, quantization, and more. Hosted speakers on YouTube live so a wider audience could benefit from the talks.",
+        "Asset": "stanford",
+        "Details": [
+            {
+                "detail": "https://mlsys.stanford.edu/cs528/",
+                "detailType": "Course Website"
+            }
+        ]
+    }
+    ],
+    "Teaching": [
+    {
+      "Title": "Lead TA in designing the MCIT 595 Computer Systems Coursera course (Spring '19)",
+      "Company": "University of Pennsylvania, Department of Computer Science",
+      "Loc": "Philadelphia, PA",
+      "Description": "I led a team of TA's in designing MCIT 595 Computer Systems Coursera course, which is part of Penn's online masters degree program. This involved creating lecture scripts, course quizzes and exams, and lecture slides. I also created a tutorial video on VMs which is part of the online Coursera content.",
+      "Asset": "penn"
+    },
+    {
+      "Title": "TA for CIS 380 Operating Systems (Fall '18)",
+      "Company": "University of Pennsylvania, Department of Computer Science",
+      "Loc": "Philadelphia, PA",
+      "Description": "Amongst other TA duties (e.g., office hours, grading), I mentored student teams in the month-long project to design and build PennOS, an OS with kernel/scheduler and file-system subsystems.",
+      "Asset": "penn"
+    },
+    {
+      "Title": "TA for CIS 160 Discrete Math (Fall '17, Spring '18)",
+      "Company": "University of Pennsylvania, Department of Computer Science",
+      "Loc": "Philadelphia, PA",
+      "Description": "Amongst other TA duties (e.g., office hours, grading), I taught an hour-long recitation section of 15 students each week, to supplement the course lectures. The course content includes set theory, logic and proof techniques, probability, combinatorics, and graph theory.",
+      "Asset": "penn"
+    } 
+    ]
+  }

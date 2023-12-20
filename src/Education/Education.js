@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
-import data from "../data/education.json"; 
-import './Education.css';
+import data from "../data/teaching.json"; 
+// import './Education.css';
 
 class Education extends Component {
   renderSwitch(key){
@@ -15,42 +15,48 @@ class Education extends Component {
 	render() {
 		return (
       <div className="SchoolContainer">
-        <h2 className="header_projects">Education</h2> <br/>      
-          {
-            data.School.map((School) => {
-              var base_url = this.renderSwitch(School.Asset);	
-              return (     
-                <div>  
-                <div class="content_school">
-                    <div class="logo_school">
-										  <img class="logo-img_school" src={base_url} alt=" "/>
-                    </div>
-                    <div class="text_school">
-                      <text className="Name">{School.Name}</text>{" "}
-                      <br/>
-                      <text className="Degree">{School.Degree}<br/></text>
-                      <br/> 
-                    </div> 
-                </div>  
-                <text className="Description"> {School.Description}</text>
-                <br/><br/><br/> 
-                </div>
-              );
-          })
-        } 
-        <h2 className="header_projects">Select Awards</h2><br/>  
-        <ul>      
+        <h2 className="header_projects">Course Instructor</h2><br/>
         {
-            data.Awards.map((Award_) => {
-              return ( 
-                <li>
-                  <text className="Award">{Award_.Award}</text>{" "}<text className="Date"> ({Award_.Date})<br/></text>
-                  <text className="Details_edu"> {Award_.Details}</text> <br/><br/>  
-                </li>    
-              );
-          })
-          } 
-        </ul>
+					data.Instructing.map((experience) => {
+						var base_url = this.renderSwitch(experience.Asset);		
+						return (
+								<div class="content">
+									<div class="text">
+                    <div class='title_section'>
+										<text className="Title_projects">{experience.Title}</text>
+                    {
+                      experience.Details.map((Details) => {
+                        return (
+                          <text><a className="Details" target= "_blank" rel="noopener noreferrer" href=
+                            {Details.detail}>{Details.detailType}</a>{"  "}
+                          </text>
+                         );
+                      })
+                    }</div>
+										<text className="Company">{experience.Company}</text><br/>
+										<text className="Description"> {experience.Description} </text><br/>
+                    
+									</div>
+								</div>
+						);
+					})
+				}<br/>
+
+        <h2 className="header_projects">Course Assistant</h2><br/>
+				{
+					data.Teaching.map((experience) => {
+						var base_url = this.renderSwitch(experience.Asset);		
+						return (
+								<div class="content">
+									<div class="text">
+										<text className="Title_projects">{experience.Title}</text><br/>
+										<text className="Company">{experience.Company}</text><br/>
+										<text className="Description"> {experience.Description} </text>
+									</div>
+								</div>
+						);
+					})
+				}
       </div>
     );
   }

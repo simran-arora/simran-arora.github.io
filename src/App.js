@@ -39,9 +39,9 @@ function App() {
                   <div className="iconBoxWrapper">
                     <div className="iconBox">
                       <i className="fas fa-map-marker-alt iconinside"></i>
+                    </div> 
                     </div>
-                    </div>
-                  <div id="locationtag">Bay Area | Philadelphia</div>
+                  <div id="locationtag">Bay Area, CA</div>
               </div>
 
               <div className="LinksContainer">
@@ -55,8 +55,8 @@ function App() {
               <nav>
                 <NavLink to="/about" className="nav">About</NavLink><br/>
                 <NavLink to="/research" className="nav">Research</NavLink><br/>
-                <NavLink to="/professional" className="nav">Professional</NavLink><br/>
-                <NavLink to="/education" className="nav">Education</NavLink><br/>
+                <NavLink to="/education" className="nav">Teaching</NavLink><br/>
+                <NavLink to="/professional" className="nav">Background</NavLink><br/>
               </nav>
             </div>
             </div>

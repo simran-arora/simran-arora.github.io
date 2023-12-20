@@ -1,7 +1,11 @@
 # simran-arora.github.io
 personal website
 
-## Create a Github repo
+## Edit Github page (future times)
+
+```npm start``` to open up the localhost view.
+
+## Create a Github repo (first time)
 1. The repo should be public and named <your_github_id>.github.io 
 
 ## Setting up the react app:  

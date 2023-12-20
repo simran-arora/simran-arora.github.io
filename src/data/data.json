@@ -4,14 +4,14 @@
 	"Title": "PhD Student in Computer Science (Present)",
 	"Company": "Stanford University",
 	"Loc": "Stanford, CA",
-	"Description": "I am interested in studying how machine learning is changing the way we design software-systems and applications, including the way we think about fundamental systems abstractions and tradeoffs. I am part of Hazy Lab and advised by Prof. Chris Ré.",
+	"Description": "My research is in Machine Learning Systems. I design new systems and conduct fundamental ML research to power next generation data mangagement solutions. I am part of the Hazy Research Lab and am advised by Prof. Chris Ré.",
 	"Asset": "stanford"
   },
   {
 	"Title": "Research Scientist (Summer 2021)",
 	"Company": "Facebook AI Research (FAIR)",
 	"Loc": "Menlo Park, CA",
-	"Description": "I led a project on personalizing retrieval-based systems with Jacob Kahn, Patrick Lewis, and Angela Fan. We wrote up a paper on this work called: Reasoning over Public and Private Data in Retrieval-Based Systems.",
+	"Description": "I led a project on personalizing retrieval-based systems with Jacob Kahn, Patrick Lewis, and Angela Fan. We wrote a TACL paper on this work called: Reasoning over Public and Private Data in Retrieval-Based Systems.",
 	"Asset": "ms"
   },
   {
