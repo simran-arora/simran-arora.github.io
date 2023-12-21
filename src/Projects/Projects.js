@@ -29,7 +29,7 @@ class Work extends Component {
             <div className="Container">
 				
 
-				<h2 className="header_projects">Education</h2> <br/>      
+				<h2 className="header_projects">Education </h2> <br/>      
 				{
 					ed_data.School.map((School) => {
 					var base_url = this.renderSwitch(School.Asset);	
@@ -83,7 +83,7 @@ class Work extends Component {
 	
 						);
 					})
-				}		
+				}<br/><br/><br/>		
             </div>
         );
     }

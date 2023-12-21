@@ -56,8 +56,14 @@ class Education extends Component {
 								</div>
 						);
 					})
-				}
+				}<br/>
+
+		<h2 className="header_projects">Additional Materials</h2><br/>
+		<ul>
+			<li><a href="https://github.com/HazyResearch/aisys-building-blocks">GitHub collection</a> of ML Systems resources</li>
+		</ul><br/><br/><br/><br/><br/>
       </div>
+
     );
   }
 } 

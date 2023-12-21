@@ -12,7 +12,7 @@ import pic from "./assets/photo.jpg"
 import Research from "./Research/Research"
 import About from "./About/About"
 import Professional from "./Projects/Projects"
-import Education from "./Education/Education"
+import Education from "./Education/Education" 
 
 import { library } from '@fortawesome/fontawesome-svg-core'
 import { fab, faGoodreads } from '@fortawesome/free-brands-svg-icons'
@@ -33,16 +33,16 @@ function App() {
           </div> 
           <div className="main-text">
             <div className = "leftMain">
-              <div className="name">Simran Arora</div>
+              <div className="name">Simran Arora </div>
 
-              <div className="header location">
+              {/* <div className="header location">
                   <div className="iconBoxWrapper">
                     <div className="iconBox">
                       <i className="fas fa-map-marker-alt iconinside"></i>
                     </div> 
                     </div>
                   <div id="locationtag">Bay Area, CA</div>
-              </div>
+              </div> */}
 
               <div className="LinksContainer">
                 <a href="https://scholar.google.com/citations?view_op=list_works&hl=en&hl=en&user=rGRsWH8AAAAJ&sortby=pubdate" class="fas fa-graduation-cap" style={{"text-decoration":"none"}}>  </a> 
