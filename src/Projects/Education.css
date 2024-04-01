@@ -1,7 +1,7 @@
 .SchoolContainer {
     padding-top: 1vh;
     font-family: 'avenir';
-    font-size: calc(1px + 2vmin);
+    font-size: 16;
     display: flex;
     flex-flow: column wrap;
     padding-right: 10vh;
@@ -19,7 +19,7 @@
   }
   
   .Name {
-     font-size: 22px;
+     font-size: 18px;
      font-family: 'avenir';
      padding-bottom: 3vh;
   }
@@ -29,11 +29,11 @@
     font-weight: bold;
     font-style: italic;
     font-family: 'avenir';
-    font-size: 18px;
+    font-size: 16px;
   
   }
   .Affilliations {
-    font-size: 18px;
+    font-size: 16px;
     font-weight: bold;
     color: rgb(155, 111, 111);
     font-family: 'avenir';
@@ -42,7 +42,7 @@
   .Details_edu {
     color: rgb(71, 71, 71);
     text-decoration: none;
-    font-size: 18px;
+    font-size: 16px;
     font-family: 'avenir';
     font-style: italic;
   }
@@ -50,7 +50,7 @@
   .Description {
     color: rgb(71, 71, 71);
     text-decoration: none;
-    font-size: 18px;
+    font-size: 16px;
     font-family: 'avenir';
   }
 
@@ -58,7 +58,7 @@
     display: inline;
     margin: 10x;
     padding: 5px;
-    font-size: 35px;
+    font-size: 30px;
     line-height: 35px;
     font-weight: 600;
   }

@@ -12,7 +12,7 @@
 }
 
 .header_projects {
-  font-size: 24px;
+  font-size: 16px;
   font-weight: bold;
   font-family: 'avenir';
   display: flex;
@@ -21,25 +21,25 @@
   color: maroon;
   font-weight: bold;
   font-family: 'avenir';
-  font-size: 18px;
+  font-size: 16px;
   font-style: italic;
 }
 
 .Company {
-  font-size: 18px;
+  font-size: 16px;
   font-family: 'avenir';
   font-weight: 'bold'
 }
 
 .Description {
   color: rgb(66, 66, 66);
-  font-size: 18px;
+  font-size: 16px;
   font-family: 'Lato';
   padding-top: 2vh;
 }
 
 .Experience {
-  font-size: 18px;
+  font-size: 12px;
   font-family: 'avenir';
   font-weight: 'bold';
   display: flex;
