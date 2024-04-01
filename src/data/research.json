@@ -96,7 +96,7 @@
 		"Name": "Monarch Mixer: A Simple Sub-Quadratic GEMM-Based Architecture",
 		"Title": "Monarch Mixer 🦋: A Simple Sub-Quadratic GEMM-Based Architecture",
 		"Authors": "D. Y. Fu, S. Arora*, J. Grogan*, I. Johnson*, S. Eyuboglu*, A. W. Thomas*, B. F. Spector, M. Poli, A. Rudra, C. Ré",
-		"Venue": "NeurIPS 2023 (Oral Presentation)",
+		"Venue": "NeurIPS 2023 (Oral)",
 		"LocalDetails": [
 		],
 		"Details": [
@@ -123,7 +123,7 @@
 		"Name": "DecodingTrust: A Comprehensive Assessment of Trustworthiness in GPT Models",
 		"Title": "DecodingTrust: A Comprehensive Assessment of Trustworthiness in GPT Models",
 		"Authors": "B. Wang, W. Chen, H. Pei, C. Xie, M. Kang, C. Zhang, C. Xu, Z. Xiong, R. Dutta, R. Schaeffer, S. T. Truong, S. Arora, M. Mazeika, D. Hendrycks, Z. Lin, Y. Cheng, S. Koyejo, D. Song, B. Li",
-		"Venue": "NeurIPS Benchmarks 2023 (Oral Presentation, Outstanding Paper Award)",
+		"Venue": "NeurIPS Benchmarks 2023 (Oral, Outstanding Paper Award)",
 		"LocalDetails": [
 		],
 		"Details": [
@@ -172,7 +172,7 @@
 		"Name": "Language Models Enable Simple Systems for Generating Structured Views of Heterogeneous Data Lakes",
 		"Title": "Language Models Enable Simple Systems for Generating Structured Views of Heterogeneous Data Lakes",
 		"Authors": "S. Arora, B. Yang, S. Eyuboglu, A. Narayan, A. Hojel, I. Trummer, C. Ré",
-		"Venue": "VLDB 2024",
+		"Venue": "VLDB Journal 2024",
 		"LocalDetails": [
 		],
 		"Details": [
@@ -191,7 +191,7 @@
 		"Name": "Ask Me Anything: A simple strategy for prompting language models",
 		"Title": "Ask Me Anything: A simple strategy for prompting language models",
 		"Authors": "S. Arora*, A. Narayan*, M. Chen, L. Orr, N. Guha, K. Bhatia, I. Chami, F. Sala, C. Ré",
-		"Venue": "ICLR 2023 (Spotlight Presentation, Top 25% of Acceptances)",
+		"Venue": "ICLR 2023 (Spotlight, Top 25% of Acceptances)",
 		"LocalDetails": [
 		],
 		"Details": [
@@ -254,7 +254,7 @@
 		"Name": "Can Foundation Models Wrangle Your Data?",
 		"Title": "Can Foundation Models Wrangle Your Data?",
 		"Authors": "A. Narayan, I. Chami, L. Orr, S. Arora, C. Ré",
-		"Venue": "VLDB 2023",
+		"Venue": "VLDB Journal 2023",
 		"LocalDetails": [
 		],
 		"Details": [
@@ -273,7 +273,7 @@
 		"Name": "Reasoning over Public and Private Data in Retrieval-Based Systems",
 		"Title": "Reasoning over Public and Private Data in Retrieval-Based Systems",
 		"Authors": "S. Arora, P. Lewis, A. Fan, J. Kahn, C. Ré",
-		"Venue": "KnowledgeNLP at AAAI’23 (Oral Presentation, Top 17% of Submissions) and TACL Journal 2023",
+		"Venue": "KnowledgeNLP at AAAI’23 (Oral, Top 17% of Submissions) and TACL Journal 2023",
 		"LocalDetails": [
 		],
 		"Details": [
@@ -343,7 +343,7 @@
 	"Name": "Contextual Embeddings",
 	"Title": "Contextual Embeddings: When Are They Worth It?",
 	"Authors": "S. Arora*, A. May*, J. Zhang, C. Ré",
-	"Venue": "ACL 2020 (Oral Presentation)",
+	"Venue": "ACL 2020 (Oral)",
 	"Details": [
 	  {
 		"detail": "https://arxiv.org/abs/2005.09117",
@@ -381,7 +381,7 @@
   	"Name": "Microrobot Control",
   	"Title": "Control of multiple microrobots with multiscale magnetic field superposition",
   	"Authors": "E Steager, D Wong, J Wang, S Arora, V Kumar",
-  	"Venue": "IEEE MARSS 2017 (Runner Up for Best Paper Award)",
+  	"Venue": "IEEE MARSS 2017 (Best Paper Runner Up, Top 3)",
 	"Details": [
 	  {
 		"detail": "https://ieeexplore-ieee-org.stanford.idm.oclc.org/abstract/document/8001927",
@@ -396,7 +396,7 @@
   	"Name": "DASA Photoswitch Molecule 2",
   	"Title": "A temperature-mapping molecular sensor for polyurethane-based elastomers",
   	"Authors": "B. P. Mason, M. Whittaker, J. Hemmer, S. Arora, A. Harper, S. Alnemrat, A. McEachen, S. Helmy, J. Read de Alaniz, and J. P. Hooper", 
-  	"Venue": "Applied Physics Letters 2016",
+  	"Venue": "Applied Physics Letters Journal 2016",
 	"Details": [
 	  {
 		"detail": "https://core.ac.uk/download/pdf/81223319.pdf",
@@ -481,7 +481,7 @@
 "Talks": [
 	{
 		"Talk": "Building High Throughput Data Management Systems",
-		"Talk_details": "NeurIPS TRL Keynote Speaker (Fall 2023), Cornell Tech (Winter 2024), Princeton PLI  (Winter 2024), Microsoft Research (Winter 2024)",
+		"Talk_details": "NeurIPS TRL Keynote Speaker (Fall 2023), Cornell Tech (Winter 2024), Princeton PLI  (Winter 2024), Microsoft AI Research (Winter 2024)",
 		"Details": [
 		],
 		"RemoteDetails": [
