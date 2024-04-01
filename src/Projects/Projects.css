@@ -1,6 +1,6 @@
 
 .Container {
-  font-family: 'Lato';
+  font-family: 'avenir';
   font-size: calc(1px + 2vmin);
   display: flex;
   flex-flow: column wrap;
@@ -14,20 +14,20 @@
 .header_projects {
   font-size: 24px;
   font-weight: bold;
-  font-family: 'Lato';
+  font-family: 'avenir';
   display: flex;
 }
 .Title_projects {
   color: maroon;
   font-weight: bold;
-  font-family: 'Lato';
+  font-family: 'avenir';
   font-size: 18px;
   font-style: italic;
 }
 
 .Company {
   font-size: 18px;
-  font-family: 'Lato';
+  font-family: 'avenir';
   font-weight: 'bold'
 }
 
@@ -40,7 +40,7 @@
 
 .Experience {
   font-size: 18px;
-  font-family: 'Lato';
+  font-family: 'avenir';
   font-weight: 'bold';
   display: flex;
 }

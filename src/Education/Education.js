@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import data from "../data/teaching.json"; 
-// import './Education.css';
+import '../Projects/Education.css';
 
 class Education extends Component {
   renderSwitch(key){
@@ -57,11 +57,6 @@ class Education extends Component {
 						);
 					})
 				}<br/>
-
-		<h2 className="header_projects">Additional Materials</h2><br/>
-		<ul>
-			<li><a href="https://github.com/HazyResearch/aisys-building-blocks">GitHub collection</a> of ML Systems resources</li>
-		</ul><br/><br/><br/><br/><br/>
       </div>
 
     );

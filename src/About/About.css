@@ -1,6 +1,6 @@
 .AboutContainer {
-	font-family: 'Lato';
-	font-size: calc(1px + 2vmin);
+	font-family: 'avenir';
+	font-size: calc(1px);
 	display: flex;
   	flex-flow: column wrap;
 	padding-right: 14vh;
@@ -17,7 +17,7 @@
 }
 
 .AboutText {
-	font-size: calc(3px + 2vmin);
+	font-size: calc(2vmin);
 	line-height: 1.4;
 }
 

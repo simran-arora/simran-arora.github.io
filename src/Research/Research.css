@@ -1,6 +1,6 @@
 .ResearchContainer {
   padding-top: 1vh;
-  font-family: 'Lato';
+  font-family: 'avenir';
   display: flex;
   flex-flow: column wrap;
   padding-right: 10vh;
@@ -13,13 +13,13 @@
 .Title_research {
   /* font-size: 24px; */
   padding-bottom: 1vh;
-  font-family: 'Lato';
+  font-family: 'avenir';
 }
 
 .PaperTitle {
   color: maroon;
   font-weight: bold;
-  font-family: 'Lato';
+  font-family: 'avenir';
   /* font-size: 18px; */
   font-style: italic;
 }
@@ -27,7 +27,7 @@
 .Authors {
   /* font-size: 18px; */
   font-color: gray;
-  font-family: 'Lato';
+  font-family: 'avenir';
 }
 
 .Venue {
@@ -40,19 +40,19 @@
 	color: rgb(65, 72, 117);
   text-decoration: none;
   /* font-size: 18px; */
-  font-family: 'Lato';
+  font-family: 'avenir';
   font-weight: 'bold';
 }
 
 .Description {
     font-size: calc(2vmin);
-    font-family: 'Lato';
+    font-family: 'avenir';
 }
 
 .Talk {
   color: maroon;
   font-weight: bold;
-  font-family: 'Lato';
+  font-family: 'avenir';
   /* font-size: 18px; */
 }
 
@@ -61,5 +61,5 @@
   font-style: italic;
   font-weight: bold;
   color:rgb(100, 78, 78);
-  font-family: 'Lato';
+  font-family: 'avenir';
 }

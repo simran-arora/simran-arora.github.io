@@ -1,25 +1,37 @@
 {
 "Research": [
 	{
-		"Name": "Based ✌️: An Educational and Effective Sequence Mixer",
-		"Title": "Based ✌️: An Educational and Effective Sequence Mixer",
-		"Authors": "S. Arora*, M. Zhang*, S. Eyuboglu*, C. Ré*",
-		"Venue": "In Progress (Reach out to chat more!)",
+		"Name": "Simple linear attention language models balance the recall-throughput tradeoff",
+		"Title": "Simple linear attention language models balance the recall-throughput tradeoff",
+		"Authors": "S. Arora*, S. Eyuboglu*, M. Zhang*, A. Timalsina, S. Alberti, J. Zou, A. Rudra, C. Ré",
+		"Venue": "ICLR ME-FoMo 2024 and In Submission",
 		"LocalDetails": [
 		],
 		"Details": [
 		{
-			"detail": "https://hazyresearch.stanford.edu/blog/2023-12-11-zoology2-based",
-			"detailType": "Blog Post"
+			"detail": "https://arxiv.org/abs/2402.18668",
+			"detailType": "Paper / "
+		},
+		{
+			"detail": "https://www.together.ai/blog/based",
+			"detailType": "Blog Post /"
+		},
+		{
+			"detail": "https://github.com/HazyResearch/based",
+			"detailType": "Code /"
+		},
+		{
+			"detail": "https://huggingface.co/collections/hazyresearch/based-65d77fb76f9c813c8b94339c",
+			"detailType": "Models and Datasets"
 		}
 		],
 		"Description": ""
 	},
 	{
 		"Name": "Zoology: Measuring and Improving Recall in Efficient Language Models",
-		"Title": "Zoology: Measuring and Improving Recall in Efficient Language Models",
+		"Title": "Zoology 🐘🦁🦒: Measuring and Improving Recall in Efficient Language Models",
 		"Authors": "S. Arora*, S. Eyuboglu*, A. Timalsina, I. Johnson, M. Poli, J. Zou, A. Rudra, C. Ré",
-		"Venue": "NeurIPS ENSLP 2023 and In Submission 🐘🦁🦓🦒🐍",
+		"Venue": "NeurIPS ENSLP 2023 and ICLR 2024",
 		"LocalDetails": [
 		],
 		"Details": [
@@ -39,10 +51,52 @@
 		"Description": ""
 	},
 	{
+		"Name": "Benchmarking and Building Long-Context Retrieval Models with LoCo and M2-BERT",
+		"Title": "Benchmarking and Building Long-Context Retrieval Models with LoCo and M2-BERT",
+		"Authors": "J. Saad-Falcon, D. Y. Fu, S. Arora, N. Guha, C. Ré",
+		"Venue": "ICLR ME-FoMo 2024 and In Submission",
+		"LocalDetails": [
+		],
+		"Details": [
+		{
+			"detail": "https://arxiv.org/abs/2402.07440",
+			"detailType": "Paper / "
+		},
+		{
+			"detail": "https://hazyresearch.stanford.edu/blog/2024-01-11-m2-bert-retrieval",
+			"detailType": "Blog Post /"
+		},
+		{
+			"detail": "https://github.com/HazyResearch/m2",
+			"detailType": "Code /"
+		},
+		{
+			"detail": "https://huggingface.co/togethercomputer/m2-bert-80M-32k-retrieval",
+			"detailType": "Models and Datasets"
+		}
+		],
+		"Description": ""
+	},
+	{
+		"Name": "Optimistic Verifiable Training by Controlling Hardware Nondeterminism",
+		"Title": "Optimistic Verifiable Training by Controlling Hardware Nondeterminism",
+		"Authors": "M. Srivastava, S. Arora, D. Boneh",
+		"Venue": "In Submission",
+		"LocalDetails": [
+		],
+		"Details": [
+		{
+			"detail": "https://arxiv.org/pdf/2403.09603.pdf",
+			"detailType": "Paper"
+		}
+		],
+		"Description": ""
+	},
+	{
 		"Name": "Monarch Mixer: A Simple Sub-Quadratic GEMM-Based Architecture",
-		"Title": "Monarch Mixer: A Simple Sub-Quadratic GEMM-Based Architecture",
+		"Title": "Monarch Mixer 🦋: A Simple Sub-Quadratic GEMM-Based Architecture",
 		"Authors": "D. Y. Fu, S. Arora*, J. Grogan*, I. Johnson*, S. Eyuboglu*, A. W. Thomas*, B. F. Spector, M. Poli, A. Rudra, C. Ré",
-		"Venue": "NeurIPS 2023 (Oral Presentation) 🦋",
+		"Venue": "NeurIPS 2023 (Oral Presentation)",
 		"LocalDetails": [
 		],
 		"Details": [
@@ -56,7 +110,11 @@
 		},
 		{
 			"detail": "https://github.com/HazyResearch/m2",
-			"detailType": "Code"
+			"detailType": "Code /"
+		},
+		{
+			"detail": "https://huggingface.co/togethercomputer",
+			"detailType": "Models and Datasets"
 		}
 		],
 		"Description": ""
@@ -98,8 +156,8 @@
 	{
 		"Name": "RELIC: Investigating Large Language Model Responses using Self-Consistency",
 		"Title": "RELIC: Investigating Large Language Model Responses using Self-Consistency",
-		"Authors": "F Cheng, V Zouhar, S Arora, M Sachan, H Strobelt, M El-Assady",
-		"Venue": "In Submission",
+		"Authors": "F. Cheng, V. Zouhar, S. Arora, M. Sachan, H. Strobelt, M. El-Assady",
+		"Venue": "CHI 2024",
 		"LocalDetails": [
 		],
 		"Details": [
@@ -423,7 +481,7 @@
 "Talks": [
 	{
 		"Talk": "Building High Throughput Data Management Systems",
-		"Talk_details": "NeurIPS TRL Keynote Speaker (30 min, Fall 2023)",
+		"Talk_details": "NeurIPS TRL Keynote Speaker (Fall 2023), Cornell Tech (Winter 2024), Princeton PLI  (Winter 2024), Microsoft Research (Winter 2024)",
 		"Details": [
 		],
 		"RemoteDetails": [
@@ -439,7 +497,7 @@
 	},
 	{
 		"Talk": "Ask Me Anything: How are Foundation Models Changing the Way We Build Data Management Systems?",
-		"Talk_details": "Snorkel Foundation Model Summit (25 min., Winter 2023), Apple Machine Learning Research Team Reading Group (1 hr, Winter 2023), ICLR Spotlight Presentation (Spring 2023)",
+		"Talk_details": "Snorkel Foundation Model Summit (Winter 2023), Apple Machine Learning Research Team Reading Group (Winter 2023), ICLR Spotlight Presentation (Spring 2023), CRFM Research Spotlight Talks (Fall 2023)",
 		"Details": [
 		],
 		"RemoteDetails": [
@@ -467,7 +525,7 @@
 	},
 	{
 		"Talk": "Can Foundation Models Help Us Achieve Perfect Secrecy?",
-		"Talk_details": "IBM AI Research Reading Group (1 hr, Fall 2022), MIT CSS Seminar (Spring 2023), Stanford HAI Workshop on AI and Society (Spring 2023)",
+		"Talk_details": "IBM AI Research Reading Group (Fall 2022), MIT CSS Seminar (Spring 2023), Stanford HAI: AI and Society (Spring 2023)",
 		"Details": [
 		],
 		"RemoteDetails": [
@@ -483,7 +541,7 @@
 	},
 	{
 		"Talk": "Metadata Shaping: A Simple Approach for Knowledge-Enhanced Language Models",
-		"Talk_details": "Facebook AI Research Reading Group (1 hr, Summer 2021), Spotlight Talk at Stanford HAI Data-Centric AI Workshop (Fall 2021)",
+		"Talk_details": "Facebook AI Research Reading Group (Summer 2021), Spotlight Talk at Stanford HAI Data-Centric AI Workshop (Fall 2021)",
 		"Details": [
 		],
 		"RemoteDetails": [
@@ -503,7 +561,7 @@
 	},
 	{
 		"Talk": "Localized Manipulation of Multiple Magnetic Robots",
-		"Talk_details": "Presented to GRASP Lab (Summer 2016)",
+		"Talk_details": "UPenn GRASP Lab (Summer 2016)",
 		"Details": [
 			{
 				"key": "grasp",
@@ -516,7 +574,7 @@
 	},
 	{
 		"Talk": "Characterization of a Novel Photoswitch for Detecting Hotspots in Explosive Composites",
-		"Talk_details": "Presented to Dr. Mildred Dresselhaus and audience at the Penn WiP Conference (Fall 2015)",
+		"Talk_details": "UPenn WiP Conference (Fall 2015)",
 		"Details": [
 			{
 				"key": "naval",

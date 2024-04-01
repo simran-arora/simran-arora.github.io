@@ -53,7 +53,7 @@ class Research extends Component {
 
         <h2 className="Title_research">Additional Materials</h2>
         <ul>
-          <li text className="Authors"><a href="https://hazyresearch.stanford.edu/blog/2023-12-11-zoology0-intro">Zoology (Blogpost 0): Overview</a> with Sabri Eyuboglu*, Michael Zhang*, and Chris Ré, 2023</li>
+          {/* <li text className="Authors"><a href="https://hazyresearch.stanford.edu/blog/2023-12-11-zoology0-intro">Zoology (Blogpost 0): Overview</a> with Sabri Eyuboglu*, Michael Zhang*, and Chris Ré, 2023</li> */}
           <li text className="Authors"><a href="https://hazyresearch.stanford.edu/blog/2023-06-08-hyena-safari">The Safari of Deep Signal Processing: Hyena and Beyond</a> by Michael Poli, Stefano Massaroli, Simran Arora, Dan Fu, Stefano Ermon, Chris Ré, 2023</li>
           <li text className="Authors"><a href="https://crfm.stanford.edu/2023/02/18/year-in-review.html">Year in Review 2022: Technical Advances, Applications, and Social Responsibility</a> with Michael Wornow, Nandita Bhaskar, and Percy Liang, 2023.</li>
           <li text className="Authors"><a href="https://hai.stanford.edu/white-paper-building-national-ai-research-resource">Building a National AI Research Resource: A Blueprint for the National Research Cloud</a> with Principle Authors: Daniel E. Ho, Jennifer King, Russell C. Wald, Christopher Wan. We wrote an HAI White Paper in October, 2022. Section §5 Data Privacy Compliance by S. Arora, N. Guha, J. King, S. Suri, C. Wan, S. Wiltshire.</li>
@@ -97,11 +97,12 @@ class Research extends Component {
 
       <h2 className="Title_research">Service</h2>
         <ul>
-          <li text className="Authors">Reviewer: ICML 2020 (Top Reviewer Award), ACL 2021, PPAI-AAAI 2023, NeurIPS TRL 2022, ICLR ME-FoMo 2023</li>
-          <li text className="Authors">Stanford Center for Research on Foundation Models Community & Publicity Leadership Team (2022-2023)</li>
+          <li text className="Authors">Reviewer: ICML (Top Reviewer Award 2020), ACL, PPAI-AAAI, NeurIPS TRL, ICLR ME-FoMo</li>
+          <li text className="Authors">Stanford CRFM Community & Publicity Leadership Team (2022-2023)</li>
           <li text className="Authors">Stanford NLP Group Lunch Organizer (Summer 2022)</li>
           <li text className="Authors">Undergrad Mentor in the Stanford Women in STEM Mentorship Program (2019-2020)</li>
           <li text className="Authors">Undergrad Mentor in the Penn Women in CS Mentorship Program (2018-2019)</li>
+          <li text className="Authors">Undergrad and Masters Student Research Mentorship (Ongoing)</li>
         </ul>
         <br/><br/>
 

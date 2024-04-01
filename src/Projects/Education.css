@@ -1,6 +1,6 @@
 .SchoolContainer {
     padding-top: 1vh;
-    font-family: 'Lato';
+    font-family: 'avenir';
     font-size: calc(1px + 2vmin);
     display: flex;
     flex-flow: column wrap;
@@ -14,13 +14,13 @@
   .header_projects {
     font-size: 24px;
     font-weight: bold;
-    font-family: 'Lato';
+    font-family: 'avenir';
     display: flex;
   }
   
   .Name {
      font-size: 22px;
-     font-family: 'Lato';
+     font-family: 'avenir';
      padding-bottom: 3vh;
   }
   
@@ -28,7 +28,7 @@
     color: maroon;
     font-weight: bold;
     font-style: italic;
-    font-family: 'Lato';
+    font-family: 'avenir';
     font-size: 18px;
   
   }
@@ -36,14 +36,14 @@
     font-size: 18px;
     font-weight: bold;
     color: rgb(155, 111, 111);
-    font-family: 'Lato';
+    font-family: 'avenir';
   }
   
   .Details_edu {
     color: rgb(71, 71, 71);
     text-decoration: none;
     font-size: 18px;
-    font-family: 'Lato';
+    font-family: 'avenir';
     font-style: italic;
   }
   
@@ -51,7 +51,7 @@
     color: rgb(71, 71, 71);
     text-decoration: none;
     font-size: 18px;
-    font-family: 'Lato';
+    font-family: 'avenir';
   }
 
   .logo_school {
