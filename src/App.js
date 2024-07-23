@@ -47,6 +47,7 @@ function App() {
               <div className="LinksContainer">
                 <a href="https://scholar.google.com/citations?view_op=list_works&hl=en&hl=en&user=rGRsWH8AAAAJ&sortby=pubdate" class="fas fa-graduation-cap" style={{"text-decoration":"none"}}>  </a> 
                 <a href="https://github.com/simran-arora" class="fab fa-github" style={{"text-decoration":"none"}}>  </a> 
+                <a href="https://www.dropbox.com/scl/fi/hnd27wdpmtgprhqh854yr/Simran_Arora_CV.pdf?rlkey=mqfbjq17637rtn6b3o5y3oig8&st=mpchcws4&dl=0" class="fab fa-dropbox" style={{"text-decoration":"none", "color": "black"}}>  </a> 
               </div>
             </div>
 

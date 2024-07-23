@@ -58,7 +58,7 @@ class Work extends Component {
 					ed_data.Awards.map((Award_) => {
 					return ( 
 						<li>
-						<text className="Award">{Award_.Award}</text>{" "}<text className="Date"> ({Award_.Date})<br/></text>
+						<text className="Name">{Award_.Award}</text>{" "}<text className="Date"> ({Award_.Date})<br/></text>
 						<text className="Details_edu"> {Award_.Details}</text> <br/><br/>  
 						</li>    
 					);
