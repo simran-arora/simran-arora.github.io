@@ -12,7 +12,7 @@ import pic from "./assets/photo.jpg"
 import Research from "./Research/Research"
 import About from "./About/About"
 import Professional from "./Projects/Projects"
-import Education from "./Education/Education" 
+import Education from "./Education/Education"  
 
 import { library } from '@fortawesome/fontawesome-svg-core'
 import { fab, faGoodreads } from '@fortawesome/free-brands-svg-icons'
@@ -57,7 +57,7 @@ function App() {
                 <NavLink to="/about" className="nav">About</NavLink><br/>
                 <NavLink to="/research" className="nav">Research</NavLink><br/>
                 <NavLink to="/education" className="nav">Teaching</NavLink><br/>
-                <NavLink to="/professional" className="nav">Background</NavLink><br/>
+                {/* <NavLink to="/professional" className="nav">Background</NavLink><br/> */}
               </nav>
             </div>
             </div>
@@ -70,7 +70,7 @@ function App() {
           <Route exact path='/' element={<About/>}/>
           <Route path="/about" element={<About/>}/>
           <Route path="/research" element={<Research/>}/>
-          <Route path="/professional" element={<Professional/>}/>
+          {/* <Route path="/professional" element={<Professional/>}/> */}
           <Route path="/education" element={<Education/>}/>
           </Routes>
         </div>
