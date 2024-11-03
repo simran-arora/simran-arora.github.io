@@ -1,65 +1,55 @@
-import React, { Component } from 'react';
+import React from 'react';
 import data from "../data/teaching.json"; 
-import '../Projects/Education.css';
+import './Education.css';
 
-class Education extends Component {
-  renderSwitch(key){
-		switch(key) {
-		case 'stanford': return  require("./../assets/stanford_school.png");
-		case 'penn': return  require("./../assets/penn.png");
-    case 'mnt': return  require("./../assets/mnt.png");
-		default: return require("./../assets/penn.png");
-		}
-	}
-
-	render() {
-		return (
-      <div className="SchoolContainer">
-        <h2 className="header_projects">Course Instructor</h2><br/>
-        {
-					data.Instructing.map((experience) => {
-						var base_url = this.renderSwitch(experience.Asset);		
-						return (
-								<div class="content">
-									<div class="text">
-                    <div class='title_section'>
-										<text className="Title_projects">{experience.Title}</text>
-                    {
-                      experience.Details.map((Details) => {
-                        return (
-                          <text><a className="Details" target= "_blank" rel="noopener noreferrer" href=
-                            {Details.detail}>{Details.detailType}</a>{"  "}
-                          </text>
-                         );
-                      })
-                    }</div>
-										<text className="Company">{experience.Company}</text><br/>
-										<text className="Description"> {experience.Description} </text><br/>
-                    
-									</div>
-								</div>
-						);
-					})
-				}<br/>
-
-        <h2 className="header_projects">Course Assistant</h2><br/>
-				{
-					data.Teaching.map((experience) => {
-						var base_url = this.renderSwitch(experience.Asset);		
-						return (
-								<div class="content">
-									<div class="text">
-										<text className="Title_projects">{experience.Title}</text><br/>
-										<text className="Company">{experience.Company}</text><br/>
-										<text className="Description"> {experience.Description} </text>
-									</div>
-								</div>
-						);
-					})
-				}<br/>
+const Education = () => {
+  return (
+    <div className="education-container">
+      <div className="section-header">
+        <h2 className="Title_research">Teaching</h2>
       </div>
+      
+      {data.Instructing.map((course, index) => (
+        <div key={index} className="course-item">
+          <span className="course-title">{course.Title} - {course.Role}</span>
+          <span className="course-company">{course.Company}</span>
+          <div className="course-links">
+            {course.Details.map((detail, idx) => (
+              <a 
+                key={idx}
+                className="course-link"
+                target="_blank"
+                rel="noopener noreferrer"
+                href={detail.detail}
+              >
+                Course Website
+              </a>
+            ))}
+          </div>
+        </div>
+      ))}
+      
+      {data.Teaching.map((course, index) => (
+        <div key={index} className="course-item">
+          <span className="course-title">{course.Title} - {course.Role}</span>
+          <span className="course-company">{course.Company}</span>
+          <div className="course-links">
+            {course.Details && course.Details.map((detail, idx) => (
+              <a 
+                key={idx}
+                className="course-link"
+                target="_blank"
+                rel="noopener noreferrer"
+                href={detail.detail}
+              >
+                Course Website
+              </a>
+            ))}
+          </div>
+        </div>
+      ))}
+    </div>
+  );
+};
 
-    );
-  }
-} 
 export default Education;

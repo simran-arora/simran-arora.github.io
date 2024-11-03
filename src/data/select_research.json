@@ -256,7 +256,7 @@
             "RemoteDetails": [
                 {
                     "detail": "https://sites.google.com/view/algos-in-llms-stoc24/home",
-                    "detailType": "STOC Slides / "
+                    "detailType": "STOC Slides/ "
                 },
                 {
                     "detail": "https://hazyresearch.stanford.edu/blog/2024-06-22-ac",
@@ -272,7 +272,7 @@
             "RemoteDetails": [
                 {
                     "detail": "https://nips.cc/virtual/2023/81885",
-                    "detailType": "Video / "
+                    "detailType": "Video/ "
                 },
                 {
                     "detail": "https://table-representation-learning.github.io/",
@@ -288,7 +288,7 @@
             "RemoteDetails": [
                 {
                     "detail": "https://www.youtube.com/watch?v=CD3exXnx49A",
-                    "detailType": "Preview Video / "
+                    "detailType": "Preview Video/ "
                 },
                 {
                     "detail": "https://snorkel.ai/ask-me-anything-how-are-foundation-models-changing-the-way-we-build-software-systems/",
