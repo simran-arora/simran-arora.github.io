@@ -1,24 +1,31 @@
 {
   "files": {
-    "main.css": "/static/css/main.601396e7.css",
-    "main.js": "/static/js/main.4e9c4f10.js",
-    "static/media/grasp_presentation.pdf": "/static/media/grasp_presentation.57e305ac9bfb31c29ce0.pdf",
-    "static/media/p3p_presentation.pdf": "/static/media/p3p_presentation.12f6d0453113493ac9a7.pdf",
-    "static/media/naval_presentation.pdf": "/static/media/naval_presentation.f29dd0064566458520b1.pdf",
-    "static/media/Metadata_Shaping.pdf": "/static/media/Metadata_Shaping.2e031932ce139f9a13e4.pdf",
-    "static/media/nps.png": "/static/media/nps.04408d5f7ed63a629385.png",
-    "static/media/mnt.png": "/static/media/mnt.1e90190888ae47d8930e.png",
-    "static/media/photo.jpg": "/static/media/photo.59efb54a2e882f74d5f1.jpg",
-    "static/media/vts.png": "/static/media/vts.33d1f67194c2bae16fdf.png",
-    "static/media/stanford_school.png": "/static/media/stanford_school.c6397a387476fc09853e.png",
-    "static/media/penn.png": "/static/media/penn.e5b2b99fe33958e95325.png",
-    "static/media/google.png": "/static/media/google.bb1be251d549391d9380.png",
+    "main.css": "/static/css/main.7a9c127a.chunk.css",
+    "main.js": "/static/js/main.1d381f2c.chunk.js",
+    "main.js.map": "/static/js/main.1d381f2c.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.0fb70ea9.js",
+    "runtime-main.js.map": "/static/js/runtime-main.0fb70ea9.js.map",
+    "static/js/2.db070506.chunk.js": "/static/js/2.db070506.chunk.js",
+    "static/js/2.db070506.chunk.js.map": "/static/js/2.db070506.chunk.js.map",
     "index.html": "/index.html",
-    "main.601396e7.css.map": "/static/css/main.601396e7.css.map",
-    "main.4e9c4f10.js.map": "/static/js/main.4e9c4f10.js.map"
+    "precache-manifest.cafe0ec407e6aa45039358b292c8a619.js": "/precache-manifest.cafe0ec407e6aa45039358b292c8a619.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/main.7a9c127a.chunk.css.map": "/static/css/main.7a9c127a.chunk.css.map",
+    "static/js/2.db070506.chunk.js.LICENSE.txt": "/static/js/2.db070506.chunk.js.LICENSE.txt",
+    "static/media/Metadata_Shaping.pdf": "/static/media/Metadata_Shaping.48fea1ba.pdf",
+    "static/media/Simran_Arora_CV.pdf": "/static/media/Simran_Arora_CV.5254c265.pdf",
+    "static/media/github-brands-solid.svg": "/static/media/github-brands-solid.5c31f79d.svg",
+    "static/media/google-scholar-brands-solid.svg": "/static/media/google-scholar-brands-solid.598e459f.svg",
+    "static/media/grasp_presentation.pdf": "/static/media/grasp_presentation.021a54de.pdf",
+    "static/media/naval_presentation.pdf": "/static/media/naval_presentation.5f3be712.pdf",
+    "static/media/p3p_presentation.pdf": "/static/media/p3p_presentation.89133b54.pdf",
+    "static/media/photo.jpg": "/static/media/photo.e2633e6a.jpg",
+    "static/media/twitter-brands-solid.svg": "/static/media/twitter-brands-solid.3ae4619b.svg"
   },
   "entrypoints": [
-    "static/css/main.601396e7.css",
-    "static/js/main.4e9c4f10.js"
+    "static/js/runtime-main.0fb70ea9.js",
+    "static/js/2.db070506.chunk.js",
+    "static/css/main.7a9c127a.chunk.css",
+    "static/js/main.1d381f2c.chunk.js"
   ]
 }
