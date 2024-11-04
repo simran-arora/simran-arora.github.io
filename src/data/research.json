@@ -10,15 +10,15 @@
 		"Details": [
 		{
 			"detail": "https://arxiv.org/abs/2402.18668",
-			"detailType": "Paper / "
+			"detailType": "Paper/ "
 		},
 		{
 			"detail": "https://www.together.ai/blog/based",
-			"detailType": "Blog Post /"
+			"detailType": "Blog Post/"
 		},
 		{
 			"detail": "https://github.com/HazyResearch/based",
-			"detailType": "Code /"
+			"detailType": "Code/"
 		},
 		{
 			"detail": "https://huggingface.co/collections/hazyresearch/based-65d77fb76f9c813c8b94339c",
@@ -37,11 +37,11 @@
 		"Details": [
 		{
 			"detail": "https://arxiv.org/abs/2312.04927",
-			"detailType": "Paper /"
+			"detailType": "Paper/"
 		},
 		{
 			"detail": "https://hazyresearch.stanford.edu/blog/2023-12-11-zoology1-analysis",
-			"detailType": "Blog Post /"
+			"detailType": "Blog Post/"
 		},
 		{
 			"detail": "https://github.com/HazyResearch/zoology",
@@ -60,15 +60,15 @@
 		"Details": [
 		{
 			"detail": "https://arxiv.org/abs/2402.07440",
-			"detailType": "Paper / "
+			"detailType": "Paper/ "
 		},
 		{
 			"detail": "https://hazyresearch.stanford.edu/blog/2024-01-11-m2-bert-retrieval",
-			"detailType": "Blog Post /"
+			"detailType": "Blog Post/"
 		},
 		{
 			"detail": "https://github.com/HazyResearch/m2",
-			"detailType": "Code /"
+			"detailType": "Code/"
 		},
 		{
 			"detail": "https://huggingface.co/togethercomputer/m2-bert-80M-32k-retrieval",
@@ -102,15 +102,15 @@
 		"Details": [
 		{
 			"detail": "https://arxiv.org/abs/2310.12109",
-			"detailType": "Paper /"
+			"detailType": "Paper/"
 		},
 		{
 			"detail": "https://hazyresearch.stanford.edu/blog/2023-07-25-m2-bert",
-			"detailType": "Blog Post /"
+			"detailType": "Blog Post/"
 		},
 		{
 			"detail": "https://github.com/HazyResearch/m2",
-			"detailType": "Code /"
+			"detailType": "Code/"
 		},
 		{
 			"detail": "https://huggingface.co/togethercomputer",
@@ -144,7 +144,7 @@
 		"Details": [
 		{
 			"detail": "https://arxiv.org/abs/2306.12601",
-			"detailType": "Paper /"
+			"detailType": "Paper/"
 		},
 		{
 			"detail": "https://github.com/stanfordnlp/multi-distribution-retrieval",
@@ -178,7 +178,7 @@
 		"Details": [
 		{
 			"detail": "https://arxiv.org/abs/2304.09433",
-			"detailType": "Paper /"
+			"detailType": "Paper/"
 		},
 		{
 			"detail": "https://github.com/HazyResearch/evaporate",
@@ -197,23 +197,23 @@
 		"Details": [
 		{
 			"detail": "https://arxiv.org/abs/2210.02441",
-			"detailType": "Paper /"
+			"detailType": "Paper/"
 		},
 		{
 			"detail": "https://www.numbersstation.ai/post/ask-me-anything",
-			"detailType": "Blog Post /"
+			"detailType": "Blog Post/"
 		},
 		{
 			"detail": "https://github.com/HazyResearch/ama_prompting",
-			"detailType": "Code /"
+			"detailType": "Code/"
 		},
 		{
 			"detail": "https://www.youtube.com/watch?v=uNe5QGOJykE",
-			"detailType": "Youtube - Aleksa Gordić /"
+			"detailType": "Youtube - Aleksa Gordić/"
 		},
 		{
 			"detail": "https://www.youtube.com/watch?v=CD3exXnx49A",
-			"detailType": "Youtube - Snorkel /"
+			"detailType": "Youtube - Snorkel/"
 		},
 		{
 			"detail": "https://www.marktechpost.com/2023/02/01/researchers-at-stanford-university-introduce-the-ask-me-anything-prompting-ama-a-simple-approach-that-surprisingly-enables-open-source-llms-with-30x-fewer-parameters-to-exceed-the-few-shot-perf/",
@@ -232,15 +232,15 @@
 		"Details": [
 		{
 			"detail": "https://arxiv.org/abs/2205.13722",
-			"detailType": "Paper /"
+			"detailType": "Paper/"
 		},
 		{
 			"detail": "https://github.com/simran-arora/focus",
-			"detailType": "Code /"
+			"detailType": "Code/"
 		},
 		{
 			"detail": "https://hai.stanford.edu/news/can-foundation-models-help-us-achieve-perfect-secrecy",
-			"detailType": "Stanford HAI Article /"
+			"detailType": "Stanford HAI Article/"
 		},
 		{
 			"detail": "https://venturebeat.com/ai/foundation-models-could-help-us-achieve-perfect-secrecy/",
@@ -260,7 +260,7 @@
 		"Details": [
 		{
 			"detail": "https://arxiv.org/abs/2205.09911",
-			"detailType": "Paper /"
+			"detailType": "Paper/"
 		},
 		{
 			"detail": "https://github.com/HazyResearch/fm_data_tasks",
@@ -279,11 +279,11 @@
 		"Details": [
 		{
 			"detail": "https://arxiv.org/abs/2203.11027",
-			"detailType": "Paper /"
+			"detailType": "Paper/"
 		},
 		{
 			"detail": "https://github.com/facebookresearch/concurrentqa",
-			"detailType": "Code /"
+			"detailType": "Code/"
 		},
 		{
 			"detail": "https://ai.facebook.com/blog/building-systems-to-reason-securely-over-private-data/",
@@ -302,11 +302,11 @@
 		"Details": [
 		{
 			"detail": "https://aclanthology.org/2022.findings-acl.137/",
-			"detailType": "Paper /"
+			"detailType": "Paper/"
 		},
 		{
 			"detail": "https://hazyresearch.stanford.edu/blog/2021-10-14-metadata",
-			"detailType": "Blog Post /"
+			"detailType": "Blog Post/"
 		},
 		{
 			"detail": "https://github.com/simran-arora/metadatashaping",
@@ -324,11 +324,11 @@
 	"Details": [
 	  {
 		"detail": "https://arxiv.org/abs/2010.10363",
-		"detailType": "Paper /"
+		"detailType": "Paper/"
 	  },
 	  {
 		"detail": "https://hazyresearch.stanford.edu/blog/2020-11-10-bootleg",
-		"detailType": "Blog Post /"
+		"detailType": "Blog Post/"
 	  },
 	  {
 	  	"detail": "https://github.com/HazyResearch/bootleg",
@@ -347,11 +347,11 @@
 	"Details": [
 	  {
 		"detail": "https://arxiv.org/abs/2005.09117",
-		"detailType": "Paper /"
+		"detailType": "Paper/"
 	  },
 	  {
 	  	"detail": "https://www.youtube.com/watch?v=bCPeg0Tp64s&feature=youtu.be",
-	  	"detailType": "Video /"
+	  	"detailType": "Video/"
 	  },
 	  {
 	  	"detail": "https://github.com/HazyResearch/random_embedding",
@@ -430,7 +430,7 @@
 		"Details": [
 			{
 				"detail": "https://github.com/simran-arora/CS329D_SelfTraining/blob/main/CS329D_2021_Final_Project.pdf",
-				"detailType": "Paper /"
+				"detailType": "Paper/"
 			},
 			{
 				"detail": "https://github.com/simran-arora/CS329D_SelfTraining",
@@ -448,11 +448,11 @@
 		"Details": [
 			{
 				"detail": "https://fisher.wharton.upenn.edu/wp-content/uploads/2019/06/Peer3Peer.pdf",
-				"detailType": "Paper /"
+				"detailType": "Paper/"
 			},
 			{
 				"detail": "https://github.com/Icantjuddle/peer-3-peer",
-				"detailType": "Code /"
+				"detailType": "Code/"
 			}
 		],
 		"LocalDetails": [
@@ -487,7 +487,7 @@
 		"RemoteDetails": [
 			{
 				"detail": "https://nips.cc/virtual/2023/81885",
-				"detailType": "Video / "
+				"detailType": "Video/ "
 			},
 			{
 				"detail": "https://table-representation-learning.github.io/",
@@ -503,7 +503,7 @@
 		"RemoteDetails": [
 			{
 				"detail": "https://www.youtube.com/watch?v=CD3exXnx49A",
-				"detailType": "Preview Video / "
+				"detailType": "Preview Video/ "
 			},
 			{
 				"detail": "https://snorkel.ai/ask-me-anything-how-are-foundation-models-changing-the-way-we-build-software-systems/",
