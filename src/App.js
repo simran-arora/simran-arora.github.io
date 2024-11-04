@@ -1,83 +1,117 @@
-import React from 'react';
+import React, { useState, useEffect, useRef } from 'react';
 import './App.css';
-
-import {
-  BrowserRouter as Router,
-  Routes,
-  Route,
-  NavLink
-} from "react-router-dom";
-
-import pic from "./assets/photo.jpg"
-import Research from "./Research/Research"
 import About from "./About/About"
-import Education from "./Education/Education"  
+import Research from "./Research/Research"
+import Education from "./Education/Education"
+import Media from './Media/Media'
 
 function App() {
+  const [isScrolled, setIsScrolled] = useState(false);
+  const [isMenuOpen, setIsMenuOpen] = useState(false);
+  
+  const aboutRef = useRef(null);
+  const researchRef = useRef(null);
+  const teachingRef = useRef(null);
+  const mediaRef = useRef(null);
+
+  useEffect(() => {
+    const handleScroll = () => {
+      setIsScrolled(window.scrollY > 100);
+    };
+    window.addEventListener('scroll', handleScroll);
+    return () => window.removeEventListener('scroll', handleScroll);
+  }, []);
+
+  const scrollToSection = (ref) => {
+    if (ref.current) {
+      const navHeight = 100;
+      const elementPosition = ref.current.offsetTop;
+      const offsetPosition = elementPosition - navHeight;
+
+      window.scrollTo({
+        top: offsetPosition,
+        behavior: "smooth"
+      });
+      setIsMenuOpen(false); // Close menu after clicking
+    }
+  };
+
   return (
-    <Router>
     <div className="App">
+      <div className={`floating-nav ${isScrolled ? 'scrolled' : ''}`}>
+        <div className="nav-content">
+          {/* Hamburger Button */}
+          <button 
+            className="hamburger-button"
+            onClick={() => setIsMenuOpen(!isMenuOpen)}
+            aria-label="Toggle menu"
+          >
+            <span className={`hamburger-line ${isMenuOpen ? 'open' : ''}`}></span>
+          </button>
 
-      <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.12.1/css/all.css" crossorigin="anonymous"/>
-      <div className="header-content">
-          <div className="headshot-wrap">
-            <img className="headshot"
-              src={pic}
-              alt="headshot"
-            />
-          </div> 
-          <div className="main-text">
-            <div className = "leftMain">
-              <div className="name">Simran Arora </div>
-
-              {/* <div className="header location">
-                  <div className="iconBoxWrapper">
-                    <div className="iconBox">
-                      <i className="fas fa-map-marker-alt iconinside"></i>
-                    </div> 
-                    </div>
-                  <div id="locationtag">Bay Area, CA</div>
-              </div> */}
-
-              <div className="LinksContainer">
-                <a href="https://scholar.google.com/citations?view_op=list_works&hl=en&hl=en&user=rGRsWH8AAAAJ&sortby=pubdate" class="fas fa-graduation-cap" style={{"text-decoration":"none"}}>  </a> 
-                <a href="https://github.com/simran-arora" class="fab fa-github" style={{"text-decoration":"none"}}>  </a> 
-                <a href="https://www.dropbox.com/scl/fi/hnd27wdpmtgprhqh854yr/Simran_Arora_CV.pdf?rlkey=mqfbjq17637rtn6b3o5y3oig8&st=mpchcws4&dl=0" class="fab fa-dropbox" style={{"text-decoration":"none", "color": "black"}}>  </a> 
-              </div>
-            </div>
-
-            <div className="v1">
-            <div className="navBar">
-              <nav>
-                <NavLink to="/about" className="nav">About</NavLink><br/>
-                <NavLink to="/research" className="nav">Research</NavLink><br/>
-                <NavLink to="/education" className="nav">Teaching</NavLink><br/>
-                {/* <NavLink to="/professional" className="nav">Background</NavLink><br/> */}
-              </nav>
-            </div>
-            </div>
+          {/* Navigation Links */}
+          <nav className={`nav-links ${isMenuOpen ? 'open' : ''}`}>
+            <button 
+              onClick={() => scrollToSection(aboutRef)} 
+              className="nav-item"
+            >
+              About
+            </button>
+            <button 
+              onClick={() => scrollToSection(researchRef)} 
+              className="nav-item"
+            >
+              Research
+            </button>
+            <button 
+              onClick={() => scrollToSection(mediaRef)} 
+              className="nav-item"
+            >
+              Media
+            </button>
+            <button 
+              onClick={() => scrollToSection(teachingRef)} 
+              className="nav-item"
+            >
+              Teaching
+            </button>
+          </nav>
         </div>
       </div>
 
-      <div className="Content-Container">
-        <div>
-          <Routes>
-          <Route exact path='/' element={<About/>}/>
-          <Route path="/about" element={<About/>}/>
-          <Route path="/research" element={<Research/>}/>
-          {/* <Route path="/professional" element={<Professional/>}/> */}
-          <Route path="/education" element={<Education/>}/>
-          </Routes>
-        </div>
+      {/* Overlay for mobile menu */}
+      {isMenuOpen && (
+        <div 
+          className="mobile-overlay"
+          onClick={() => setIsMenuOpen(false)}
+        ></div>
+      )}
+
+      <div className="page-container">
+        <section ref={aboutRef} id="about" className="content-section">
+          <About />
+        </section>
+        
+        <div className="section-divider"></div>
+        
+        <section ref={researchRef} id="research" className="content-section">
+          <Research />
+        </section>
+        
+        <div className="section-divider"></div>
+        
+        <section ref={mediaRef} id="media" className="content-section">
+          <Media />
+        </section>
+        
+        <div className="section-divider"></div>
+        
+        <section ref={teachingRef} id="teaching" className="content-section">
+          <Education />
+        </section>
       </div>
-
-
-    </div>    
-    </Router>
+    </div>
   );
 }
-
-
-
 
 export default App;

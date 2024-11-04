@@ -1,6 +1,54 @@
 {
     "Research": [
         {
+            "Name": "ThunderKittens: Simple, Fast, and Adorable AI Kernels",
+            "Title": "ThunderKittens: Simple, Fast, and Adorable AI Kernels",
+            "Authors": "B. Spector, S. Arora, A. Singhal, D. Fu, C. Ré",
+            "LocalDetails": [
+            ],
+            "Details": [
+            {
+                "detail": "https://arxiv.org/abs/2410.20399",
+                "detailType": "Paper/ "
+            },
+            {
+                "detail": "https://hazyresearch.stanford.edu/blog/2024-10-29-tk2",
+                "detailType": "Blog Post/"
+            },
+            {
+                "detail": "https://github.com/HazyResearch/ThunderKittens",
+                "detailType": "Code"
+            }
+            ],
+            "Description": ""
+        },
+        {
+            "Name": "LoLCATs: On Low-Rank Linearizing of Large Language Models",
+            "Title": "LoLCATs: On Low-Rank Linearizing of Large Language Models",
+            "Authors": "M. Zhang, S. Arora, R. Chalamala, A. Wu, B. Spector, A. Singhal, K. Ramesh, C. Ré",
+            "LocalDetails": [
+            ],
+            "Details": [
+            {
+                "detail": "https://arxiv.org/abs/2410.10254",
+                "detailType": "Paper/ "
+            },
+            {
+                "detail": "https://hazyresearch.stanford.edu/blog/2024-10-14-lolcats-p1",
+                "detailType": "Blog Post/"
+            },
+            {
+                "detail": "https://github.com/HazyResearch/lolcats",
+                "detailType": "Code/"
+            },
+            {
+                "detail": "https://huggingface.co/collections/hazyresearch/lolcats-670ca4341699355b61238c37",
+                "detailType": "Models"
+            }
+            ],
+            "Description": ""
+        },
+        {
             "Name": "Just read twice: closing the recall gap for recurrent language models",
             "Title": "Just read twice: closing the recall gap for recurrent language models",
             "Authors": "S. Arora, A. Timalsina, A. Singhal, B. Spector, S. Eyuboglu, X. Zhao, A. Rao, A. Rudra, C. Ré",
@@ -10,15 +58,15 @@
             "Details": [
             {
                 "detail": "https://arxiv.org/abs/2407.05483",
-                "detailType": "Paper / "
+                "detailType": "Paper/ "
             },
             {
                 "detail": "https://hazyresearch.stanford.edu/blog/2024-07-01-jrt",
-                "detailType": "Blog Post /"
+                "detailType": "Blog Post/"
             },
             {
                 "detail": "https://github.com/HazyResearch/prefix-linear-attention",
-                "detailType": "Code /"
+                "detailType": "Code/"
             },
             {
                 "detail": "https://huggingface.co/collections/hazyresearch/just-read-twice-666296fb18c35a31a3c364b9",
@@ -37,19 +85,19 @@
             "Details": [
             {
                 "detail": "https://arxiv.org/abs/2402.18668",
-                "detailType": "Paper / "
+                "detailType": "Paper/ "
             },
             {
                 "detail": "https://www.together.ai/blog/based",
-                "detailType": "Blog Post /"
+                "detailType": "Blog Post/"
             },
             {
                 "detail": "https://www.youtube.com/watch?v=KCIcBnR-67s",
-                "detailType": "Video /"
+                "detailType": "Video/"
             },
             {
                 "detail": "https://github.com/HazyResearch/based",
-                "detailType": "Code /"
+                "detailType": "Code/"
             },
             {
                 "detail": "https://huggingface.co/collections/hazyresearch/based-65d77fb76f9c813c8b94339c",
@@ -68,11 +116,11 @@
             "Details": [
             {
                 "detail": "https://arxiv.org/abs/2312.04927",
-                "detailType": "Paper /"
+                "detailType": "Paper/"
             },
             {
                 "detail": "https://hazyresearch.stanford.edu/blog/2023-12-11-zoology1-analysis",
-                "detailType": "Blog Post /"
+                "detailType": "Blog Post/"
             },
             {
                 "detail": "https://github.com/HazyResearch/zoology",
@@ -91,7 +139,7 @@
             "Details": [
             {
                 "detail": "https://hazyresearch.stanford.edu/blog/2024-05-12-tk",
-                "detailType": "Blog Post /"
+                "detailType": "Blog Post/"
             },
             {
                 "detail": "https://github.com/HazyResearch/ThunderKittens",
@@ -110,15 +158,15 @@
             "Details": [
             {
                 "detail": "https://arxiv.org/abs/2402.07440",
-                "detailType": "Paper / "
+                "detailType": "Paper/ "
             },
             {
                 "detail": "https://hazyresearch.stanford.edu/blog/2024-01-11-m2-bert-retrieval",
-                "detailType": "Blog Post /"
+                "detailType": "Blog Post/"
             },
             {
                 "detail": "https://github.com/HazyResearch/m2",
-                "detailType": "Code /"
+                "detailType": "Code/"
             },
             {
                 "detail": "https://huggingface.co/togethercomputer/m2-bert-80M-32k-retrieval",
@@ -137,15 +185,15 @@
             "Details": [
             {
                 "detail": "https://arxiv.org/abs/2310.12109",
-                "detailType": "Paper /"
+                "detailType": "Paper/"
             },
             {
                 "detail": "https://hazyresearch.stanford.edu/blog/2023-07-25-m2-bert",
-                "detailType": "Blog Post /"
+                "detailType": "Blog Post/"
             },
             {
                 "detail": "https://github.com/HazyResearch/m2",
-                "detailType": "Code /"
+                "detailType": "Code/"
             },
             {
                 "detail": "https://huggingface.co/togethercomputer",
@@ -179,7 +227,7 @@
             "Details": [
             {
                 "detail": "https://arxiv.org/abs/2304.09433",
-                "detailType": "Paper /"
+                "detailType": "Paper/"
             },
             {
                 "detail": "https://github.com/HazyResearch/evaporate",
@@ -198,23 +246,23 @@
             "Details": [
             {
                 "detail": "https://arxiv.org/abs/2210.02441",
-                "detailType": "Paper /"
+                "detailType": "Paper/"
             },
             {
                 "detail": "https://www.numbersstation.ai/post/ask-me-anything",
-                "detailType": "Blog Post /"
+                "detailType": "Blog Post/"
             },
             {
                 "detail": "https://github.com/HazyResearch/ama_prompting",
-                "detailType": "Code /"
+                "detailType": "Code/"
             },
             {
                 "detail": "https://www.youtube.com/watch?v=uNe5QGOJykE",
-                "detailType": "Youtube - Aleksa Gordić /"
+                "detailType": "Youtube - Aleksa Gordić/"
             },
             {
                 "detail": "https://www.youtube.com/watch?v=CD3exXnx49A",
-                "detailType": "Youtube - Snorkel /"
+                "detailType": "Youtube - Snorkel/"
             },
             {
                 "detail": "https://www.marktechpost.com/2023/02/01/researchers-at-stanford-university-introduce-the-ask-me-anything-prompting-ama-a-simple-approach-that-surprisingly-enables-open-source-llms-with-30x-fewer-parameters-to-exceed-the-few-shot-perf/",
@@ -233,11 +281,11 @@
             "Details": [
             {
                 "detail": "https://arxiv.org/abs/2203.11027",
-                "detailType": "Paper /"
+                "detailType": "Paper/"
             },
             {
                 "detail": "https://github.com/facebookresearch/concurrentqa",
-                "detailType": "Code /"
+                "detailType": "Code/"
             },
             {
                 "detail": "https://ai.facebook.com/blog/building-systems-to-reason-securely-over-private-data/",
@@ -249,14 +297,26 @@
     ],
     "Talks": [
         {
+            "Talk": "ThunderKittens goes live: AMA and library walkthrough",
+            "Talk_details": "Stanford MLSys Seminars (Winter 2024)",
+            "Details": [
+            ],
+            "RemoteDetails": [
+                {
+                    "detail": "https://www.youtube.com/live/IAwLzkldxUk",
+                    "detailType": "Video"
+                }
+            ]
+        },
+        {
             "Talk": "Understanding and Improving Efficient Language Models",
-            "Talk_details": "Cornell Tech (Winter 2024), Princeton PLI  (Winter 2024), Microsoft AI Research (Winter 2024), 56th ACM Symposium on Theory of Computing (STOC) Workshop Keynote Speaker (Summer 2024)",
+            "Talk_details": "Simons Institute (Winter 2024), UC Berkeley NLP Group (Winter 2024), Stanford NLP Lunch (Winter 2024), Cornell Tech (Winter 2024), Princeton PLI  (Winter 2024), Microsoft AI Research (Winter 2024), 56th ACM Symposium on Theory of Computing (STOC) Workshop Keynote Speaker (Summer 2024)",
             "Details": [
             ],
             "RemoteDetails": [
                 {
                     "detail": "https://sites.google.com/view/algos-in-llms-stoc24/home",
-                    "detailType": "STOC Slides / "
+                    "detailType": "STOC Slides/ "
                 },
                 {
                     "detail": "https://hazyresearch.stanford.edu/blog/2024-06-22-ac",
@@ -272,7 +332,7 @@
             "RemoteDetails": [
                 {
                     "detail": "https://nips.cc/virtual/2023/81885",
-                    "detailType": "Video / "
+                    "detailType": "Video/ "
                 },
                 {
                     "detail": "https://table-representation-learning.github.io/",
@@ -288,7 +348,7 @@
             "RemoteDetails": [
                 {
                     "detail": "https://www.youtube.com/watch?v=CD3exXnx49A",
-                    "detailType": "Preview Video / "
+                    "detailType": "Preview Video/ "
                 },
                 {
                     "detail": "https://snorkel.ai/ask-me-anything-how-are-foundation-models-changing-the-way-we-build-software-systems/",
