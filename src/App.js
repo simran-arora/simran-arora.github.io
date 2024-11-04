@@ -11,12 +11,7 @@ import {
 import pic from "./assets/photo.jpg"
 import Research from "./Research/Research"
 import About from "./About/About"
-import Professional from "./Projects/Projects"
 import Education from "./Education/Education"  
-
-import { library } from '@fortawesome/fontawesome-svg-core'
-import { fab, faGoodreads } from '@fortawesome/free-brands-svg-icons'
-library.add(fab, faGoodreads)
 
 function App() {
   return (
