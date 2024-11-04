@@ -130,25 +130,6 @@
             "Description": ""
         },
         {
-            "Name": "ThunderKittens: A Simple Embedded DSL for AI kernels",
-            "Title": "ThunderKittens: A Simple Embedded DSL for AI kernels",
-            "Authors": "B. Spector, A. Singhal, S. Arora, C. Ré",
-            "Venue": "GitHub",
-            "LocalDetails": [
-            ],
-            "Details": [
-            {
-                "detail": "https://hazyresearch.stanford.edu/blog/2024-05-12-tk",
-                "detailType": "Blog Post/"
-            },
-            {
-                "detail": "https://github.com/HazyResearch/ThunderKittens",
-                "detailType": "Code"
-            }
-            ],
-            "Description": ""
-        },
-        {
             "Name": "Benchmarking and Building Long-Context Retrieval Models with LoCo and M2-BERT",
             "Title": "Benchmarking and Building Long-Context Retrieval Models with LoCo and M2-BERT",
             "Authors": "J. Saad-Falcon, D. Y. Fu, S. Arora, N. Guha, C. Ré",
@@ -314,6 +295,10 @@
             "Details": [
             ],
             "RemoteDetails": [
+                {
+                    "detail": "https://www.youtube.com/watch?v=DmuZ3ckl8rs&t=1s",
+                    "detailType": "Simons Institue Video/"
+                },
                 {
                     "detail": "https://sites.google.com/view/algos-in-llms-stoc24/home",
                     "detailType": "STOC Slides/ "
