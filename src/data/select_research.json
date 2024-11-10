@@ -231,7 +231,7 @@
             },
             {
                 "detail": "https://www.numbersstation.ai/post/ask-me-anything",
-                "detailType": "Blog Post/"
+                "detailType": "Numbers Station Blog Post/"
             },
             {
                 "detail": "https://github.com/HazyResearch/ama_prompting",
@@ -291,7 +291,7 @@
         },
         {
             "Talk": "Understanding and Improving Efficient Language Models",
-            "Talk_details": "Simons Institute (Winter 2024), UC Berkeley NLP Group (Winter 2024), Stanford NLP Lunch (Winter 2024), Cornell Tech (Winter 2024), Princeton PLI  (Winter 2024), Microsoft AI Research (Winter 2024), 56th ACM Symposium on Theory of Computing (STOC) Workshop Keynote Speaker (Summer 2024)",
+            "Talk_details": "Simons Institute of Computing (Fall 2024), UC Berkeley NLP Group (Summer 2024), Stanford NLP Lunch (Summer 2024), Cornell Tech (Winter 2024), Princeton PLI  (Winter 2024), Microsoft AI Research (Winter 2024), 56th ACM Symposium on Theory of Computing (STOC) Workshop Keynote Speaker (Summer 2024)",
             "Details": [
             ],
             "RemoteDetails": [
