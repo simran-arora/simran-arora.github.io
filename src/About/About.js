@@ -26,8 +26,8 @@ const About = () => {
           className="about-image"
         />
         <div className="contact-info">
-          <a href="mailto:simran@stanford.edu" className="email-link">
-            simran@stanford.edu
+          <a href="mailto:simran@cs.stanford.edu" className="email-link">
+            simran@cs.stanford.edu
           </a>
           <div className="social-links">
             <a 
@@ -88,19 +88,21 @@ const About = () => {
             
             {/* , <a class="abt_a" target= "_blank" rel="noopener noreferrer" href="https://ai.stanford.edu/">Stanford AI</a>, <a class="abt_a" target= "_blank" rel="noopener noreferrer" href="https://crfm.stanford.edu/">Stanford CRFM</a> and the <a class="abt_a" target= "_blank" rel="noopener noreferrer" href="http://statsml.stanford.edu/">Statistical Machine Learning</a> groups, and  */}
 
-            I work on building next-generation AI systems:
+            I work on AI systems that expand the quality and efficiency Pareto frontier by developing methods that scale and use the hardware efficiently:
             <br/>
             <ul className="notes-list">
             <li>
             Hardware: As the complexity of AI hardware increases, how can we make it easier to extract high utilization for new AI models? (<a class="abt_a" target= "_blank" rel="noopener noreferrer" href="https://github.com/HazyResearch/ThunderKittens">ThunderKittens</a>)
             </li>
             <li>
-            Software algorithms: How do we build AI algorithms that scale and use the hardware efficiently? (<a class="abt_a" target= "_blank" rel="noopener noreferrer" href="https://arxiv.org/abs/2312.04927">Zoology</a>, <a class="abt_a" target= "_blank" rel="noopener noreferrer" href="https://www.together.ai/blog/based">Based</a>, <a class="abt_a" target= "_blank" rel="noopener noreferrer" href="https://hazyresearch.stanford.edu/blog/2024-10-14-lolcats-p1">LoLCATS</a>, <a class="abt_a" target= "_blank" rel="noopener noreferrer" href="https://arxiv.org/abs/2407.05483">JRT</a>, <a class="abt_a" target= "_blank" rel="noopener noreferrer" href="https://www.together.ai/blog/monarch-mixer">Monarch Mixer</a>, <a class="abt_a" target= "_blank" rel="noopener noreferrer" href="https://arxiv.org/abs/2005.09117">Random Embeddings</a>) 
+            Software algorithms: How do we build AI algorithms that scale and use the hardware efficiently? (<a class="abt_a" target= "_blank" rel="noopener noreferrer" href="https://arxiv.org/abs/2312.04927">Zoology</a>, <a class="abt_a" target= "_blank" rel="noopener noreferrer" href="https://www.together.ai/blog/based">Based</a>, <a class="abt_a" target= "_blank" rel="noopener noreferrer" href="https://arxiv.org/abs/2407.05483">JRT</a>, <a class="abt_a" target= "_blank" rel="noopener noreferrer" href="https://hazyresearch.stanford.edu/blog/2024-10-14-lolcats-p1">LoLCATS</a>, <a class="abt_a" target= "_blank" rel="noopener noreferrer" href="https://www.together.ai/blog/monarch-mixer">Monarch Mixer</a>, <a class="abt_a" target= "_blank" rel="noopener noreferrer" href="https://arxiv.org/abs/2005.09117">Random Embeddings</a>) 
             </li>
             <li>
-            Systems and applications: What are the most efficient ways to use our models in AI applications? (<a class="abt_a" target= "_blank" rel="noopener noreferrer" href="https://arxiv.org/abs/2210.02441">AMA</a>, <a class="abt_a" target= "_blank" rel="noopener noreferrer" href="https://arxiv.org/abs/2304.09433">Evaporate</a>, <a class="abt_a" target= "_blank" rel="noopener noreferrer" href="https://arxiv.org/abs/2402.07440">M2-BERT</a>, <a class="abt_a" target= "_blank" rel="noopener noreferrer" href="https://ai.meta.com/blog/building-systems-to-reason-securely-over-private-data/">Private Search</a>, <a class="abt_a" target= "_blank" rel="noopener noreferrer" href="https://arxiv.org/abs/2403.09603/">Verifiable Training</a>)
+            Systems and applications: What are the most efficient ways to use our models in AI applications? (<a class="abt_a" target= "_blank" rel="noopener noreferrer" href="https://arxiv.org/abs/2210.02441">AMA</a>, <a class="abt_a" target= "_blank" rel="noopener noreferrer" href="https://arxiv.org/abs/2304.09433">Evaporate</a>, <a class="abt_a" target= "_blank" rel="noopener noreferrer" href="https://ai.meta.com/blog/building-systems-to-reason-securely-over-private-data/">Private Search</a>, <a class="abt_a" target= "_blank" rel="noopener noreferrer" href="https://arxiv.org/abs/2403.09603/">Verifiable Training</a>)
             </li>
             </ul>
+            {/* We have been excited to see the impact of this work. This work is recognized at top ML venues including Outstanding Paper at NeurIPS, Best Paper at ICML ES-FoMo, Oral Awards at NeurIPS, and Spotlight Awards at ICLR and ICML. On the systems side, our work is published at VLDB, SIGMOD, CIDR, CHI and is used in industry (Together AI, Snorkel AI, Apple, Jump Trading, MongoDB, Jina, LangChain, LlamaIndex). */}
+            {/* <br/><br/> */}
             I recently co-created and taught a <a class="abt_a" target= "_blank" rel="noopener noreferrer" href="https://cs229s.stanford.edu/fall2023/">new systems for machine learning course (CS 229s)</a> at Stanford!<br/><br/>
             <b>I am on the academic job market 2024-25!</b>
         </div>

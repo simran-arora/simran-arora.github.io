@@ -130,33 +130,6 @@
             "Description": ""
         },
         {
-            "Name": "Benchmarking and Building Long-Context Retrieval Models with LoCo and M2-BERT",
-            "Title": "Benchmarking and Building Long-Context Retrieval Models with LoCo and M2-BERT",
-            "Authors": "J. Saad-Falcon, D. Y. Fu, S. Arora, N. Guha, C. Ré",
-            "Venue": "ICML 2024 and ICLR ME-FoMo 2024",
-            "LocalDetails": [
-            ],
-            "Details": [
-            {
-                "detail": "https://arxiv.org/abs/2402.07440",
-                "detailType": "Paper/ "
-            },
-            {
-                "detail": "https://hazyresearch.stanford.edu/blog/2024-01-11-m2-bert-retrieval",
-                "detailType": "Blog Post/"
-            },
-            {
-                "detail": "https://github.com/HazyResearch/m2",
-                "detailType": "Code/"
-            },
-            {
-                "detail": "https://huggingface.co/togethercomputer/m2-bert-80M-32k-retrieval",
-                "detailType": "Models and Datasets"
-            }
-            ],
-            "Description": ""
-        },
-        {
             "Name": "Monarch Mixer: A Simple Sub-Quadratic GEMM-Based Architecture",
             "Title": "Monarch Mixer 🦋: A Simple Sub-Quadratic GEMM-Based Architecture",
             "Authors": "D. Y. Fu, S. Arora*, J. Grogan*, I. Johnson*, S. Eyuboglu*, A. W. Thomas*, B. F. Spector, M. Poli, A. Rudra, C. Ré",
@@ -179,21 +152,6 @@
             {
                 "detail": "https://huggingface.co/togethercomputer",
                 "detailType": "Models and Datasets"
-            }
-            ],
-            "Description": ""
-        },
-        {
-            "Name": "DecodingTrust: A Comprehensive Assessment of Trustworthiness in GPT Models",
-            "Title": "DecodingTrust: A Comprehensive Assessment of Trustworthiness in GPT Models",
-            "Authors": "B. Wang, W. Chen, H. Pei, C. Xie, M. Kang, C. Zhang, C. Xu, Z. Xiong, R. Dutta, R. Schaeffer, S. T. Truong, S. Arora, M. Mazeika, D. Hendrycks, Z. Lin, Y. Cheng, S. Koyejo, D. Song, B. Li",
-            "Venue": "NeurIPS Benchmarks 2023 (Oral Award, Outstanding Paper Award)",
-            "LocalDetails": [
-            ],
-            "Details": [
-            {
-                "detail": "https://decodingtrust.github.io/#:~:text=DecodingTrust%20aims%20to%20provide%20a,robustness%20on%20adversarial%20demonstrations%2C%20privacy%2C",
-                "detailType": "Website"
             }
             ],
             "Description": ""
@@ -251,30 +209,7 @@
             }
             ],
             "Description": ""
-        },
-        {
-            "Name": "Reasoning over Public and Private Data in Retrieval-Based Systems",
-            "Title": "Reasoning over Public and Private Data in Retrieval-Based Systems",
-            "Authors": "S. Arora, P. Lewis, A. Fan, J. Kahn, C. Ré",
-            "Venue": "TACL Journal 2024 and KnowledgeNLP at AAAI’23 (Oral Award)",
-            "LocalDetails": [
-            ],
-            "Details": [
-            {
-                "detail": "https://arxiv.org/abs/2203.11027",
-                "detailType": "Paper/"
-            },
-            {
-                "detail": "https://github.com/facebookresearch/concurrentqa",
-                "detailType": "Code/"
-            },
-            {
-                "detail": "https://ai.facebook.com/blog/building-systems-to-reason-securely-over-private-data/",
-                "detailType": "Facebook AI Research Blog"
-            }
-            ],
-            "Description": ""
-        }            
+        }           
     ],
     "Talks": [
         {
