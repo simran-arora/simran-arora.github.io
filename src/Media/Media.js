@@ -6,11 +6,11 @@ import '../Research/Research.css'; // We can reuse the same CSS
 class Media extends Component {
   renderContent(path){
     switch(path) {
-      case 'grasp': return require("./../assets/grasp_presentation.pdf");  
-      case 'naval': return require("./../assets/naval_presentation.pdf");
-      case 'acl20': return 'https://www.youtube.com/watch?v=bCPeg0Tp64s&feature=youtu.be';
-      case 'p3p': return require("./../assets/p3p_presentation.pdf");
-      case 'metadata': return require("./../assets/Metadata_Shaping.pdf");
+      // case 'grasp': return require("./../assets/grasp_presentation.pdf");  
+      // case 'naval': return require("./../assets/naval_presentation.pdf");
+      // case 'acl20': return 'https://www.youtube.com/watch?v=bCPeg0Tp64s&feature=youtu.be';
+      // case 'p3p': return require("./../assets/p3p_presentation.pdf");
+      // case 'metadata': return require("./../assets/Metadata_Shaping.pdf");
       default: return '';
     }
   }
