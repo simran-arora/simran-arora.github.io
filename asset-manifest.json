@@ -1,31 +1,27 @@
 {
   "files": {
     "main.css": "/static/css/main.0c3182df.chunk.css",
-    "main.js": "/static/js/main.cc07ba0e.chunk.js",
-    "main.js.map": "/static/js/main.cc07ba0e.chunk.js.map",
+    "main.js": "/static/js/main.f454a285.chunk.js",
+    "main.js.map": "/static/js/main.f454a285.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.0fb70ea9.js",
     "runtime-main.js.map": "/static/js/runtime-main.0fb70ea9.js.map",
-    "static/js/2.db070506.chunk.js": "/static/js/2.db070506.chunk.js",
-    "static/js/2.db070506.chunk.js.map": "/static/js/2.db070506.chunk.js.map",
+    "static/js/2.b633371e.chunk.js": "/static/js/2.b633371e.chunk.js",
+    "static/js/2.b633371e.chunk.js.map": "/static/js/2.b633371e.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.e6423456700ca0078713cf83a9f25203.js": "/precache-manifest.e6423456700ca0078713cf83a9f25203.js",
+    "precache-manifest.f5e57137c278d23376c131f6d1912fb3.js": "/precache-manifest.f5e57137c278d23376c131f6d1912fb3.js",
     "service-worker.js": "/service-worker.js",
     "static/css/main.0c3182df.chunk.css.map": "/static/css/main.0c3182df.chunk.css.map",
-    "static/js/2.db070506.chunk.js.LICENSE.txt": "/static/js/2.db070506.chunk.js.LICENSE.txt",
-    "static/media/Metadata_Shaping.pdf": "/static/media/Metadata_Shaping.48fea1ba.pdf",
+    "static/js/2.b633371e.chunk.js.LICENSE.txt": "/static/js/2.b633371e.chunk.js.LICENSE.txt",
     "static/media/Simran_Arora_CV.pdf": "/static/media/Simran_Arora_CV.d7a88dbe.pdf",
     "static/media/github-brands-solid.svg": "/static/media/github-brands-solid.5c31f79d.svg",
     "static/media/google-scholar-brands-solid.svg": "/static/media/google-scholar-brands-solid.598e459f.svg",
-    "static/media/grasp_presentation.pdf": "/static/media/grasp_presentation.021a54de.pdf",
-    "static/media/naval_presentation.pdf": "/static/media/naval_presentation.5f3be712.pdf",
-    "static/media/p3p_presentation.pdf": "/static/media/p3p_presentation.89133b54.pdf",
-    "static/media/profile.jpg": "/static/media/profile.de566e1b.jpg",
+    "static/media/profile.jpg": "/static/media/profile.b4e1fd11.jpg",
     "static/media/twitter-brands-solid.svg": "/static/media/twitter-brands-solid.3ae4619b.svg"
   },
   "entrypoints": [
     "static/js/runtime-main.0fb70ea9.js",
-    "static/js/2.db070506.chunk.js",
+    "static/js/2.b633371e.chunk.js",
     "static/css/main.0c3182df.chunk.css",
-    "static/js/main.cc07ba0e.chunk.js"
+    "static/js/main.f454a285.chunk.js"
   ]
 }
