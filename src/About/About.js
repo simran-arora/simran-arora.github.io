@@ -88,7 +88,7 @@ const About = () => {
             
             {/* , <a class="abt_a" target= "_blank" rel="noopener noreferrer" href="https://ai.stanford.edu/">Stanford AI</a>, <a class="abt_a" target= "_blank" rel="noopener noreferrer" href="https://crfm.stanford.edu/">Stanford CRFM</a> and the <a class="abt_a" target= "_blank" rel="noopener noreferrer" href="http://statsml.stanford.edu/">Statistical Machine Learning</a> groups, and  */}
 
-            I work on AI systems that expand the quality and efficiency Pareto frontier by developing methods that scale and use the hardware efficiently:
+            I work on AI systems, developing methods that scale and use the hardware efficiently:
             <br/>
             <ul className="notes-list">
             <li>
