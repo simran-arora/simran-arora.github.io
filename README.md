@@ -12,7 +12,7 @@ personal website
 1. npm install create-react-app  
 2. npx create-react-app <your_github_id>.github.io 
 3. cd <your_github_id>.github.io 
-4. npm start // just to check it out, make sure yarn and npm aren't being used at the same time! 
+4. NODE_OPTIONS=--openssl-legacy-provider npm start // just to check it out, make sure yarn and npm aren't being used at the same time! 
 - npm i --save @fortawesome/free-solid-svg-icons
 - npm i --save @fortawesome/fontawesome-svg-core
 - npm i --save @fortawesome/react-fontawesome
@@ -38,7 +38,7 @@ personal website
 11. deploy your site: npm run deploy
 
 If you're using yarn instead of npm, replace the commands: 
-- npm run build --> yarn build
+- NODE_OPTIONS=--openssl-legacy-provider npm run build --> yarn build
 - npm run deploy --> yarn deploy
 
 ## References:  
