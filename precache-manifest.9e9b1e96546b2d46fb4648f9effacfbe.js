@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "6aa5bf9ce69a02598fd320575bd7fb74",
+    "revision": "8a714fa36cf29766c1f98b9ab03bb11d",
     "url": "/index.html"
   },
   {
-    "revision": "7c0cffddcb09305f9d21",
+    "revision": "5d2b3b0ae8873331ae00",
     "url": "/static/css/main.0c3182df.chunk.css"
   },
   {
@@ -16,16 +16,16 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/js/2.b633371e.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "7c0cffddcb09305f9d21",
-    "url": "/static/js/main.8c771680.chunk.js"
+    "revision": "5d2b3b0ae8873331ae00",
+    "url": "/static/js/main.618f87c4.chunk.js"
   },
   {
     "revision": "6d96a40039a4a2a449ec",
     "url": "/static/js/runtime-main.0fb70ea9.js"
   },
   {
-    "revision": "81c4916e6301ddeed6e41a3e5140e51c",
-    "url": "/static/media/Simran_Arora_CV.81c4916e.pdf"
+    "revision": "18629a0ab7ce87d6fa2da0a83c45c0b0",
+    "url": "/static/media/Simran_Arora_CV.18629a0a.pdf"
   },
   {
     "revision": "5c31f79da2bda21a452ca9cd96176da4",
