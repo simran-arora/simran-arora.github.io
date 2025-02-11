@@ -178,9 +178,49 @@ class Research extends Component {
           </a> (2024)
         </li>
         <li>
+          <a href="https://hazyresearch.stanford.edu/blog/2024-11-27-tk-fp8">
+          ThunderKittens: Bringing fp8 to theaters near you
+          </a> (2024)
+        </li>
+        <li>
+          <a href="https://hazyresearch.stanford.edu/blog/2024-10-29-tk2">
+          Easier, Better, Faster, Cuter
+          </a> (2024)
+        </li>
+        <li>
           <a href="https://hazyresearch.stanford.edu/blog/2024-05-12-tk">
             GPUs Go Brrr
           </a> (2024)
+        </li>
+        <li>
+          <a href="https://hazyresearch.stanford.edu/blog/2024-10-14-lolcats-p1">
+          Linearizing LLMs with LoLCATs
+          </a> (2024)
+        </li>
+        <li>
+          <a href="https://hazyresearch.stanford.edu/blog/2024-07-01-jrt">
+          Just read twice: closing the recall gap for recurrent language models
+          </a> (2024)
+        </li>
+        <li>
+          <a href="https://hazyresearch.stanford.edu/blog/2024-05-20-m2-bert-retrieval">
+          Long-Context Retrieval Models with Monarch Mixer
+          </a> (2024)
+        </li>
+        <li>
+          <a href="https://www.together.ai/blog/based">
+          Based: Simple linear attention language models balance the recall-throughput tradeoff
+          </a> (2024)
+        </li>
+        <li>
+          <a href="https://hazyresearch.stanford.edu/blog/2023-07-25-m2-bert">
+          Monarch Mixer: Revisiting BERT, Without Attention or MLPs
+          </a> (2023)
+        </li>
+        <li>
+          <a href="https://hazyresearch.stanford.edu/blog/2023-12-11-zoology0-intro">
+          Zoology: Overview
+          </a> (2023)
         </li>
         <li>
           <a href="https://hazyresearch.stanford.edu/blog/2023-06-08-hyena-safari">
