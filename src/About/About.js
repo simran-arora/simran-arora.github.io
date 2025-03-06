@@ -98,7 +98,7 @@ const About = () => {
             <li>
             <b>Hardware</b>: As the complexity of AI hardware increases, how can we make it easier to extract high utilization for new AI algorithms? 
             <br/>
-            (<a class="abt_a" target= "_blank" rel="noopener noreferrer" href="https://github.com/HazyResearch/ThunderKittens">ThunderKittens</a>)
+            (<a class="abt_a" target= "_blank" rel="noopener noreferrer" href="https://github.com/HazyResearch/ThunderKittens">ThunderKittens</a>, <a class="abt_a" target= "_blank" rel="noopener noreferrer" href="https://arxiv.org/abs/2502.10517">KernelBench</a>)
             </li>
             <li>
             <b>Applications</b>: How do we bridge the efficiency gaps that emerge as models are deployed in new settings, such as data management?
