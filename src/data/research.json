@@ -23,6 +23,10 @@
 		{
 			"detail": "https://huggingface.co/collections/hazyresearch/based-65d77fb76f9c813c8b94339c",
 			"detailType": "Models and Datasets"
+		},
+		{
+			"detail": "https://hazyresearch.stanford.edu/blog/2025-03-24-based-retro",
+			"detailType": "Retrospective"
 		}
 		],
 		"Description": ""

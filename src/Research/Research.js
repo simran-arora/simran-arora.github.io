@@ -173,6 +173,11 @@ class Research extends Component {
         <h3 className="Title_research">Notes</h3>
       <ul className="notes-list">
         <li>
+          <a href="https://hazyresearch.stanford.edu/blog/2025-03-24-based-retro">
+            BASED ✌️: our one year retrospective
+          </a> (2025)
+        </li>
+        <li>
           <a href="https://hazyresearch.stanford.edu/blog/2024-06-22-ac">
             Efficient language models as arithmetic circuits
           </a> (2024)

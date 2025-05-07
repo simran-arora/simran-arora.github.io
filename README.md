@@ -3,7 +3,7 @@ personal website
 
 ## Edit Github page (future times)
 
-```npm start``` to open up the localhost view.
+```NODE_OPTIONS=--openssl-legacy-provider npm start ``` to open up the localhost view.
 
 ## Create a Github repo (first time)
 1. The repo should be public and named <your_github_id>.github.io 
