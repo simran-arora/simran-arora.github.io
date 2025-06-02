@@ -86,8 +86,6 @@ const About = () => {
             I am part of the <a class="abt_a" target= "_blank" rel="noopener noreferrer" href="http://hazyresearch.stanford.edu/">Hazy Research Lab</a> and supported by a <a class="abt_a" target= "_blank" rel="noopener noreferrer" href="https://vpge.stanford.edu/fellowships-funding/sgf/details">Stanford Graduate Fellowship</a> as the Sequoia Capital Fellow.
             I am also an advisor to <a class="abt_a" target= "_blank" rel="noopener noreferrer" href="https://cartesia.ai/">Cartesia AI</a> and an academic partner of <a class="abt_a" target= "_blank" rel="noopener noreferrer" href="https://www.together.ai/">Together AI</a>. <br/><br/>
             
-            {/* , <a class="abt_a" target= "_blank" rel="noopener noreferrer" href="https://ai.stanford.edu/">Stanford AI</a>, <a class="abt_a" target= "_blank" rel="noopener noreferrer" href="https://crfm.stanford.edu/">Stanford CRFM</a> and the <a class="abt_a" target= "_blank" rel="noopener noreferrer" href="http://statsml.stanford.edu/">Statistical Machine Learning</a> groups, and  */}
-
             My research is in AI systems. I focus on expanding the Pareto frontier between quality and efficiency, to unlock new AI capabilities, by considering AI algorithms, hardware, and applications in lockstep. Recently, I've looked at:
             <br/>
             <ul className="notes-list">
@@ -98,7 +96,7 @@ const About = () => {
             <li>
             <b>Hardware</b>: As the complexity of AI hardware increases, how can we make it easier to extract high utilization for new AI algorithms? 
             <br/>
-            (<a class="abt_a" target= "_blank" rel="noopener noreferrer" href="https://github.com/HazyResearch/ThunderKittens">ThunderKittens</a>, <a class="abt_a" target= "_blank" rel="noopener noreferrer" href="https://arxiv.org/abs/2502.10517">KernelBench</a>)
+            (<a class="abt_a" target= "_blank" rel="noopener noreferrer" href="https://github.com/HazyResearch/ThunderKittens">ThunderKittens</a>, <a class="abt_a" target= "_blank" rel="noopener noreferrer" href="https://hazyresearch.stanford.edu/blog/2025-05-27-no-bubbles">Megakernels</a>, <a class="abt_a" target= "_blank" rel="noopener noreferrer" href="https://arxiv.org/abs/2502.10517">KernelBench</a>)
             </li>
             <li>
             <b>Applications</b>: How do we bridge the efficiency gaps that emerge as models are deployed in new settings, such as data management?
@@ -106,11 +104,8 @@ const About = () => {
             (<a class="abt_a" target= "_blank" rel="noopener noreferrer" href="https://arxiv.org/abs/2210.02441">AMA</a> for <a class="abt_a" target= "_blank" rel="noopener noreferrer" href="https://arxiv.org/pdf/2205.13722">personal data</a>, <a class="abt_a" target= "_blank" rel="noopener noreferrer" href="https://arxiv.org/abs/2304.09433">Evaporate</a>, <a class="abt_a" target= "_blank" rel="noopener noreferrer" href="https://arxiv.org/abs/2205.09911">Data Wrangling</a>)
             </li>
             </ul>
-            {/* We have been excited to see the impact of this work. This work is recognized by Outstanding Paper at NeurIPS, Best Paper at ICML ES-FoMo, Oral Awards at NeurIPS, and Spotlight Awards at ICLR and ICML. On the systems side, our work is published at VLDB, SIGMOD, CIDR, CHI and is used in industry (Together AI, Snorkel AI, Apple, Jump Trading, MongoDB, Jina, LangChain, LlamaIndex). */}
-            {/* <br/><br/> */}
             Recently created / taught <a class="abt_a" target= "_blank" rel="noopener noreferrer" href="https://cs229s.stanford.edu/fall2023/">systems for machine learning (CS 229s)</a> at Stanford, materials are released.<br/><br/>
-            <b>I am on the academic job market 2024-25!</b>
-        </div>
+            </div>
       </div>
     </div>
   );
