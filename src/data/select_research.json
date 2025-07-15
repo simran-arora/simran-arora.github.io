@@ -1,6 +1,29 @@
 {
     "Research": [
         {
+            "Name": "Cartridges: Lightweight and general-purpose long context representations via self-study",
+            "Title": "Cartridges: Lightweight and general-purpose long context representations via self-study",
+            "Authors": "S. Eyuboglu*, R. Ehrlich*, S. Arora*, N. Guha, D. Zinsley, E. Liu, W. Tennien, A. Rudra, J. Zhou, A. Mirhoseini, C. Ré",
+            "Venue": "ICML ES-FoMo 2025 (Oral Award)",
+            "LocalDetails": [
+            ],
+            "Details": [
+            {
+                "detail": "https://arxiv.org/abs/2506.06266",
+                "detailType": "Paper/ "
+            },
+            {
+                "detail": "https://hazyresearch.stanford.edu/blog/2025-06-08-cartridges",
+                "detailType": "Blog Post/"
+            },
+            {
+                "detail": "https://github.com/HazyResearch/cartridges",
+                "detailType": "Code"
+            }
+            ],
+            "Description": ""
+        },
+        {
             "Name": "ThunderKittens: Simple, Fast, and Adorable AI Kernels",
             "Title": "ThunderKittens: Simple, Fast, and Adorable AI Kernels",
             "Authors": "B. Spector, S. Arora, A. Singhal, D. Fu, C. Ré",
