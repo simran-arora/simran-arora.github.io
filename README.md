@@ -39,7 +39,7 @@ personal website
 
 If you're using yarn instead of npm, replace the commands: 
 - NODE_OPTIONS=--openssl-legacy-provider npm run build --> yarn build
-- npm run deploy --> yarn deploy
+- NODE_OPTIONS=--openssl-legacy-provider npm run deploy --> yarn deploy
 
 ## References:  
 https://medium.com/@kishandth.sivapalasundaram/how-to-deploy-your-react-app-to-a-github-user-page-d4b925cf5543  
