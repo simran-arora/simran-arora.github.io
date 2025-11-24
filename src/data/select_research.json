@@ -1,6 +1,28 @@
 {
     "Research": [
         {
+            "Name": "HipKittens: Fast and Furious AMD Kernels",
+            "Title": "HipKittens: Fast and Furious AMD Kernels",
+            "Authors": "W. Hu, D. Wadsworth, S. Siddens, S. Winata, D. Y. Fu, R. Swann, M. Osama, C. Ré, S. Arora",
+            "LocalDetails": [
+            ],
+            "Details": [
+            {
+                "detail": "https://arxiv.org/abs/2511.08083",
+                "detailType": "Paper/ "
+            },
+            {
+                "detail": "https://hazyresearch.stanford.edu/blog/2025-11-09-hk",
+                "detailType": "Blog Post/"
+            },
+            {
+                "detail": "https://github.com/HazyResearch/HipKittens",
+                "detailType": "Code"
+            }
+            ],
+            "Description": ""
+        },
+        {
             "Name": "Cartridges: Lightweight and general-purpose long context representations via self-study",
             "Title": "Cartridges: Lightweight and general-purpose long context representations via self-study",
             "Authors": "S. Eyuboglu*, R. Ehrlich*, S. Arora*, N. Guha, D. Zinsley, E. Liu, W. Tennien, A. Rudra, J. Zhou, A. Mirhoseini, C. Ré",
@@ -18,7 +40,11 @@
             },
             {
                 "detail": "https://github.com/HazyResearch/cartridges",
-                "detailType": "Code"
+                "detailType": "Code /"
+            },
+            {
+                "detail": "https://hai.stanford.edu/news/offline-studying-shrinks-the-cost-of-contextually-aware-ai",
+                "detailType": "HAI Article"
             }
             ],
             "Description": ""
@@ -42,33 +68,6 @@
             {
                 "detail": "https://github.com/HazyResearch/ThunderKittens",
                 "detailType": "Code"
-            }
-            ],
-            "Description": ""
-        },
-        {
-            "Name": "LoLCATs: On Low-Rank Linearizing of Large Language Models",
-            "Title": "LoLCATs: On Low-Rank Linearizing of Large Language Models",
-            "Authors": "M. Zhang, S. Arora, R. Chalamala, A. Wu, B. Spector, A. Singhal, K. Ramesh, C. Ré",
-            "Venue": "ICLR 2025",
-            "LocalDetails": [
-            ],
-            "Details": [
-            {
-                "detail": "https://arxiv.org/abs/2410.10254",
-                "detailType": "Paper/ "
-            },
-            {
-                "detail": "https://hazyresearch.stanford.edu/blog/2024-10-14-lolcats-p1",
-                "detailType": "Blog Post/"
-            },
-            {
-                "detail": "https://github.com/HazyResearch/lolcats",
-                "detailType": "Code/"
-            },
-            {
-                "detail": "https://huggingface.co/collections/hazyresearch/lolcats-670ca4341699355b61238c37",
-                "detailType": "Models"
             }
             ],
             "Description": ""
@@ -169,20 +168,33 @@
     ],
     "Talks": [
         {
-            "Talk": "ThunderKittens goes live: AMA and library walkthrough",
-            "Talk_details": "Stanford MLSys Seminars (Winter 2024)",
+            "Talk": "Pareto-efficient AI systems: Expanding the quality and efficiency frontier of AI",
+            "Details": [
+            ],
+            "RemoteDetails": [
+                {
+                    "detail": "https://www.youtube.com/watch?v=gCSzvX8Gurw",
+                    "detailType": "Video"
+                }
+            ]
+        },
+        {
+            "Talk": "Towards simple abstractions for hardware-efficient Al kernel programming",
             "Details": [
             ],
             "RemoteDetails": [
                 {
                     "detail": "https://www.youtube.com/live/IAwLzkldxUk",
+                    "detailType": "MLSys Livestream/"
+                },
+                {
+                    "detail": "https://www.youtube.com/watch?v=Cl2B_hmg4gA",
                     "detailType": "Video"
                 }
             ]
         },
         {
             "Talk": "Understanding and Improving Efficient Language Models",
-            "Talk_details": "Simons Institute of Computing (Fall 2024), UC Berkeley NLP Group (Summer 2024), Stanford NLP Lunch (Summer 2024), Cornell Tech (Winter 2024), Princeton PLI  (Winter 2024), Microsoft AI Research (Winter 2024), 56th ACM Symposium on Theory of Computing (STOC) Workshop Keynote Speaker (Summer 2024)",
             "Details": [
             ],
             "RemoteDetails": [
@@ -202,7 +214,6 @@
         },
         {
             "Talk": "Building High Throughput Data Management Systems",
-            "Talk_details": "NeurIPS TRL Keynote Speaker (Fall 2023)",
             "Details": [
             ],
             "RemoteDetails": [
@@ -218,7 +229,6 @@
         },
         {
             "Talk": "Ask Me Anything: How are Foundation Models Changing the Way We Build Data Management Systems?",
-            "Talk_details": "Snorkel Foundation Model Summit (Winter 2023), Apple Machine Learning Research Team Reading Group (Winter 2023), ICLR Spotlight Presentation (Spring 2023), CRFM Research Spotlight Talks (Fall 2023)",
             "Details": [
             ],
             "RemoteDetails": [

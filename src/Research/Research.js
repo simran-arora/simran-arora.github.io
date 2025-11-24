@@ -21,7 +21,7 @@ class Research extends Component {
       <div className="ResearchContainer">
         <div className="section-header">
           <h2 className="Title_research">Research</h2>
-          <div className="subtitle">Complete list in CV</div>
+          <div className="subtitle"> More links in CV</div>
         </div>
         
         <div className="papers-container">
