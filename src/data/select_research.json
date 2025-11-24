@@ -74,33 +74,6 @@
             "Description": ""
         },
         {
-            "Name": "Just read twice: closing the recall gap for recurrent language models",
-            "Title": "Just read twice: closing the recall gap for recurrent language models",
-            "Authors": "S. Arora, A. Timalsina, A. Singhal, B. Spector, S. Eyuboglu, X. Zhao, A. Rao, A. Rudra, C. Ré",
-            "Venue": "ICML ES-FoMo 2024",
-            "LocalDetails": [
-            ],
-            "Details": [
-            {
-                "detail": "https://arxiv.org/abs/2407.05483",
-                "detailType": "Paper/ "
-            },
-            {
-                "detail": "https://hazyresearch.stanford.edu/blog/2024-07-01-jrt",
-                "detailType": "Blog Post/"
-            },
-            {
-                "detail": "https://github.com/HazyResearch/prefix-linear-attention",
-                "detailType": "Code/"
-            },
-            {
-                "detail": "https://huggingface.co/collections/hazyresearch/just-read-twice-666296fb18c35a31a3c364b9",
-                "detailType": "Models and Datasets"
-            }
-            ],
-            "Description": ""
-        },
-        {
             "Name": "Simple linear attention language models balance the recall-throughput tradeoff",
             "Title": "Simple linear attention language models balance the recall-throughput tradeoff",
             "Authors": "S. Arora*, S. Eyuboglu*, M. Zhang*, A. Timalsina, S. Alberti, J. Zou, A. Rudra, C. Ré",
@@ -153,52 +126,6 @@
             },
             {
                 "detail": "https://github.com/HazyResearch/zoology",
-                "detailType": "Code"
-            }
-            ],
-            "Description": ""
-        },
-        {
-            "Name": "Monarch Mixer: A Simple Sub-Quadratic GEMM-Based Architecture",
-            "Title": "Monarch Mixer 🦋: A Simple Sub-Quadratic GEMM-Based Architecture",
-            "Authors": "D. Y. Fu, S. Arora*, J. Grogan*, I. Johnson*, S. Eyuboglu*, A. W. Thomas*, B. F. Spector, M. Poli, A. Rudra, C. Ré",
-            "Venue": "NeurIPS 2023 (Oral Award)",
-            "LocalDetails": [
-            ],
-            "Details": [
-            {
-                "detail": "https://arxiv.org/abs/2310.12109",
-                "detailType": "Paper/"
-            },
-            {
-                "detail": "https://hazyresearch.stanford.edu/blog/2023-07-25-m2-bert",
-                "detailType": "Blog Post/"
-            },
-            {
-                "detail": "https://github.com/HazyResearch/m2",
-                "detailType": "Code/"
-            },
-            {
-                "detail": "https://huggingface.co/togethercomputer",
-                "detailType": "Models and Datasets"
-            }
-            ],
-            "Description": ""
-        },
-        {
-            "Name": "Language Models Enable Simple Systems for Generating Structured Views of Heterogeneous Data Lakes",
-            "Title": "Language Models Enable Simple Systems for Generating Structured Views of Heterogeneous Data Lakes",
-            "Authors": "S. Arora, B. Yang, S. Eyuboglu, A. Narayan, A. Hojel, I. Trummer, C. Ré",
-            "Venue": "VLDB Journal 2024",
-            "LocalDetails": [
-            ],
-            "Details": [
-            {
-                "detail": "https://www.vldb.org/pvldb/vol17/p92-arora.pdf",
-                "detailType": "Paper/"
-            },
-            {
-                "detail": "https://github.com/HazyResearch/evaporate",
                 "detailType": "Code"
             }
             ],

@@ -15,8 +15,9 @@
   
   .about-image {
 	width: 100%;
-	max-width: 270px;
-	border-radius: 10%;
+	max-width: 200px;
+	border-radius: 100%;
+	border: 2px solid black;
   }
   
   .contact-info {
@@ -70,6 +71,7 @@
   .about-text {
 	font-size: 1.1rem;
 	line-height: 1.6;
+	padding: 0 1rem;
   }
   
   .AboutText {
@@ -78,7 +80,7 @@
   }
   
   .abt_a {
-	color: maroon;
+	color: #7CB9BC;
 	text-decoration: none;
   }
   
@@ -108,7 +110,9 @@
 	}
   
 	.about-image {
-	  max-width: 200px;
+	  max-width: 100px;
+	  border-radius: 50%;
+	  border: 2px solid #7CB9BC;
 	}
   
 	.contact-info {

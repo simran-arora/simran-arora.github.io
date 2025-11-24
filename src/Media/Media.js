@@ -19,7 +19,7 @@ class Media extends Component {
     return (
       <div className="ResearchContainer">
         <div className="section-header">
-          <h2 className="Title_research">Recent Talks</h2>
+          <h2 className="Title_research">Talks</h2>
         </div>
         
         <div className="papers-container">

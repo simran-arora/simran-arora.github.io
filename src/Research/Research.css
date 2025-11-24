@@ -45,7 +45,7 @@
 
 .PaperTitle {
   display: block;
-  color: maroon;
+  color: #DF826B;
   font-weight: bold;
   font-size: 1.2rem;
   /* font-style: italic; */
@@ -105,7 +105,7 @@
 }
 
 .notes-list a {
-  color: maroon;
+  color: #7CB9BC;
   text-decoration: none;
   font-weight: 500;
 }
@@ -117,7 +117,7 @@
 /* Talk styles */
 .Talk {
   display: block;
-  color: maroon;
+  color: #68AB5A;
   font-weight: bold;
   font-size: 1.2rem;
   margin-bottom: 0.8rem;

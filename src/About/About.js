@@ -1,6 +1,5 @@
 // About.js
 import React from 'react';
-// import pic from "../assets/profile copy.jpeg";
 import pic from "../assets/profile.jpg";
 import './About.css';
 
@@ -18,18 +17,19 @@ import googleScholarIcon from "../assets/google-scholar-brands-solid.svg";
 
 const About = () => {
   return (
+    <div className="page-background">
     <div className="about-container">
       <div className="about-left">
-        <img 
+        <img  
           src={pic} 
-          alt="headshot" 
-          className="about-image"
+          alt="headshot"  
+          className="about-image" 
         />
         <div className="contact-info">
           <a href="mailto:simran@cs.stanford.edu" className="email-link">
             simran@cs.stanford.edu
           </a>
-          <div className="social-links">
+          <div className="social-links"> 
             <a 
               href="https://scholar.google.com/citations?user=rGRsWH8AAAAJ"
               className="social-link"
@@ -79,34 +79,36 @@ const About = () => {
       </div>
       
       <div className="about-right">
-        <h1 className="about-name">Simran Arora</h1>
+        {/* <h1 className="about-name">Simran Arora</h1> */}
         <div className="about-text">
-            Welcome! My name is Simran and I'm a PhD student in Computer Science at Stanford, where I am advised by Chris Ré. 
-            
-            I am part of the <a class="abt_a" target= "_blank" rel="noopener noreferrer" href="http://hazyresearch.stanford.edu/">Hazy Research Lab</a> and supported by a <a class="abt_a" target= "_blank" rel="noopener noreferrer" href="https://vpge.stanford.edu/fellowships-funding/sgf/details">Stanford Graduate Fellowship</a> as the Sequoia Capital Fellow.
-            I am also an advisor to <a class="abt_a" target= "_blank" rel="noopener noreferrer" href="https://cartesia.ai/">Cartesia AI</a> and an academic partner of <a class="abt_a" target= "_blank" rel="noopener noreferrer" href="https://www.together.ai/">Together AI</a>. <br/><br/>
-            
-            My research is in AI systems. I focus on expanding the Pareto frontier between quality and efficiency, to unlock new AI capabilities, by considering AI algorithms, hardware, and applications in lockstep. Recently, I've looked at:
-            <br/>
+            Hi, I'm Simran. I recently finished my PhD in Computer Science at Stanford, where I was advised by <a class="abt_a" target= "_blank" rel="noopener noreferrer" href="https://cs.stanford.edu/~chrismre/#news">Chris Ré</a> and part of the <a class="abt_a" target= "_blank" rel="noopener noreferrer" href="http://hazyresearch.stanford.edu/">Hazy Research Lab</a>. My PhD was generously supported by a <a class="abt_a" target= "_blank" rel="noopener noreferrer" href="https://vpge.stanford.edu/fellowships-funding/sgf/details">Stanford Graduate Fellowship</a> as the Sequoia Capital Fellow. I'm now an incoming assistant professor at Caltech CMS and a Principal Scientist at Together AI.
+            I am also an advisor to <a class="abt_a" target= "_blank" rel="noopener noreferrer" href="https://cartesia.ai/">Cartesia AI</a>. I work on building AI systems and I'm excited about:
             <ul className="notes-list">
             <li>
-            <b>Algorithms</b>: How do we build AI architectures that scale efficiently? 
-            <br/>(<a class="abt_a" target= "_blank" rel="noopener noreferrer" href="https://arxiv.org/abs/2312.04927">Zoology</a>, <a class="abt_a" target= "_blank" rel="noopener noreferrer" href="https://www.together.ai/blog/based">Based</a>, <a class="abt_a" target= "_blank" rel="noopener noreferrer" href="https://arxiv.org/abs/2407.05483">JRT</a>, <a class="abt_a" target= "_blank" rel="noopener noreferrer" href="https://hazyresearch.stanford.edu/blog/2024-10-14-lolcats-p1">LoLCATS</a>, <a class="abt_a" target= "_blank" rel="noopener noreferrer" href="https://www.together.ai/blog/monarch-mixer">Monarch Mixer</a>) 
-            </li>
-            <li>
-            <b>Hardware</b>: As the complexity of AI hardware increases, how can we make it easier to extract high utilization for new AI algorithms? 
+            <p>
+            <b>How do we help AI developers trade off quality, memory, and compute in principled ways?</b>
+            <br/><a class="abt_a" target= "_blank" rel="noopener noreferrer" href="https://arxiv.org/abs/2312.04927">Zoology</a>, <a class="abt_a" target= "_blank" rel="noopener noreferrer" href="https://www.together.ai/blog/based">Based</a> on memory-quality tradeoffs
             <br/>
-            (<a class="abt_a" target= "_blank" rel="noopener noreferrer" href="https://github.com/HazyResearch/ThunderKittens">ThunderKittens</a>, <a class="abt_a" target= "_blank" rel="noopener noreferrer" href="https://hazyresearch.stanford.edu/blog/2025-05-27-no-bubbles">Megakernels</a>, <a class="abt_a" target= "_blank" rel="noopener noreferrer" href="https://arxiv.org/abs/2502.10517">KernelBench</a>)
+            <a class="abt_a" target= "_blank" rel="noopener noreferrer" href="https://arxiv.org/abs/2407.05483">JRT</a>, <a class="abt_a" target= "_blank" rel="noopener noreferrer" href="https://hazyresearch.stanford.edu/blog/2025-06-08-cartridges">Cartridges</a>, <a class="abt_a" target= "_blank" rel="noopener noreferrer" href="https://arxiv.org/abs/2304.09433">Evaporate</a> on compute-quality tradeoffs
+            </p>
             </li>
             <li>
-            <b>Applications</b>: How do we bridge the efficiency gaps that emerge as models are deployed in new settings, such as data management?
+            <b>We want more AI in the world. How do we make it easier to use AI across the wide range of hardware platforms and enable a multi-silicon AI future? </b>
+            <br/>
+            <a class="abt_a" target= "_blank" rel="noopener noreferrer" href="https://github.com/HazyResearch/ThunderKittens">ThunderKittens</a>, <a class="abt_a" target= "_blank" rel="noopener noreferrer" href="https://hazyresearch.stanford.edu/blog/2025-11-09-hk">HipKittens</a>, <a class="abt_a" target= "_blank" rel="noopener noreferrer" href="https://hazyresearch.stanford.edu/blog/2025-11-17-pk">ParallelKittens</a>, <a class="abt_a" target= "_blank" rel="noopener noreferrer" href="https://hazyresearch.stanford.edu/blog/2025-05-27-no-bubbles">Megakernels</a>, <a class="abt_a" target= "_blank" rel="noopener noreferrer" href="https://arxiv.org/abs/2502.10517">KernelBench</a> to simplify the process of learning about and implementing peak performance AI kernels.
+            </li>
+            <li>
+            <b>How do we get AI to work on our personal data, and learn from our personal experiences and expertise?</b>
             <br/> 
-            (<a class="abt_a" target= "_blank" rel="noopener noreferrer" href="https://arxiv.org/abs/2210.02441">AMA</a> for <a class="abt_a" target= "_blank" rel="noopener noreferrer" href="https://arxiv.org/pdf/2205.13722">personal data</a>, <a class="abt_a" target= "_blank" rel="noopener noreferrer" href="https://hazyresearch.stanford.edu/blog/2025-06-08-cartridges">Cartridges</a>, <a class="abt_a" target= "_blank" rel="noopener noreferrer" href="https://arxiv.org/abs/2304.09433">Evaporate</a>, <a class="abt_a" target= "_blank" rel="noopener noreferrer" href="https://arxiv.org/abs/2205.09911">Data Wrangling</a>)
+            <a class="abt_a" target= "_blank" rel="noopener noreferrer" href="https://arxiv.org/abs/2210.02441">AMA</a> small model test-time scaling for <a class="abt_a" target= "_blank" rel="noopener noreferrer" href="https://arxiv.org/pdf/2205.13722">local AI</a>
+            <br/>
+            <a class="abt_a" target= "_blank" rel="noopener noreferrer" href="https://direct.mit.edu/tacl/article/doi/10.1162/tacl_a_00580/117168">Split QA</a> non-parametric LLMs for siloed public and private data  
             </li>
             </ul>
-            Recently created / taught <a class="abt_a" target= "_blank" rel="noopener noreferrer" href="https://cs229s.stanford.edu/fall2023/">systems for machine learning (CS 229s)</a> at Stanford, materials are released.<br/><br/>
+            I created and taught Stanford's <a class="abt_a" target= "_blank" rel="noopener noreferrer" href="https://cs229s.stanford.edu/fall2023/">systems for machine learning (CS 229s)</a> course in Fall 2023. I've released the slides.<br/><br/>
             </div>
       </div>
+    </div>
     </div>
   );
 };

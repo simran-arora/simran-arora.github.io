@@ -55,7 +55,7 @@
   height: 80px;
   display: flex;
   align-items: center;
-  border-bottom: 2px solid maroon;
+  border-bottom: 2px solid black;
 }
 
 .nav-content {
@@ -93,12 +93,12 @@
   height: 2px;
   bottom: 0;
   left: 50%;
-  background-color: maroon;
+  background-color: black;
   transition: all 0.3s ease;
 }
 
 .nav-item:hover {
-  color: maroon;
+  color: black;
 }
 
 .nav-item:hover:after {
@@ -386,7 +386,7 @@
 }
 
 .nav:hover {
-  color: maroon;
+  color: black;
 }
 
 h1 {
