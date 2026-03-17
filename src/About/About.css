@@ -11,20 +11,28 @@
 	display: flex;
 	flex-direction: column;
 	gap: 2rem;
+	align-items: center;
   }
   
+  
   .about-image {
+	display: block;
+	margin: 0 auto;
 	width: 100%;
 	max-width: 240px;
-	border-radius: 100%;
+	border-radius: 50%;
 	border: 2px solid black;
   }
+  
   
   .contact-info {
 	display: flex;
 	flex-direction: column;
-	align-items: flex-start;
+	align-items: center;   /* center email + icons */
 	gap: 1rem;
+  
+	width: 240px;          /* match .about-image max-width */
+	max-width: 100%;
   }
   
   .email-link {
@@ -36,8 +44,9 @@
   
   .social-links {
 	display: flex;
-	width: 100%;
+	width: auto;                  /* ✅ don't stretch to full column width */
 	gap: 1.5rem;
+	justify-content: center;
 	align-items: center;
   }
   
@@ -111,7 +120,7 @@
   
 	.about-image {
 	  max-width: 100px;
-	  border-radius: 50%;
+	  border-radius: 0%;
 	  border: 2px solid #7CB9BC;
 	}
   
