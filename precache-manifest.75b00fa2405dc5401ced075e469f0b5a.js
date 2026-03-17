@@ -1,11 +1,11 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "38af4aaa93050647a3a9bebeeb8ff4a3",
+    "revision": "fcbdab0778a854274e99826c49493599",
     "url": "/index.html"
   },
   {
-    "revision": "e0e3fa1bdc271eff0c26",
-    "url": "/static/css/main.7623ef0b.chunk.css"
+    "revision": "98e98f66ebcafcae58b8",
+    "url": "/static/css/main.6e0346b7.chunk.css"
   },
   {
     "revision": "5ce0d7c4de40a0736f82",
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/js/2.b633371e.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "e0e3fa1bdc271eff0c26",
-    "url": "/static/js/main.5026545a.chunk.js"
+    "revision": "98e98f66ebcafcae58b8",
+    "url": "/static/js/main.04ad3677.chunk.js"
   },
   {
     "revision": "6d96a40039a4a2a449ec",
@@ -36,8 +36,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/google-scholar-brands-solid.598e459f.svg"
   },
   {
-    "revision": "9327957eaa2a798aa75ec410a964c707",
-    "url": "/static/media/profile.9327957e.jpg"
+    "revision": "9bf29131bc3ab9b0c507e96175a1521c",
+    "url": "/static/media/profile.9bf29131.png"
   },
   {
     "revision": "3ae4619b04a7c1f649e40dc48b9f3ac6",
