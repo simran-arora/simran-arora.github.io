@@ -4,6 +4,7 @@
             "Name": "HipKittens: Fast and Furious AMD Kernels",
             "Title": "HipKittens: Fast and Furious AMD Kernels",
             "Authors": "W. Hu, D. Wadsworth, S. Siddens, S. Winata, D. Y. Fu, R. Swann, M. Osama, C. Ré, S. Arora",
+            "Venue": "Conference on Machine Learning Systems (MLSys) 2026",
             "LocalDetails": [
             ],
             "Details": [
@@ -26,7 +27,7 @@
             "Name": "Cartridges: Lightweight and general-purpose long context representations via self-study",
             "Title": "Cartridges: Lightweight and general-purpose long context representations via self-study",
             "Authors": "S. Eyuboglu*, R. Ehrlich*, S. Arora*, N. Guha, D. Zinsley, E. Liu, W. Tennien, A. Rudra, J. Zhou, A. Mirhoseini, C. Ré",
-            "Venue": "ICML ES-FoMo 2025 (Oral Award)",
+            "Venue": "ICLR 2026 andICML ES-FoMo 2025 (Oral Award)",
             "LocalDetails": [
             ],
             "Details": [
