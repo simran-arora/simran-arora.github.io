@@ -24,8 +24,8 @@
             "Description": ""
         },
         {
-            "Name": "Cartridges: Lightweight and general-purpose long context representations via self-study",
-            "Title": "Cartridges: Lightweight and general-purpose long context representations via self-study",
+            "Name": "Cartridges: Lightweight and general-purpose long-context representations via self-study",
+            "Title": "Cartridges: Lightweight and general-purpose long-context representations via self-study",
             "Authors": "S. Eyuboglu*, R. Ehrlich*, S. Arora*, N. Guha, D. Zinsley, E. Liu, W. Tennien, A. Rudra, J. Zhou, A. Mirhoseini, C. Ré",
             "Venue": "ICLR 2026 and ICML ES-FoMo 2025 (Oral Award)",
             "LocalDetails": [
@@ -41,7 +41,7 @@
             },
             {
                 "detail": "https://github.com/HazyResearch/cartridges",
-                "detailType": "Code /"
+                "detailType": "Code/"
             },
             {
                 "detail": "https://hai.stanford.edu/news/offline-studying-shrinks-the-cost-of-contextually-aware-ai",
@@ -153,11 +153,11 @@
             },
             {
                 "detail": "https://www.youtube.com/watch?v=uNe5QGOJykE",
-                "detailType": "Youtube - Aleksa Gordić/"
+                "detailType": "YouTube - Aleksa Gordić/"
             },
             {
                 "detail": "https://www.youtube.com/watch?v=CD3exXnx49A",
-                "detailType": "Youtube - Snorkel/"
+                "detailType": "YouTube - Snorkel/"
             },
             {
                 "detail": "https://www.marktechpost.com/2023/02/01/researchers-at-stanford-university-introduce-the-ask-me-anything-prompting-ama-a-simple-approach-that-surprisingly-enables-open-source-llms-with-30x-fewer-parameters-to-exceed-the-few-shot-perf/",
@@ -180,7 +180,7 @@
             ]
         },
         {
-            "Talk": "Towards simple abstractions for hardware-efficient Al kernel programming",
+            "Talk": "Towards simple abstractions for hardware-efficient AI kernel programming",
             "Details": [
             ],
             "RemoteDetails": [
@@ -201,7 +201,7 @@
             "RemoteDetails": [
                 {
                     "detail": "https://www.youtube.com/watch?v=DmuZ3ckl8rs&t=1s",
-                    "detailType": "Simons Institue Video/"
+                    "detailType": "Simons Institute Video/"
                 },
                 {
                     "detail": "https://sites.google.com/view/algos-in-llms-stoc24/home",
@@ -214,7 +214,7 @@
             ]
         },
         {
-            "Talk": "Building High Throughput Data Management Systems",
+            "Talk": "Building High-Throughput Data Management Systems",
             "Details": [
             ],
             "RemoteDetails": [

@@ -68,6 +68,26 @@ class Research extends Component {
         <h3 className="Title_research">Notes</h3>
       <ul className="notes-list">
         <li>
+          <a href="https://www.together.ai/blog/thunderagent">
+          ThunderAgent: 2x Faster Agentic Inference for Synthetic Data Generation at Scale
+          </a> (2026)
+        </li>
+        <li>
+          <a href="https://rocm.blogs.amd.com/software-tools-optimization/hipkittens-gemm-ladder/README.html">
+          An Educational GEMM Ladder for Helios GPUs
+          </a> (2026)
+        </li>
+        <li>
+          <a href="https://www.together.ai/blog/to-infinity-and-beyond-thunderkittens-now-on-nvidia-vera-rubin-nvl72">
+          To Infinity and Beyond: ThunderKittens Now on NVIDIA Vera Rubin NVL72!
+          </a> (2026)
+        </li>
+        <li>
+          <a href="https://www.together.ai/blog/parallelkernelbench">
+          ParallelKernelBench: Frontier LLMs can't write fast multi-GPU kernels (yet)
+          </a> (2026)
+        </li>
+        <li>
           <a href="https://hazyresearch.stanford.edu/blog/2025-11-17-pk">
           ParallelKittens: Simple and Fast Multi-GPU AI Kernels
           </a> (2025)
@@ -94,7 +114,7 @@ class Research extends Component {
         </li>
         <li>
           <a href="https://hazyresearch.stanford.edu/blog/2025-03-24-based-retro">
-            BASED ✌️: our one year retrospective
+            BASED ✌️: our one-year retrospective
           </a> (2025)
         </li>
         <li>
@@ -179,7 +199,7 @@ class Research extends Component {
         </li>
         <li>
           <a href="https://hazyresearch.stanford.edu/what-data-centric-ai-is-not">
-            What Data Centric AI is Not
+            What Data-Centric AI is Not
           </a> (2021)
         </li>
       </ul>
